@@ -40,7 +40,7 @@ get_header();
             <div class="container">
                 <div class="row">
                     <div class="col-12 col-lg-7">
-                        <div class="customSectionBox text-center p-5">
+                        <div class="customSectionBox text-center p-5" id="wedding">
                             <div class="p-3 pb-5">
                                 <h2 class="font-titulo fs-xl-md-1 mb-2">Wedding</h2>
                                 <p class="fs-xl-4 mb-2">February 7, 2026</p>
@@ -68,7 +68,7 @@ get_header();
                     <div class="py-5"></div>
                     <div class="py-5"></div>
                     <div class="col-12 col-lg-9 mx-auto">
-                        <div class="position-relative customSectionBox customSectionBox__2 text-center p-5">
+                        <div class="position-relative customSectionBox customSectionBox__2 text-center p-5" id="events">
                             <img class="customSectionBox__flower-1 position-absolute top-0 w-auto d-none d-xl-block pointer-events-none" src="<?php echo THEME_IMG; ?>flower-1.webp" alt="Flower-1">
                             <img class="customSectionBox__flower-2 position-absolute bottom-0 w-auto d-none d-xl-block pointer-events-none" src="<?php echo THEME_IMG; ?>flower-2.webp" alt="Flower-1">
                             <div class="pt-5">
@@ -124,7 +124,7 @@ get_header();
         <div class="container position-relative z-2">
             <div class="row">
                 <div class="col-12 col-lg-9 mx-auto">
-                    <div class="customSectionBox customSectionBox__2 customSectionBox__3 shadow-1 px-xl-0 px-3">
+                    <div class="customSectionBox customSectionBox__2 customSectionBox__3 shadow-1 px-xl-0 px-3" id="rsvp">
                         <div class="row justify-content-center">
                             <div class="col-12 col-lg-9">
                                 <div class="col-12">
@@ -239,7 +239,7 @@ get_header();
             <div class="row">
                 <div class="py-5"></div>
                 <div class="col-12 col-lg-9 mx-auto">
-                    <div class="position-relative customSectionBox customSectionBox__2 customSectionBox__4 customSectionBox__5 shadow-1 px-xl-5">
+                    <div class="position-relative customSectionBox customSectionBox__2 customSectionBox__4 customSectionBox__5 shadow-1 px-xl-5" id="cartagena">
                         <img class="customSectionPlaces__flower" src="<?php echo THEME_IMG; ?>flower-3.png" alt="Flower 3">
                         <div class="text-center px-xl-5">
                             <div class="py-5"></div>
