@@ -256,31 +256,31 @@ get_header();
                             <ul class="pt-5 px-4">
                                 <li class="d-flex gap-3 align-items-center py-xl-3 px-xl-4 py-2 px-2 clickeable" style="cursor: pointer;">
                                     <span class="icono"><img class="d-block" src="<?php echo THEME_IMG; ?>icons/icon-travel-info.svg" alt="Home 1"></span>
-                                    <a class="fs-xl-3 text-primary letter-spacing-xl-3 letter-spacing-15" href="/cartagena/#travel">TRAVEL INFO</a>
+                                    <a class="fs-xl-3 text-primary letter-spacing-xl-3 letter-spacing-15" href="/cartagena#travel-info">TRAVEL INFO</a>
                                 </li>
                                 <li class="d-flex gap-3 align-items-center py-xl-3 px-xl-4 py-2 px-2 clickeable" style="cursor: pointer;">
                                     <span class="icono"><img class="d-block" src="<?php echo THEME_IMG; ?>icons/icon-hotel.svg" alt="Home 1"></span>
-                                    <a class="fs-xl-3 text-primary letter-spacing-xl-3 letter-spacing-15" href="/cartagena/#hotels">HOTELS</a>
+                                    <a class="fs-xl-3 text-primary letter-spacing-xl-3 letter-spacing-15" href="/cartagena#hotels">HOTELS</a>
                                 </li>
                                 <li class="d-flex gap-3 align-items-center py-xl-3 px-xl-4 py-2 px-2 clickeable" style="cursor: pointer;">
                                     <span class="icono"><img class="d-block" src="<?php echo THEME_IMG; ?>icons/icon-restaurants.svg" alt="Home 1"></span>
-                                    <a class="fs-xl-3 text-primary letter-spacing-xl-3 letter-spacing-15" href="/cartagena/#restaurants">RESTAURANTS</a>
+                                    <a class="fs-xl-3 text-primary letter-spacing-xl-3 letter-spacing-15" href="/cartagena#restaurants">RESTAURANTS</a>
                                 </li>
                                 <li class="d-flex gap-3 align-items-center py-xl-3 px-xl-4 py-2 px-2 clickeable" style="cursor: pointer;">
                                     <span class="icono"><img class="d-block" src="<?php echo THEME_IMG; ?>icons/icon-brunch.svg" alt="Home 1"></span>
-                                    <a class="fs-xl-3 text-primary letter-spacing-xl-3 letter-spacing-15" href="/cartagena/#brunch">BRUNCH &amp; DESSERTS</a>
+                                    <a class="fs-xl-3 text-primary letter-spacing-xl-3 letter-spacing-15" href="/cartagena#brunch">BRUNCH &amp; DESSERTS</a>
                                 </li>
                                 <li class="d-flex gap-3 align-items-center py-xl-3 px-xl-4 py-2 px-2 clickeable" style="cursor: pointer;">
                                     <span class="icono"><img class="d-block" src="<?php echo THEME_IMG; ?>icons/icon-bars.svg" alt="Home 1"></span>
-                                    <a class="fs-xl-3 text-primary letter-spacing-xl-3 letter-spacing-15" href="/cartagena/#bars">BARS & PUBS</a>
+                                    <a class="fs-xl-3 text-primary letter-spacing-xl-3 letter-spacing-15" href="/cartagena#bars">BARS & PUBS</a>
                                 </li>
                                 <li class="d-flex gap-3 align-items-center py-xl-3 px-xl-4 py-2 px-2 clickeable" style="cursor: pointer;">
                                     <span class="icono"><img class="d-block" src="<?php echo THEME_IMG; ?>icons/icon-beauty-salons.svg" alt="Home 1"></span>
-                                    <a class="fs-xl-3 text-primary letter-spacing-xl-3 letter-spacing-15" href="/cartagena/#beauty">BEAUTY SALONS</a>
+                                    <a class="fs-xl-3 text-primary letter-spacing-xl-3 letter-spacing-15" href="/cartagena#beauty">BEAUTY SALONS</a>
                                 </li>
                                 <li class="d-flex gap-3 align-items-center py-xl-3 px-xl-4 py-2 px-2 clickeable border-0" style="cursor: pointer;">
                                     <span class="icono"><img class="d-block" src="<?php echo THEME_IMG; ?>icons/icon-boutiques.svg" alt="Home 1"></span>
-                                    <a class="fs-xl-3 text-primary letter-spacing-xl-3 letter-spacing-15" href="/cartagena/#boutiques">BOUTIQUES</a>
+                                    <a class="fs-xl-3 text-primary letter-spacing-xl-3 letter-spacing-15" href="/cartagena#boutiques">BOUTIQUES</a>
                                 </li>
                             </ul>
                             <div class="py-4"></div>
