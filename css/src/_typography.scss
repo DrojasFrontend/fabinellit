@@ -8,7 +8,33 @@
     font-display: swap;
 }
 
+.fs-1-lg {
+    font-size: 96px !important;
+}
 
+.fs-2-md {
+    font-size: 48px !important;
+}
+
+.fs-3 {
+    font-size: 32px !important;
+}
+
+.fs-6 {
+    font-size: 20px !important;
+}
+
+.fs-6-md {
+    font-size: 18px !important;
+}
+
+.fs-p-md {
+    font-size: 14px !important;
+}
+
+.fs-p-xxl {
+    font-size: 12px !important;
+}
 
 @media only screen and (min-width: 1200px) {
     .fs-xl-lg-1 {
@@ -45,6 +71,10 @@
 
     .fs-xl-6 {
         font-size: 20px !important;
+    }
+
+    .fs-xl-p {
+        font-size: 16px !important;
     }
 
     .fs-p-small {

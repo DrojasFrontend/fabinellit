@@ -37,8 +37,8 @@ $placesCartagena = [
     <!-- <img class="position-absolute top-0 start-0 w-100 h-100 object-fit-cover d-none d-xl-block" src="<?php echo THEME_IMG; ?>box-2.webp" alt=""> -->
     <div class="container">
         <div class="row">
-            <div class="col-12 position-relative mt-3">
-                <div class="col-11 mx-auto">
+            <div class="col-12 position-relative mt-3 gx-0">
+                <div class="col-10 col-xl-11 mx-auto">
                     <!-- <p class="position-relative fs-xl-1-medium fs-2 text-center text-white-100 letter-spacing-xl-14 letter-spacing-64 mt-xl-0 mt-5 mb-3">PLACES <br class="d-xl-none"> TO VISIT</p> -->
                     <div class="customSectionPlaces__swiper">
                         <!-- <div class="bg-yellow-200 p-3 pb-4">

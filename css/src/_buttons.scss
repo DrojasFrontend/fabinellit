@@ -4,14 +4,14 @@
     align-items: center;
     justify-content: center;
     width: max-content;
-    min-width: 120px;
-    height: 45px;
+    min-width: 200px;
+    height: 35px;
     padding: 10px 20px;
-    font-size: 12px;
+    font-size: 16px;
     font-style: normal;
     border-radius: 20px;
     font-weight: 500;
-    line-height: normal;
+    line-height: 16px;
     letter-spacing: 3.2px;
 
     @media only screen and (min-width: 1200px) {
@@ -20,6 +20,7 @@
         padding: 10px 30px;
         font-size: 28px;
         letter-spacing: 3.6px;
+        line-height: 30px;
     }
 
     &-primary {

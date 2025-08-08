@@ -13,11 +13,14 @@
                         <div class="d-flex flex-column justify-content-center h-100">
                             <p class="fs-xl-3 fs-3 text-primary letter-spacing-xl-15 letter-spacing-15">RAFAEL NUÑEZ</p>
                             <p class="fs-xl-5 fs-6-small text-primary">INTERNATIONAL AIRPORT</p>
-                            <p class="fs-p-small fs-6-small text-primary fw-light" style="font-family: 'Poppins', sans-serif !important; color: #959595 !important;">Cartagena, Colombia</p>
+                            <p class="fs-p-small fs-6-small text-primary fw-light mb-2" style="font-family: 'Poppins', sans-serif !important; color: #959595 !important;">Cartagena, Colombia</p>
                         </div>
                     </div>
-                    <div class="d-flex align-items-center col-12 col-xl-7 ps-4">
-                        <p class="fs-p-small fs-8" style="color: #575756 !important;letter-spacing: 0 !important;line-height: 1.7 !important;">
+                    <div class="d-flex align-items-center col-12 col-xl-7 ps-xl-4">
+                        <p class="fs-p-small fs-8 d-none d-xl-block" style="color: #575756 !important;letter-spacing: 0 !important;line-height: 1.7 !important;">
+                            Flight to Cartagena on the Caribbean coast. Jet Blue, American Airlines, Avianca, Spirit Air and Copa Airlines operate direct flights to the Rafael Nuñez Airport. The airport is a short 10-minutes taxi journey to the old town. There are authorized taxi services 24 hours. The rate to Getsemaní costs about $14.000 cop. To the hotel zone of the Historic Center (Ciudad Amurallada) about $14.000 cop and to the Bocagrande zone it costs $20.000 cop. Normally $1 USD is equivalent to $4.000 cop. 
+                        </p>
+                        <p class="fs-p-small fs-8 d-xl-none" style="color: #575756 !important;letter-spacing: 0 !important">
                             Flight to Cartagena on the Caribbean coast. Jet Blue, American Airlines, Avianca, Spirit Air and Copa Airlines operate direct flights to the Rafael Nuñez Airport. The airport is a short 10-minutes taxi journey to the old town. There are authorized taxi services 24 hours. The rate to Getsemaní costs about $14.000 cop. To the hotel zone of the Historic Center (Ciudad Amurallada) about $14.000 cop and to the Bocagrande zone it costs $20.000 cop. Normally $1 USD is equivalent to $4.000 cop. 
                         </p>
                     </div>

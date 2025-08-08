@@ -46,7 +46,7 @@
           <div class="col-8 d-flex align-items-center d-xl-none ">
             <div class="text-center">
               <a class="d-block" href="/">
-                <h2 class="font-titulo fs-xl-sm-1 text-primary">Fabiola & Nellit</h2>
+                <h2 class="font-titulo fs-3 text-primary">Fabiola & Nellit</h2>
               </a>
             </div>
           </div>
@@ -54,7 +54,7 @@
             <ul class="customHeader d-none d-xl-grid gap-5 py-xl-2 py-1">
               <li class="d-flex justify-content-center align-items-center"><a class="fs-xl-5 text-primary letter-spacing-xl-4" href="/#wedding">WEDDING</a></li>
               <li class="d-flex justify-content-center align-items-center"><a class="fs-xl-5 text-primary letter-spacing-xl-4" href="/#events">EVENTS</a></li>
-              <li class="d-flex justify-content-center align-items-center"><a class="font-titulo fs-xl-sm-1 text-primary" href="/">Fabiola & Nellit</a></li>
+              <li class="d-flex justify-content-center align-items-center"><a class="font-titulo fs-3 text-primary" href="/">Fabiola & Nellit</a></li>
               <li class="d-flex justify-content-center align-items-center"><a class="fs-xl-5 text-primary letter-spacing-xl-4" href="/#cartagena">CARTAGENA</a></li>
               <li class="d-flex justify-content-center align-items-center">
                 <a class="fs-xl-5 text-primary letter-spacing-xl-4" href="/#rsvp">R.S.V.P.</a>
@@ -75,7 +75,7 @@
   
   <!-- Fin Header -->
 
-  <section class="customHeaderMobile position-fixed top-0 right-0 w-100 h-100 pt-3 z-3 bg-white" data-menu-mobile>
+  <section class="customHeaderMobile position-fixed top-0 right-0 w-100 h-100 pt-3 bg-white" data-menu-mobile>
     <div class="container-fluid h-100">
       <div class="row h-100">
         <button class="position-absolute top-0 end-0 mt-2 pe-2 p-0 border-0 bg-transparent" style="width: 40px" data-close-menu>
@@ -84,7 +84,7 @@
         <ul class="customHeader d-flex flex-column justify-content-center align-items-center gap-5 py-xl-2 py-1">
           <li class="d-flex justify-content-center align-items-center"><a class="fs-xl-5 text-primary letter-spacing-xl-4" href="/#wedding">WEDDING</a></li>
           <li class="d-flex justify-content-center align-items-center"><a class="fs-xl-5 text-primary letter-spacing-xl-4" href="/#events">EVENTS</a></li>
-          <li class="d-flex justify-content-center align-items-center"><a class="fs-xl-3-small text-primary letter-spacing-xl-64" href="/">Fabiola & Nellit</a></li>
+          <li class="d-flex justify-content-center align-items-center"><a class="font-titulo fs-xl-3-small fs-3 text-primary" href="/">Fabiola & Nellit</a></li>
           <li class="d-flex justify-content-center align-items-center"><a class="fs-xl-5 text-primary letter-spacing-xl-4" href="/#cartagena">CARTAGENA</a></li>
           <li class="d-flex justify-content-center align-items-center">
             <a class="fs-xl-5 text-primary letter-spacing-xl-4" href="/#rsvp">R.S.V.P.</a>

@@ -575,12 +575,16 @@ $places = [
                 <div class="row">
                     <div class="col-12 col-xl-10 mx-auto">
                         <div class="position-relative customSectionBox customSectionBox__2 text-center py-5 shadow-1">
-                            <img class="customSectionCartagenaPlaces__flower" src="<?php echo THEME_IMG; ?>flower-3.png" alt="Flower 1 Cartagena">
-                            <div class="col-12 col-xl-9 mx-auto text-start">
-                                <div class="py-5"></div>
-                                <p class="fs-xl-3 text-center">ENJOY</p>
-                                <h2 class="font-titulo fs-xl-lg-1 text-center">Cartagena</h2>
-                                <div class="py-5"></div>
+                            <?php if(wp_is_mobile()): ?>
+                                <img width="260" class="customSectionCartagenaPlaces__flower" src="<?php echo THEME_IMG; ?>flower-3.png" alt="Flower 1 Cartagena mobile">
+                            <?php else: ?>
+                                <img class="customSectionCartagenaPlaces__flower" src="<?php echo THEME_IMG; ?>flower-3.png" alt="Flower 1 Cartagena">
+                            <?php endif; ?>
+                            <div class="col-12 col-xl-9 mx-auto text-start px-xl-0 px-3">
+                                <div class="py-xl-5"></div>
+                                <p class="fs-xl-3 fs-6 text-center">ENJOY</p>
+                                <h2 class="font-titulo fs-xl-lg-1 fs-2-md text-center">Cartagena</h2>
+                                <div class="py-xl-5"></div>
                                 <div class="d-flex align-items-center py-3 gap-3">
                                     <div class="icon">
                                         <img class="w-100" src="<?php echo THEME_IMG . 'icons/icon-travel-info.svg'; ?>" alt="">
@@ -588,7 +592,7 @@ $places = [
                                     <h2 class="fs-xl-3 uppercase">TRAVEL INFO</h2>
                                 </div>
                                 <div class="line line--full mb-4"></div>
-                                <div class="bg-yellow-100 p-3 mb-5">
+                                <div class="bg-yellow-100 p-3 mb-xl-5">
                                     <h2 class="fs-xl-5 text-primary letter-spacing-24 uppercase">Passports</h2>
                                     <p class="fs-xl-6 text-gray-200 letter-spacing-1 mb-4">Don't forget your passports! Please double check the expiration date.</p>
                                     <h2 class="fs-xl-5 text-primary letter-spacing-24 uppercase">CheckMig</h2>
@@ -607,7 +611,7 @@ $places = [
                 </div>
             </div>
 
-            <div class="py-5"></div>
+            <div class="py-xl-5 pt-5"></div>
     
             <?php foreach ($places as $key => $category) { ?>
                 <div class="position-relative z-1<?php echo $key === 4 ? ' mb-5' : ''; ?>" id="<?php echo $category['id']; ?>">
@@ -618,7 +622,7 @@ $places = [
                                     <div class="icon d-flex align-items-center">
                                         <img class="w-100" src="<?php echo $category['img']; ?>" alt="">
                                     </div>
-                                    <h2 class="fs-xl-3 text-orange uppercase"><?php echo $category['title']; ?></h2>
+                                    <h2 class="fs-xl-3 fs-6 text-orange uppercase"><?php echo $category['title']; ?></h2>
                                 </div>
                                 <div class="line line--full bg-orange mb-4"></div>
                                 <?php if (!empty($category['info'])) : ?>
@@ -679,7 +683,7 @@ $places = [
                             <div class="swiper-button-next end-1" id="next-<?php echo $category['id']; ?>"></div>
                         </div>
                     </div>
-                    <div class="py-5"></div>
+                    <div class="py-xl-5 pt-5"></div>
                 </div>
             <?php } ?>
         </div>

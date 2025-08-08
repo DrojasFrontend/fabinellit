@@ -175,7 +175,6 @@ table {
 }
 
 body {
-    display: none;
     font-family: var(--bs-font-family-base);
     margin: 0;
     padding: 0;
@@ -254,7 +253,11 @@ strong {
 }
 
 .mt-100 {
-    margin-top: 700px;
+    margin-top: 1380px;
+
+    @media only screen and (min-width: 1200px) {
+        margin-top: 700px;
+    }
 }
 
 header {
@@ -274,6 +277,7 @@ header {
         &Mobile {
             transform: translateX(100%);
             transition: transform 0.3s ease-in-out;
+            z-index: 10;
 
             &.active {
                 transform: translateX(0);
@@ -300,11 +304,23 @@ header {
 
             &__flower {
                 &-1 {
-                    left: -224px;
+                    left: -30px;
+
+                    @media only screen and (min-width: 1200px) {
+                        left: -225px;
+                        top: -40px;
+                    }
                 }
 
                 &-2 {
-                    right: -224px;
+                    right: -24px;
+                    top: 0;
+
+                    @media only screen and (min-width: 1200px) {
+                        right: -224px;
+                        top: inherit;
+                        bottom: 170px;
+                    }
                 }
             }
 
@@ -325,7 +341,31 @@ header {
         }
 
         &Rsvp {
-            top: -70px
+            top: -70px;
+
+            &__flower {
+                &-1 {
+                    left: -16px;
+                    width: 130px;
+
+                    @media only screen and (min-width: 1200px) {
+                        top: 0;
+                        left: -70px;
+                        width: auto;
+                    }
+                }
+
+                &-2 {
+                    right: -16px;
+                    width: 130px;
+
+                    @media only screen and (min-width: 1200px) {
+                        top: 0;
+                        right: -70px;
+                        width: auto;
+                    }
+                }
+            }
         }
 
         &Gallery {
@@ -336,46 +376,94 @@ header {
             }
 
             &__swiper {
-                margin-left: -15vw;
-                margin-right: -15vw;
+                margin-left: -10vw;
+                margin-right: -10vw;
+
+                @media only screen and (min-width: 1200px) {
+                    margin-left: -15vw;
+                    margin-right: -15vw;
+                }
             }
 
             &__tree {
 
                 &-1,
                 &-2 {
-                    bottom: -250px;
+                    bottom: -80px;
+                    width: 134px;
+                    z-index: -1;
+
+                    @media only screen and (min-width: 1200px) {
+                        bottom: -250px;
+                        width: auto;
+                        z-index: 1;
+                    }
                 }
 
                 &-1 {
-                    left: -100px;
+                    left: -38px;
+
+                    @media only screen and (min-width: 1200px) {
+                        left: -100px;
+                    }
                 }
 
                 &-2 {
-                    right: -100px;
+                    right: -38px;
+
+                    @media only screen and (min-width: 1200px) {
+                        right: -100px;
+                    }
+                }
+
+
+                @media only screen and (min-width: 1200px) {
+
+                    &-1,
+                    &-2 {
+                        width: auto;
+                    }
                 }
             }
 
             &__decorative {
                 position: absolute;
                 top: 0;
-                left: 50%;
-                transform: translateX(-50%);
+                left: 0;
+                z-index: -1;
+                
+                @media only screen and (min-width: 1200px) {
+                    left: 50%;
+                    transform: translateX(-50%);
+                }
             }
 
             &__center {
                 position: absolute;
-                top: -150px;
+                top: -50px;
                 left: 50%;
+                width: 350px;
                 transform: translateX(-50%);
+
+                @media only screen and (min-width: 1200px) {
+                    position: absolute;
+                    top: -150px;
+                    width: 300px;
+                    width: auto;
+                }
             }
         }
 
         &Places {
             &__flower {
                 position: absolute;
-                top: 0;
-                left: 0;
+                top: -40px;
+                left: -30px;
+
+                @media only screen and (min-width: 1200px) {
+                    top: -50px;
+                    left: -80px;
+                }
             }
 
             li {
@@ -384,6 +472,13 @@ header {
 
             &__2 {
                 margin-top: -400px;
+            }
+
+            .icono {
+                width: 50px;
+                @media only screen and (min-width: 1200px) {
+                    width: auto;
+                }
             }
         }
 
@@ -402,6 +497,7 @@ header {
 
                 .box {
                     position: relative;
+
                     &:after {
                         content: "";
                         position: absolute;
@@ -724,4 +820,8 @@ textarea {
 
 .pointer-events-none {
     pointer-events: none;
+}
+
+#hotels .box:after {
+    height: 570px
 }
