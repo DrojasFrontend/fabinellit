@@ -58,11 +58,13 @@
               <li class="d-flex justify-content-center align-items-center"><a class="fs-xl-5 text-primary letter-spacing-xl-4" href="/#cartagena">CARTAGENA</a></li>
               <li class="d-flex justify-content-center align-items-center">
                 <a class="fs-xl-5 text-primary letter-spacing-xl-4" href="/#rsvp">R.S.V.P.</a>
+                <?php get_template_part('template-parts/components/icons/componente-traslate'); ?>
               </li>
             </ul>
           </div>
           <div class="col-4 d-flex justify-content-end align-items-center d-xl-none gap-2">
             <div class="">
+              <?php get_template_part('template-parts/components/icons/componente-traslate'); ?>
             </div>
             <button type="button" class="pt-1 border-0 bg-transparent p-0 text-primary" style="width: 30px" data-toggle-menu>
               <?php get_template_part('template-parts/components/icons/icon-menu'); ?>

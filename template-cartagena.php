@@ -658,7 +658,7 @@ $places = [
                                                         <div class=""></div>
                                     
                                                         <?php if ($place['phone']) : ?>
-                                                        <p class="fs-xl-4 mb-3" style="-webkit-text-stroke-width: 0.5px;"><?php echo $place['phone']; ?></p>
+                                                        <p class="fs-xl-6 text-gray-100 mb-3" style="-webkit-text-stroke-width: 0.5px;"><?php echo $place['phone']; ?></p>
                                                         <?php endif?>
                                 
                                                         <div class=""></div>

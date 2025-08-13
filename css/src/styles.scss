@@ -288,9 +288,9 @@ header {
     &Section {
         &Box {
             border-radius: 30px;
-            background-size: cover;
-            background-repeat: no-repeat;
-            background-image: url(../../images/box.webp);
+            background-size: auto;
+            background-repeat: repeat;
+            background-image: url(../../images/box-new.webp);
             background-position: center;
 
             &__2 {
@@ -325,13 +325,13 @@ header {
             }
 
             &__3 {
-                background-image: url(../../images/box-2.webp);
+                background-image: url(../../images/box-new.webp);
                 border-bottom-left-radius: 140px;
                 border-bottom-right-radius: 140px;
             }
 
             &__4 {
-                background-image: url(../../images/box-3.webp);
+                background-image: url(../../images/box-new.webp);
             }
 
             &__5 {
@@ -350,7 +350,7 @@ header {
 
                     @media only screen and (min-width: 1200px) {
                         top: 0;
-                        left: -70px;
+                        left: -35px;
                         width: auto;
                     }
                 }
@@ -361,7 +361,7 @@ header {
 
                     @media only screen and (min-width: 1200px) {
                         top: 0;
-                        right: -70px;
+                        right: -35px;
                         width: auto;
                     }
                 }
@@ -506,10 +506,10 @@ header {
                         left: 0;
                         width: 100%;
                         height: 480px;
-                        background-image: url(../../images/box-4.webp);
-                        background-size: cover;
+                        background-image: url(../../images/box-new.webp);
+                        background-size: auto;
                         background-position: center;
-                        background-repeat: no-repeat;
+                        background-repeat: repeat;
                         border-radius: 40px;
                         z-index: -1;
                     }
@@ -579,7 +579,7 @@ header {
     @media only screen and (min-width: 1200px) {
         display: flex;
         justify-content: center;
-        gap: 80px;
+        gap: 50px;
     }
 }
 

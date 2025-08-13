@@ -70,10 +70,10 @@ get_header();
                                 <h3 class="font-titulo fs-xl-2 fs-3">Dress Code</h3>
                                 <img class="w-auto" src="<?php echo THEME_IMG; ?>dress-code.png" alt="Dress Code">
                                 <h3 class="fs-xl-3 fs-6-md mb-2">BLACK TIE</h3>
-                                <a href="#" class="btn btn-primary mx-auto mb-5">More Info</a>
+                                <a href="#" class="btn btn-primary mx-auto mb-5">More Information</a>
     
                                 <h2 class="font-titulo fs-xl-2 fs-3 mb-3">Registry</h2>
-                                <a href="#" class="btn btn-primary mx-auto">More Info</a>
+                                <a href="#" class="btn btn-primary mx-auto">More Information</a>
                             </div>
                         </div>
                     </div>
@@ -103,7 +103,7 @@ get_header();
                                         <h3 class="font-titulo fs-3">Dress Code</h3>
                                         <img class="w-auto" src="<?php echo THEME_IMG; ?>welcome-cocktail-2.png" alt="Welcome Cocktail 2">
                                         <p class="fs-xl-5 fs-6-md mb-2">COCKTAIL CHIC</p>
-                                        <button type="button" class="btn btn-primary mx-auto mb-4 border-0" data-bs-toggle="" data-bs-target="">More Info</button>
+                                        <button type="button" class="btn btn-primary mx-auto mb-4 border-0" data-bs-toggle="" data-bs-target="">More Information</button>
                                     </div>
                                     <div class="col-12 col-lg-6">
                                         <img class="w-auto mb-3" src="<?php echo THEME_IMG; ?>island-day.png" alt="Welcome Cocktail">
@@ -117,7 +117,7 @@ get_header();
                                         <h3 class="font-titulo fs-3">Dress Code</h3>
                                         <img class="w-auto" src="<?php echo THEME_IMG; ?>island-day-2.png" alt="Welcome Cocktail 2">
                                         <p class="fs-xl-5 fs-6-md mb-2">TROPICAL BEACHWEAR</p>
-                                        <button type="button" class="btn btn-primary mx-auto mb-4 border-0" data-bs-toggle="" data-bs-target="">More Info</button>
+                                        <button type="button" class="btn btn-primary mx-auto mb-4 border-0" data-bs-toggle="" data-bs-target="">More Information</button>
                                     </div>
                                 </div>
                             </div>
@@ -140,7 +140,7 @@ get_header();
         </div>
         <div class="container position-relative z-2">
             <div class="row">
-                <div class="col-12 col-lg-9 mx-auto">
+                <div class="col-12 col-lg-9 mx-auto px-xl-5">
                     <div class="customSectionBox customSectionBox__2 customSectionBox__3 position-relative shadow-1 px-xl-0 px-3" id="rsvp">
                         <?php if(wp_is_mobile()): ?>
                             <img class="customSectionRsvp__flower-1 position-absolute" src="<?php echo THEME_IMG; ?>rsvp-flower-1.png" alt="RSVP flower 1">
@@ -154,7 +154,7 @@ get_header();
                                 <div class="col-12">
                                     <div class="py-xl-5 py-4"></div>
                                     <h3 class="fs-xl-md-1 fs-2-md text-center text-red">R.S.V.P.</h3>
-                                    <p class="font-titulo fs-xl-md-2 fs-6 text-center text-red mb-4">We can t wait to celebrate with you.</p>
+                                    <p class="font-titulo fs-xl-md-2 fs-6 text-center text-red mb-4">We can’t wait to celebrate with you.</p>
                                     <p class="fs-xl-5 text-center text-red letter-spacing-15">Please respond by October 10, 2025.</p>
                                     <div class="py-xl-5 py-3"></div>
                                     <?php echo do_shortcode('[contact-form-7 id="491dea7" title="Contact form 1"]'); ?>
