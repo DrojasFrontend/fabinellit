@@ -70,3 +70,84 @@
         </div>
     </div>
 </div>
+
+<!-- Black Tie -->
+<div class="modal fade" id="blackTie" tabindex="-1" role="dialog" aria-labelledby="blackTie" aria-hidden="true">
+    <img class="position-fixed top-0 left-0 w-100 h-100 object-fit-cover" src="<?php echo THEME_IMG; ?>bg-modal.webp" alt="Background Modal">
+    <div class="modal-dialog pt-5" role="document">
+        <div class="modal-content customSectionBox">
+            <div class="col-12 col-xl-10 mx-auto">
+                <button type="button" class="btn-close p-0 text-white fs-xl-2 fs-2 bg-transparent border-0 position-absolute top-0 end-0 mt-3 me-3 z-2" data-bs-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                <div class="modal-body text-center position-relative overflow-hidden">
+                    <div class="position-relative">
+                        <h2 class="text-center fs-xl-3 fs-2 uppercase mb-4">Black Tie</h2>
+                        <h3 class="font-titulo fs-xl-3 fs-4 mb-4">Elegant and Formal, Romantic, timeless</h3>
+                        <img class="w-100 mb-4" src="<?php echo THEME_IMG; ?>black-tie-modal.webp" alt="Black Tie Modal">
+                        <p class="fs-xl-p fs-p-md letter-spacing-15 text-center mb-3">
+                            Women: Black-tie attire. Floor-length gowns only, in any color except white, ivory, cream, beige, champagne, blush, or light silver. Men: Black-tie attire.
+                        </p>
+                        <p class="fs-xl-p fs-p-md letter-spacing-15 text-center">
+                            Men: Tuxedo required.
+                        </p>
+                        <p class="fs-xl-p fs-p-md letter-spacing-15 text-center mb-3">
+                            (or a black formal suit with black bowtie if a tuxedo is not possible).
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Cocktail -->
+<div class="modal fade" id="cocktail" tabindex="-1" role="dialog" aria-labelledby="cocktail" aria-hidden="true">
+    <img class="position-fixed top-0 left-0 w-100 h-100 object-fit-cover" src="<?php echo THEME_IMG; ?>bg-modal.webp" alt="Background Modal">
+    <div class="modal-dialog pt-5" role="document">
+        <div class="modal-content customSectionBox">
+            <div class="col-12 col-xl-10 mx-auto">
+                <button type="button" class="btn-close p-0 text-white fs-xl-2 fs-2 bg-transparent border-0 position-absolute top-0 end-0 mt-3 me-3 z-2" data-bs-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                <div class="modal-body text-center position-relative overflow-hidden">
+                    <div class="position-relative">
+                        <h2 class="text-center fs-xl-3 fs-2 uppercase mb-4">COCKTAIL CHIC</h2>
+                        <h3 class="font-titulo fs-xl-3 fs-4 mb-4">Elegant, outdoors by Cartagena moonlight</h3>
+                        <img class="w-100 mb-4" src="<?php echo THEME_IMG; ?>cocktail-modal.webp" alt="Black Tie Modal">
+                        <p class="fs-xl-p fs-p-md letter-spacing-15 text-center mb-3">
+                        Women: Cocktail-length dresses in any color except the bridal tones such as white, ivory, cream, beige, champagne, blush, and light silver.
+                        </p>
+                        <p class="fs-xl-p fs-p-md letter-spacing-15 text-center mb-3">
+                        Men: Linen or light trousers with a button-down or guayabera. Closed shoes or loafers recommended. Avoid athletic sneakers or running shoes.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Tropical -->
+<div class="modal fade" id="tropical" tabindex="-1" role="dialog" aria-labelledby="tropical" aria-hidden="true">
+    <img class="position-fixed top-0 left-0 w-100 h-100 object-fit-cover" src="<?php echo THEME_IMG; ?>bg-modal.webp" alt="Background Modal">
+    <div class="modal-dialog pt-5" role="document">
+        <div class="modal-content customSectionBox">
+            <div class="col-12 col-xl-10 mx-auto">
+                <button type="button" class="btn-close p-0 text-white fs-xl-2 fs-2 bg-transparent border-0 position-absolute top-0 end-0 mt-3 me-3 z-2" data-bs-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                <div class="modal-body text-center position-relative overflow-hidden">
+                    <div class="position-relative">
+                        <h2 class="text-center fs-xl-3 fs-2 uppercase mb-4">TROPICAL BEACHWEAR</h2>
+                        <h3 class="font-titulo fs-xl-3 fs-4 mb-4">Sun, sand, swimsuits, and celebration</h3>
+                        <img class="w-100 mb-4" src="<?php echo THEME_IMG; ?>tropical-modal.webp" alt="Black Tie Modal">
+                        <p class="fs-xl-p fs-p-md letter-spacing-15 text-center mb-3">
+                        Swimsuits, tropical attire, sunglasses, sunscreen, and shoes that can get wet. Ladies, please avoid bridal tones such as white, ivory, cream, beige, champagne, blush, or light silver.  These colors are perfectly fine for men.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

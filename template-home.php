@@ -70,7 +70,7 @@ get_header();
                                 <h3 class="font-titulo fs-xl-2 fs-3">Dress Code</h3>
                                 <img class="w-auto" src="<?php echo THEME_IMG; ?>dress-code.png" alt="Dress Code">
                                 <h3 class="fs-xl-3 fs-6-md mb-2">BLACK TIE</h3>
-                                <a href="#" class="btn btn-primary mx-auto mb-5">More Information</a>
+                                <button type="button" data-bs-toggle="modal" data-bs-target="#blackTie" class="btn btn-primary mx-auto border-0 mb-3">More Information</button>
     
                                 <h2 class="font-titulo fs-xl-2 fs-3 mb-3">Registry</h2>
                                 <a href="#" class="btn btn-primary mx-auto">More Information</a>
@@ -103,7 +103,7 @@ get_header();
                                         <h3 class="font-titulo fs-3">Dress Code</h3>
                                         <img class="w-auto" src="<?php echo THEME_IMG; ?>welcome-cocktail-2.webp" alt="Welcome Cocktail 2">
                                         <p class="fs-xl-5 fs-6-md mb-2">COCKTAIL CHIC</p>
-                                        <button type="button" class="btn btn-primary mx-auto mb-4 border-0" data-bs-toggle="" data-bs-target="">More Information</button>
+                                        <button type="button" class="btn btn-primary mx-auto mb-4 border-0" data-bs-toggle="modal" data-bs-target="#cocktail">More Information</button>
                                     </div>
                                     <div class="col-12 col-lg-6">
                                         <img class="w-auto mb-3" src="<?php echo THEME_IMG; ?>island-day.png" alt="Welcome Cocktail">
@@ -117,7 +117,7 @@ get_header();
                                         <h3 class="font-titulo fs-3">Dress Code</h3>
                                         <img class="w-auto" src="<?php echo THEME_IMG; ?>island-day-2.png" alt="Welcome Cocktail 2">
                                         <p class="fs-xl-5 fs-6-md mb-2">TROPICAL BEACHWEAR</p>
-                                        <button type="button" class="btn btn-primary mx-auto mb-4 border-0" data-bs-toggle="" data-bs-target="">More Information</button>
+                                        <button type="button" class="btn btn-primary mx-auto mb-4 border-0" data-bs-toggle="modal" data-bs-target="#tropical">More Information</button>
                                     </div>
                                 </div>
                             </div>
