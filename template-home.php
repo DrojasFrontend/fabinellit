@@ -238,7 +238,7 @@ get_header();
                                         <p class="fs-xl-5 fs-p-md letter-spacing-15 text-center mb-4">
                                         They were in different schools, living different lives. And yet, there was a quiet tension between them—familiar yet new. Something magnetic: a slow dance of drawing close, drifting apart, and returning again. There wasn’t a single moment—they drifted toward each other slowly, like the tide pulling in. Subtle glances, shared silences, a pull that deepened before either of them had the words for it.
                                         </p>
-                                        <button type="button" class="btn btn-primary mx-auto border-0" data-bs-toggle="modal" data-bs-target="#readMore">Read More</button>
+                                        <a href="/about-us" class="btn btn-primary mx-auto">Read More</a>
                                     </div>
                                 </div>
                             </div>

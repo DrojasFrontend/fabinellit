@@ -48,6 +48,31 @@ export const initGallerySwiper = () => {
 	});
 };
 
+export const initGallerySwiper2 = () => {
+	const swiper = new Swiper(".gallerySwiper2", {
+		modules: [Pagination, Navigation, Autoplay],
+		slidesPerView: 1,
+		spaceBetween: 10,
+		centeredSlides: false,
+		autoplay: {
+			delay: 5000,
+			disableOnInteraction: false,
+		},
+		loop: true,
+		navigation: {
+			nextEl: ".swiper-button-next",
+			prevEl: ".swiper-button-prev",
+			clickable: true,
+			disabledClass: "swiper-nav-disabled",
+		},
+		pagination: {
+			el: ".swiper-pagination",
+			type: "bullets",
+			clickable: true,
+		},
+	});
+};
+
 export const initPlaceSwiper = () => {
 	const swiper = new Swiper(".placeSwiper", {
 		modules: [Pagination, Navigation, Autoplay],
@@ -144,6 +169,7 @@ export const initPlacesSwiper = () => {
 // Inicialización de Swipers
 document.addEventListener('DOMContentLoaded', function () {
 	initGallerySwiper();
+	initGallerySwiper2();
 	initPlaceSwiper();
 	initPlacesSwiper();
 });

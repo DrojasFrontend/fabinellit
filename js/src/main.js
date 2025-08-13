@@ -17,6 +17,9 @@ let Main = {
 			if (document.querySelector(".gallerySwiper")) {
 				initGallerySwiper();
 			}
+			if (document.querySelector(".gallerySwiper2")) {
+				initGallerySwiper2();
+			}
 			if (document.querySelector(".placeSwiper")) {
 				initPlaceSwiper();
 			}
