@@ -4,7 +4,7 @@
 */
 
 // Manejar las peticiones AJAX del RSVP
-handle_rsvp_ajax();
+// handle_rsvp_ajax();
 
 get_header();
 ?>
@@ -101,7 +101,7 @@ get_header();
                                         <a href="#" class="btn btn-primary mx-auto mb-4">Location</a>
 
                                         <h3 class="font-titulo fs-3">Dress Code</h3>
-                                        <img class="w-auto" src="<?php echo THEME_IMG; ?>welcome-cocktail-2.png" alt="Welcome Cocktail 2">
+                                        <img class="w-auto" src="<?php echo THEME_IMG; ?>welcome-cocktail-2.webp" alt="Welcome Cocktail 2">
                                         <p class="fs-xl-5 fs-6-md mb-2">COCKTAIL CHIC</p>
                                         <button type="button" class="btn btn-primary mx-auto mb-4 border-0" data-bs-toggle="" data-bs-target="">More Information</button>
                                     </div>
