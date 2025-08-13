@@ -85,8 +85,8 @@ get_header();
                                 <img width="150" class="customSectionBox__flower-1 position-absolute top-0 d-xl-block pointer-events-none" src="<?php echo THEME_IMG; ?>flower-1.webp" alt="Flower-1 mobile">
                                 <img width="100" class="customSectionBox__flower-2 position-absolute d-xl-block pointer-events-none" src="<?php echo THEME_IMG; ?>flower-2.webp" alt="Flower-1 mobile">
                             <?php else: ?>
-                                <img class="customSectionBox__flower-1 position-absolute w-auto d-xl-block pointer-events-none" src="<?php echo THEME_IMG; ?>flower-1.webp" alt="Flower-1">
-                                <img class="customSectionBox__flower-2 position-absolute w-auto d-xl-block pointer-events-none" src="<?php echo THEME_IMG; ?>flower-2.webp" alt="Flower-1">
+                                <img width="552" class="customSectionBox__flower-1 position-absolute d-xl-block pointer-events-none" src="<?php echo THEME_IMG; ?>flower-1.webp" alt="Flower-1">
+                                <img width="400" class="customSectionBox__flower-2 position-absolute d-xl-block pointer-events-none" src="<?php echo THEME_IMG; ?>flower-2.webp" alt="Flower-1">
                             <?php endif; ?>
                             <div class="pt-xl-5 pt-3">
                                 <h2 class="font-titulo fs-xl-md-1 fs-2-md">Events</h2>
@@ -146,8 +146,8 @@ get_header();
                             <img class="customSectionRsvp__flower-1 position-absolute" src="<?php echo THEME_IMG; ?>rsvp-flower-1.png" alt="RSVP flower 1">
                             <img class="customSectionRsvp__flower-2 position-absolute" src="<?php echo THEME_IMG; ?>rsvp-flower-2.png" alt="RSVP flower 2">
                         <?php else: ?>
-                            <img class="customSectionRsvp__flower-1 position-absolute" src="<?php echo THEME_IMG; ?>rsvp-flower-1.png" alt="RSVP flower 1">
-                            <img class="customSectionRsvp__flower-2 position-absolute" src="<?php echo THEME_IMG; ?>rsvp-flower-2.png" alt="RSVP flower 2">
+                            <img class="customSectionRsvp__flower-1 position-absolute" src="<?php echo THEME_IMG; ?>rsvp-flower-1.webp" alt="RSVP flower 1">
+                            <img class="customSectionRsvp__flower-2 position-absolute" src="<?php echo THEME_IMG; ?>rsvp-flower-2.webp" alt="RSVP flower 2">
                         <?php endif; ?>
                         <div class="row justify-content-center">
                             <div class="col-12 col-lg-9">
@@ -184,8 +184,9 @@ get_header();
                 <div class="row">
                     <div class="col-12 col-lg-9 mx-auto px-xl-0 px-4">
                         <div class="customSectionBox customSectionBox__2 customSectionBox__4 shadow-1 px-xl-0 px-3">
-                            <img class="customSectionGallery__decorative" src="<?php echo THEME_IMG; ?>decorative-border.webp" alt="Decorative Border 2">
-                            <img class="customSectionGallery__center" src="<?php echo THEME_IMG; ?>decorative-center.png" alt="Decorative Center">
+                            <!-- <img class="customSectionGallery__decorative" src="<?php echo THEME_IMG; ?>decorative-border.webp" alt="Decorative Border 2"> -->
+                            <img class="customSectionGallery__center" src="<?php echo THEME_IMG; ?>decorative-center.webp" alt="Decorative Center">
+
                             <div class="row justify-content-center">
                                 <div class="col-12 col-lg-10">
                                     <div class="col-12 pb-xl-5 pb-5">
@@ -233,12 +234,12 @@ get_header();
                                         </div>
                                         <h2 class="font-titulo text-center fs-xl-sm-1 fs-2-md">About Us</h2>
                                         <p class="fs-xl-5 fs-p-md letter-spacing-15 mb-4 text-center">
-                                            Fabi and Nellit met like many of the best stories do—not with a dramatic entrance, but with a shared moment that felt like it was leading somewhere. She was planning a surprise birthday party for her good friend. He was just one of the guests—someone she didn’t know, yet from the moment she reached out to invite him, she felt curious. His energy pulled her in: calm, confident, watchful. That night, under string lights in a Miami backyard, she kept catching herself watching him from the corner of her eye.
+                                        Fabi and Nellit met like many of the best stories do—not with a dramatic entrance, but with a shared moment that felt like it was leading somewhere. She was planning a surprise birthday party for her good friend. He was just one of the guests—someone she didn’t know, yet from the moment she reached out to invite him, she felt curious. His energy pulled her in: calm, confident, watchful. That night, under string lights in a Miami backyard, she kept catching herself watching him from the corner of her eye.
                                         </p>
                                         <p class="fs-xl-5 fs-p-md letter-spacing-15 text-center mb-4">
-                                            They were in different schools, living different lives. And yet, there was a quiet tension between them—familiar yet new. Something magnetic: a slow dance of drawing close, drifting apart, and returning again. There wasn’t a single moment—they drifted toward each other slowly, like the tide pulling in. Subtle glances, shared silences, a pull that deepened before either of them had the words for it.
+                                        They were in different schools, living different lives. And yet, there was a quiet tension between them—familiar yet new. Something magnetic: a slow dance of drawing close, drifting apart, and returning again. There wasn’t a single moment—they drifted toward each other slowly, like the tide pulling in. Subtle glances, shared silences, a pull that deepened before either of them had the words for it.
                                         </p>
-                                        <button type="button" class="btn btn-primary mx-auto border-0" data-bs-toggle="" data-bs-target="">Read More</button>
+                                        <button type="button" class="btn btn-primary mx-auto border-0" data-bs-toggle="modal" data-bs-target="#readMore">Read More</button>
                                     </div>
                                 </div>
                             </div>
@@ -258,9 +259,9 @@ get_header();
         <?php endif; ?>
         <div class="d-flex justify-content-center">
             <?php if(wp_is_mobile()): ?>
-                <img class="w-auto" height="60" src="<?php echo THEME_IMG; ?>decorative-center-2.png" alt="Decorative Center 2">
+                <img class="w-auto" height="50" src="<?php echo THEME_IMG; ?>decorative-center-2.webp" alt="Decorative Center 2">
             <?php else: ?>
-                <img class="w-auto" src="<?php echo THEME_IMG; ?>decorative-center-2.png" alt="Decorative Center 2">
+                <img width="w-auto" height="80" src="<?php echo THEME_IMG; ?>decorative-center-2.webp" alt="Decorative Center 2">
             <?php endif; ?>
         </div>
         <div class="container position-relative z-3">
@@ -354,6 +355,8 @@ get_header();
     <div class="py-2 bg-primary-2 position-relative w-100 d-block z-2" style="opacity: 0.6;"></div>
     <?php echo get_template_part('template-parts/components/component-map'); ?>
     <div class="py-2 bg-primary-2 position-relative w-100 d-block z-2" style="opacity: 0.6;"></div>
+    
+    <?php echo get_template_part('template-parts/components/component-modal'); ?>
 </main>
 
 <?php 

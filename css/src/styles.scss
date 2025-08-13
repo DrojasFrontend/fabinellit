@@ -307,7 +307,7 @@ header {
                     left: -30px;
 
                     @media only screen and (min-width: 1200px) {
-                        left: -225px;
+                        left: -271px;
                         top: -40px;
                     }
                 }
@@ -317,9 +317,9 @@ header {
                     top: 0;
 
                     @media only screen and (min-width: 1200px) {
-                        right: -224px;
+                        right: -314px;
                         top: inherit;
-                        bottom: 170px;
+                        bottom: 236px;
                     }
                 }
             }
@@ -350,7 +350,7 @@ header {
 
                     @media only screen and (min-width: 1200px) {
                         top: 0;
-                        left: -35px;
+                        left: -74px;
                         width: auto;
                     }
                 }
@@ -361,7 +361,7 @@ header {
 
                     @media only screen and (min-width: 1200px) {
                         top: 0;
-                        right: -35px;
+                        right: -74px;
                         width: auto;
                     }
                 }
@@ -440,16 +440,15 @@ header {
 
             &__center {
                 position: absolute;
-                top: -50px;
+                top: -15px;
                 left: 50%;
-                width: 350px;
+                width: 616px;
                 transform: translateX(-50%);
 
                 @media only screen and (min-width: 1200px) {
                     position: absolute;
-                    top: -150px;
-                    width: 300px;
-                    width: auto;
+                    top: -70px;
+                    width: 2000px;
                 }
             }
         }
