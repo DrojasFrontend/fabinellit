@@ -12,7 +12,7 @@ get_header();
 <main class="overflow-hidden">
     <div class="py-5"></div>
     <div class="py-5"></div>
-    <div class="py-5"></div>
+    <div class="py-xl-5"></div>
 
     <section class="customSectionGallery">
         <div class="position-relative">
@@ -47,7 +47,7 @@ get_header();
                                         <button type="button" class="btn btn-primary mx-auto border-0" data-bs-toggle="modal" data-bs-target="#readMore">Read More</button>
 
                                         <div class="py-4"></div>
-                                        <h2 class="font-titulo text-center fs-xl-sm-1 fs-2-md mb-4">Leave Us a Message</h2>
+                                        <h2 class="font-titulo text-center fs-xl-sm-1 fs-3 mb-4">Leave Us a Message</h2>
                                         <p class="fs-xl-5 fs-p-md letter-spacing-15 text-center mb-5">
                                             We'd love to read your words before the big day.
                                         </p>

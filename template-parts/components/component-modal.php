@@ -1,14 +1,14 @@
 <!-- More info -->
 <div class="modal fade" id="readMore" tabindex="-1" role="dialog" aria-labelledby="readMore" aria-hidden="true">
     <div class="modal-dialog" role="document">
+        <div class="py-5"></div>
         <div class="modal-content">
-            <div class="modal-header p-1">
-                <button type="button" class="btn-close p-0 text-white fs-xl-2 fs-2 bg-transparent border-0" data-bs-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
-                </button>
-            </div>
             <div class="modal-body bg-white text-center position-relative overflow-hidden">
                 <div class="position-relative p-xl-5 p-2">
+                    <button type="button" class="position-absolute top-0 end-0 mt-3 me-3 z-2 btn-close p-0 text-white fs-xl-2 fs-2 bg-transparent border-0" data-bs-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                    <div class="py-xl-0 py-3"></div>
                     <h2 class="font-titulo text-center fs-xl-sm-1 fs-2-md">About Us</h2>
                     <p class="fs-p-xxl letter-spacing-15 text-center mb-3">
                     As that summer unfolded, something began to bloom between them: nights on the sand and in the sea, movie marathons that stretched till dawn, 3am Denny’s runs, and beach hangs with mutual friends. Something light-hearted was happening—but underneath it, something else was forming too. Something neither of them expected, but both of them felt.
