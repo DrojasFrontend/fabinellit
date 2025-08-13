@@ -158,8 +158,7 @@ get_header();
                                     <p class="fs-xl-5 text-center text-red letter-spacing-15">Please respond by October 10, 2025.</p>
                                     <div class="py-xl-5 py-3"></div>
                                     <?php echo do_shortcode('[contact-form-7 id="491dea7" title="Contact form 1"]'); ?>
-                                    <p class="fs-xl-5 text-center text-red letter-spacing-15">For questions or more information, email us at</p>
-                                    <p class="fs-xl-5 text-center text-red letter-spacing-15">rsvp@fabinellit.com</p>
+                                    <p class="fs-xl-5 text-center text-red letter-spacing-15">For questions or more information, email us at rsvp@fabinellit.com</p>
                                     <p class="fs-xl-5 text-center text-red letter-spacing-15">or contact our concierge via WhatsApp:</p>
                                     <p class="fs-xl-5 text-center text-red letter-spacing-15">+57 321 849 2726</p>
                                     <div class="py-xl-5 py-3"></div>
