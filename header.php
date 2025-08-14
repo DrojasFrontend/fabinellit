@@ -54,7 +54,7 @@
             <ul class="customHeader d-none d-xl-grid gap-5 py-xl-2 py-1">
               <li class="d-flex justify-content-center align-items-center"><a class="fs-xl-5 text-primary letter-spacing-xl-4" href="/#wedding">WEDDING</a></li>
               <li class="d-flex justify-content-center align-items-center"><a class="fs-xl-5 text-primary letter-spacing-xl-4" href="/#events">EVENTS</a></li>
-              <li class="d-flex justify-content-center align-items-center"><a class="font-titulo fs-3 text-primary" href="/">Fabiola & Nellit</a></li>
+              <li class="d-flex justify-content-center align-items-center"><a class="font-titulo fs-xl-2 fs-3 text-primary" href="/" style="transform: translateY(3px);">Fabiola & Nellit</a></li>
               <li class="d-flex justify-content-center align-items-center"><a class="fs-xl-5 text-primary letter-spacing-xl-4" href="/#cartagena">CARTAGENA</a></li>
               <li class="d-flex justify-content-center align-items-center">
                 <a class="fs-xl-5 text-primary letter-spacing-xl-4" href="/#rsvp">R.S.V.P.</a>

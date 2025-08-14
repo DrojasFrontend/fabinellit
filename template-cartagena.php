@@ -565,7 +565,8 @@ $places = [
 
 <main class="customMainCartagena">
     <div class="position-absolute top-0 start-0 w-100">
-        <img class="w-100" src="<?php echo THEME_IMG; ?>bg-cartagena-3.webp" alt="Background Cartagena">
+        <!-- <img class="w-100" src="<?php echo THEME_IMG; ?>bg-cartagena-3.webp" alt="Background Cartagena"> -->
+        <img class="w-100 h-100 object-fit-cover position-fixed top-0 start-0" src="<?php echo THEME_IMG; ?>bg-cartagena-3-.webp" alt="Background Cartagena">
     </div>
     <div class="py-5"></div>
     <div class="py-5"></div>

@@ -1,6 +1,6 @@
 <!-- More info -->
 <div class="modal fade" id="readMore" tabindex="-1" role="dialog" aria-labelledby="readMore" aria-hidden="true">
-    <div class="modal-dialog" role="document">
+    <div class="modal-dialog pt-5" role="document">
         <div class="py-5"></div>
         <div class="modal-content">
             <div class="modal-body bg-white text-center position-relative overflow-hidden">
@@ -74,7 +74,7 @@
 <!-- Black Tie -->
 <div class="modal fade" id="blackTie" tabindex="-1" role="dialog" aria-labelledby="blackTie" aria-hidden="true">
     <img class="position-fixed top-0 left-0 w-100 h-100 object-fit-cover" src="<?php echo THEME_IMG; ?>bg-modal.webp" alt="Background Modal">
-    <div class="modal-dialog pt-5" role="document">
+    <div class="modal-dialog pt-5 h-100 d-flex align-items-center pt-5" role="document">
         <div class="modal-content customSectionBox">
             <div class="col-12 col-xl-10 mx-auto">
                 <button type="button" class="btn-close p-0 text-white fs-xl-2 fs-2 bg-transparent border-0 position-absolute top-0 end-0 mt-3 me-3 z-2" data-bs-dismiss="modal" aria-label="Close">
@@ -104,7 +104,7 @@
 <!-- Cocktail -->
 <div class="modal fade" id="cocktail" tabindex="-1" role="dialog" aria-labelledby="cocktail" aria-hidden="true">
     <img class="position-fixed top-0 left-0 w-100 h-100 object-fit-cover" src="<?php echo THEME_IMG; ?>bg-modal.webp" alt="Background Modal">
-    <div class="modal-dialog pt-5" role="document">
+    <div class="modal-dialog pt-5 h-100 d-flex align-items-center pt-5" role="document">
         <div class="modal-content customSectionBox">
             <div class="col-12 col-xl-10 mx-auto">
                 <button type="button" class="btn-close p-0 text-white fs-xl-2 fs-2 bg-transparent border-0 position-absolute top-0 end-0 mt-3 me-3 z-2" data-bs-dismiss="modal" aria-label="Close">
@@ -131,7 +131,7 @@
 <!-- Tropical -->
 <div class="modal fade" id="tropical" tabindex="-1" role="dialog" aria-labelledby="tropical" aria-hidden="true">
     <img class="position-fixed top-0 left-0 w-100 h-100 object-fit-cover" src="<?php echo THEME_IMG; ?>bg-modal.webp" alt="Background Modal">
-    <div class="modal-dialog pt-5" role="document">
+    <div class="modal-dialog pt-5 h-100 d-flex align-items-center pt-5" role="document">
         <div class="modal-content customSectionBox">
             <div class="col-12 col-xl-10 mx-auto">
                 <button type="button" class="btn-close p-0 text-white fs-xl-2 fs-2 bg-transparent border-0 position-absolute top-0 end-0 mt-3 me-3 z-2" data-bs-dismiss="modal" aria-label="Close">

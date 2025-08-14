@@ -60,12 +60,12 @@ get_header();
                                 <p class="fs-xl-4 fs-6-md mb-2">7:00 P.M.</p>
                                 <p class="fs-xl-4 fs-6-md" style="line-height: 20px;">Catedral</p>
                                 <p class="fs-xl-4 fs-6-md mb-3">Santa Catalina de Alejandria</p>
-                                <a href="#" class="btn btn-primary mx-auto mb-4">Location</a>
+                                <a href="https://maps.app.goo.gl/xMqRZTiuuizL43zA8" target="_blank" class="btn btn-primary mx-auto mb-4">Location</a>
     
                                 <h3 class="fs-xl-3 fs-6 mb-2">RECEPTION TO FOLLOW</h3>
                                 <p class="fs-xl-4 fs-6-md" style="line-height: 20px;">Centro de convenciones</p>
                                 <p class="fs-xl-4 fs-6-md mb-3">Cartagena de Indias</p>
-                                <a href="#" class="btn btn-primary mx-auto mb-5">Location</a>
+                                <a href="https://maps.app.goo.gl/6LLBDbuMRtUnhB7h7" target="_blank" class="btn btn-primary mx-auto mb-5">Location</a>
     
                                 <h3 class="font-titulo fs-xl-2 fs-3">Dress Code</h3>
                                 <img class="w-auto" src="<?php echo THEME_IMG; ?>dress-code.png" alt="Dress Code">
@@ -98,7 +98,7 @@ get_header();
                                         <p class="fs-xl-4 fs-6-md mb-3">6:00pm - 12:00am</p>
                                         <p class="fs-xl-4 fs-6-md" style="line-height: 20px;">Baluarte</p>
                                         <p class="fs-xl-4 fs-6-md mb-3">San Francisco Javier</p>
-                                        <a href="#" class="btn btn-primary mx-auto mb-4">Location</a>
+                                        <a href="https://maps.app.goo.gl/SStQmpsV8reiSieaA" target="_blank" class="btn btn-primary mx-auto mb-4">Location</a>
 
                                         <h3 class="font-titulo fs-3">Dress Code</h3>
                                         <img class="w-auto" src="<?php echo THEME_IMG; ?>welcome-cocktail-2.webp" alt="Welcome Cocktail 2">
@@ -112,7 +112,7 @@ get_header();
                                         <p class="fs-xl-4 fs-6-md mb-3">10:00am - 4:00pm</p>
                                         <p class="fs-xl-4 fs-6-md" style="line-height: 20px;">Agua Azul,</p>
                                         <p class="fs-xl-4 fs-6-md mb-3">Isla de Barú</p>
-                                        <a href="#" class="btn btn-primary mx-auto mb-4">Location</a>
+                                        <a href="https://maps.app.goo.gl/2ookbLmb9MDyTPwdA" target="_blank" class="btn btn-primary mx-auto mb-4">Location</a>
 
                                         <h3 class="font-titulo fs-3">Dress Code</h3>
                                         <img class="w-auto" src="<?php echo THEME_IMG; ?>island-day-2.png" alt="Welcome Cocktail 2">
@@ -128,7 +128,11 @@ get_header();
                 </div>
             </div>
             <div class="position-relative customSectionBox__2-panoramica">
-                <img class="w-100" src="<?php echo THEME_IMG; ?>panoramica-cartagena.webp" alt="Panoramica Cartagena">
+                <?php if(wp_is_mobile()): ?>
+                    <img height="500" class="w-100 object-fit-cover" src="<?php echo THEME_IMG; ?>panoramica-cartagena.webp" alt="Panoramica Cartagena mobile">
+                <?php else: ?>
+                    <img class="w-100" src="<?php echo THEME_IMG; ?>panoramica-cartagena.webp" alt="Panoramica Cartagena">
+                <?php endif; ?>
             </div>
         </div>
     </section>
@@ -155,7 +159,7 @@ get_header();
                                     <div class="py-xl-5 py-4"></div>
                                     <h3 class="fs-xl-md-1 fs-2-md text-center text-red">R.S.V.P.</h3>
                                     <p class="font-titulo fs-xl-md-2 fs-6 text-center text-red mb-4">We can’t wait to celebrate with you.</p>
-                                    <p class="fs-xl-5 text-center text-red letter-spacing-15">Please respond by October 10, 2025.</p>
+                                    <p class="fs-xl-5 text-center text-red letter-spacing-15">Please respond by <br> October 10, 2025.</p>
                                     <div class="py-xl-5 py-3"></div>
                                     <?php echo do_shortcode('[contact-form-7 id="491dea7" title="Contact form 1"]'); ?>
                                     <p class="fs-xl-5 text-center text-red letter-spacing-15">For questions or more information, email us at rsvp@fabinellit.com</p>
@@ -232,10 +236,10 @@ get_header();
                                             </div>
                                         </div>
                                         <h2 class="font-titulo text-center fs-xl-sm-1 fs-2-md">About Us</h2>
-                                        <p class="fs-xl-5 fs-p-md letter-spacing-15 mb-4 text-center">
+                                        <p class="fs-xl-p fs-p-md letter-spacing-15 mb-4 text-center px-xl-5">
                                         Fabi and Nellit met like many of the best stories do—not with a dramatic entrance, but with a shared moment that felt like it was leading somewhere. She was planning a surprise birthday party for her good friend. He was just one of the guests—someone she didn’t know, yet from the moment she reached out to invite him, she felt curious. His energy pulled her in: calm, confident, watchful. That night, under string lights in a Miami backyard, she kept catching herself watching him from the corner of her eye.
                                         </p>
-                                        <p class="fs-xl-5 fs-p-md letter-spacing-15 text-center mb-4">
+                                        <p class="fs-xl-p fs-p-md letter-spacing-15 text-center mb-4 px-xl-5">
                                         They were in different schools, living different lives. And yet, there was a quiet tension between them—familiar yet new. Something magnetic: a slow dance of drawing close, drifting apart, and returning again. There wasn’t a single moment—they drifted toward each other slowly, like the tide pulling in. Subtle glances, shared silences, a pull that deepened before either of them had the words for it.
                                         </p>
                                         <a href="/about-us" class="btn btn-primary mx-auto">Read More</a>

@@ -341,7 +341,12 @@ header {
         }
 
         &Rsvp {
-            top: -70px;
+            top: -300px;
+            z-index: 3;
+
+            @media only screen and (min-width: 1200px) {
+                top: -70px;
+            }
 
             &__flower {
                 &-1 {
