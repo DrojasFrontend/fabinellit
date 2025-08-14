@@ -307,8 +307,8 @@ header {
                     left: -30px;
 
                     @media only screen and (min-width: 1200px) {
-                        left: -271px;
-                        top: -40px;
+                        left: -273px;
+                        top: 36px;
                     }
                 }
 
@@ -840,4 +840,22 @@ textarea {
     border-color: #ec715d;
     text-align: center;
     color: #ec715d;
+}
+
+.commilla {
+    display: inline-block;
+    position: relative;
+    margin: 0 auto;
+
+    &:before {
+        content: "’";
+        position: absolute;
+        top: 2px;
+        left: 47px;
+
+        @media only screen and (min-width: 1200px) {
+            top: 6px;
+            left: 96px;
+        }
+    }
 }

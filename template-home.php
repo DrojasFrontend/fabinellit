@@ -158,7 +158,9 @@ get_header();
                                 <div class="col-12">
                                     <div class="py-xl-5 py-4"></div>
                                     <h3 class="fs-xl-md-1 fs-2-md text-center text-red">R.S.V.P.</h3>
-                                    <p class="font-titulo fs-xl-md-2 fs-6 text-center text-red mb-4">We can’t wait to celebrate with you.</p>
+                                    <div class="d-flex justify-content-center">
+                                        <p class="font-titulo fs-xl-md-2 fs-6 text-center text-red mb-4 commilla">We can t wait to celebrate with you.</p>
+                                    </div>
                                     <p class="fs-xl-5 text-center text-red letter-spacing-15">Please respond by <br> October 10, 2025.</p>
                                     <div class="py-xl-5 py-3"></div>
                                     <?php echo do_shortcode('[contact-form-7 id="491dea7" title="Contact form 1"]'); ?>
@@ -260,7 +262,7 @@ get_header();
         <?php else: ?>
             <img class="position-absolute top-0 start-0 w-100 h-100 object-fit-cover z-1" src="<?php echo THEME_IMG; ?>bg-places.webp" alt="Background Places">
         <?php endif; ?>
-        <div class="d-flex justify-content-center">
+        <div class="position-relative d-flex justify-content-center z-1">
             <?php if(wp_is_mobile()): ?>
                 <img class="w-auto" height="50" src="<?php echo THEME_IMG; ?>decorative-center-2.webp" alt="Decorative Center 2">
             <?php else: ?>

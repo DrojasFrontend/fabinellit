@@ -1,9 +1,9 @@
 <!-- More info -->
 <div class="modal fade" id="readMore" tabindex="-1" role="dialog" aria-labelledby="readMore" aria-hidden="true">
     <div class="modal-dialog pt-5" role="document">
-        <div class="py-5"></div>
+        <div class="py-xl-5 py-3"></div>
         <div class="modal-content">
-            <div class="modal-body bg-white text-center position-relative overflow-hidden">
+            <div class="customSectionBox modal-body bg-white text-center position-relative overflow-hidden">
                 <div class="position-relative p-xl-5 p-2">
                     <button type="button" class="position-absolute top-0 end-0 mt-3 me-3 z-2 btn-close p-0 text-white fs-xl-2 fs-2 bg-transparent border-0" data-bs-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
@@ -34,6 +34,32 @@
 
                     <p class="fs-p-xxl letter-spacing-15 text-center mb-5">They can’t wait to dance, laugh, and live it all out—with you at their side.</p>
 
+                    <div class="d-flex flex-xl-row flex-column gap-2">
+                        <button class="btn btn-primary mx-auto border-0" type="button" onclick="openChildModal('#aboutTheBride', '#readMore')">
+                            About the Bride
+                        </button>
+                        <button class="btn btn-primary mx-auto border-0" type="button" onclick="openChildModal('#aboutTheGroom', '#readMore')">
+                            About the Groom
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- About the Bride -->
+<div class="modal fade" id="aboutTheBride" tabindex="-1" role="dialog" aria-labelledby="aboutTheBride" aria-hidden="true">
+    <div class="modal-dialog pt-5" role="document">
+        <div class="py-xl-5 py-3"></div>
+        <div class="modal-content">
+            <div class="customSectionBox modal-body bg-white text-center position-relative overflow-hidden">
+                <div class="position-relative p-xl-5 p-2">
+                    <button type="button" class="position-absolute top-0 end-0 mt-3 me-3 z-2 btn-close p-0 text-white fs-xl-2 fs-2 bg-transparent border-0" onclick="returnToParentModal('#readMore')" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                    <div class="py-xl-0 py-3"></div>
+
                     <h2 class="font-titulo text-center fs-xl-sm-1 fs-2-md">About the Bride</h2>
 
                     <p class="fs-p-xxl letter-spacing-15 text-center mb-3">Born in Puerto Rico and raised in Miami, with roots in Mexico, Cuba, Spain, and Italy, Fabi is a rich tapestry of cultures, flavors, and feelings. She grew up between coastlines and countries—shaped by family traditions, late-night talks, and summers spent between Mexico City and the Caribbean. She’s deeply proud of her heritage—and it shows in her music, her food, and her heart.</p>
@@ -49,8 +75,23 @@
                     <p class="fs-p-xxl letter-spacing-15 text-center mb-3">She loves love—the real, beautiful kind. The kind that grows with care, with commitment, and with intention. What she cherishes most is building a life that feels full—gym sessions, dancing in the kitchen, traveling to new places, learning side by side, and always being each other’s favorite person to come home to.</p>
 
                     <p class="fs-p-xxl letter-spacing-15 text-center mb-5">She believes in building a life that feels like home—and for her, that’s a little bit history, a little bit music, a lot of heart, and Nellit woven into every part of it.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 
-
+<!-- About the Groom -->
+<div class="modal fade" id="aboutTheGroom" tabindex="-1" role="dialog" aria-labelledby="aboutTheGroom" aria-hidden="true">
+    <div class="modal-dialog pt-5" role="document">
+        <div class="py-xl-5 py-3"></div>
+        <div class="modal-content">
+            <div class="customSectionBox modal-body bg-white text-center position-relative overflow-hidden">
+                <div class="position-relative p-xl-5 p-2">
+                    <button type="button" class="position-absolute top-0 end-0 mt-3 me-3 z-2 btn-close p-0 text-white fs-xl-2 fs-2 bg-transparent border-0" onclick="returnToParentModal('#readMore')" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                    <div class="py-xl-0 py-3"></div>
                     <h2 class="font-titulo text-center fs-xl-sm-1 fs-2-md">About the Groom</h2>
                     <p class="fs-p-xxl letter-spacing-15 text-center mb-3">Nellit was born in Valledupar, Colombia, but grew up between Barranquilla, Bogotá, and Miami—but it’s Barranquilla’s vibrant spirit and Miami’s energy that feel most like home. He carries the rhythm of Valledupar in his love for vallenato, the joy and color of Barranquilla’s Carnaval in his outlook, and the fast-paced, sun-soaked energy of Miami in his stride. His background blends Colombia’s Caribbean warmth with the deep-rooted pride of his Levantine heritage, creating a quiet strength shaped by culture, tradition, and heart.</p>
 
@@ -151,3 +192,80 @@
         </div>
     </div>
 </div>
+
+<script>
+// Función para abrir un modal hijo desde un modal padre
+function openChildModal(childModalId, parentModalId) {
+    // Verificar si Bootstrap está disponible
+    if (typeof bootstrap !== 'undefined') {
+        // Usar Bootstrap 5
+        const parentModal = bootstrap.Modal.getInstance(document.querySelector(parentModalId));
+        if (parentModal) {
+            parentModal.hide();
+        }
+        
+        setTimeout(() => {
+            const childModal = new bootstrap.Modal(document.querySelector(childModalId));
+            childModal.show();
+        }, 300);
+    } else if (typeof $ !== 'undefined' && $.fn.modal) {
+        // Usar jQuery Bootstrap (Bootstrap 4 o anterior)
+        $(parentModalId).modal('hide');
+        
+        setTimeout(() => {
+            $(childModalId).modal('show');
+        }, 300);
+    } else {
+        // Fallback sin Bootstrap
+        document.querySelector(parentModalId).style.display = 'none';
+        document.querySelector(parentModalId).classList.remove('show');
+        document.body.classList.remove('modal-open');
+        
+        setTimeout(() => {
+            document.querySelector(childModalId).style.display = 'block';
+            document.querySelector(childModalId).classList.add('show');
+            document.body.classList.add('modal-open');
+        }, 300);
+    }
+}
+
+// Función para regresar al modal padre
+function returnToParentModal(parentModalId) {
+    if (typeof bootstrap !== 'undefined') {
+        // Usar Bootstrap 5
+        const currentModal = document.querySelector('.modal.show');
+        if (currentModal) {
+            const modalInstance = bootstrap.Modal.getInstance(currentModal);
+            if (modalInstance) {
+                modalInstance.hide();
+            }
+        }
+        
+        setTimeout(() => {
+            const parentModal = new bootstrap.Modal(document.querySelector(parentModalId));
+            parentModal.show();
+        }, 300);
+    } else if (typeof $ !== 'undefined' && $.fn.modal) {
+        // Usar jQuery Bootstrap
+        $('.modal.show').modal('hide');
+        
+        setTimeout(() => {
+            $(parentModalId).modal('show');
+        }, 300);
+    } else {
+        // Fallback sin Bootstrap
+        const currentModal = document.querySelector('.modal.show');
+        if (currentModal) {
+            currentModal.style.display = 'none';
+            currentModal.classList.remove('show');
+            document.body.classList.remove('modal-open');
+        }
+        
+        setTimeout(() => {
+            document.querySelector(parentModalId).style.display = 'block';
+            document.querySelector(parentModalId).classList.add('show');
+            document.body.classList.add('modal-open');
+        }, 300);
+    }
+}
+</script>
