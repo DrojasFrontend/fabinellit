@@ -3,7 +3,7 @@
     <div class="modal-dialog pt-5" role="document">
         <div class="py-xl-5 py-3"></div>
         <div class="modal-content">
-            <div class="customSectionBox modal-body bg-white text-center position-relative overflow-hidden">
+            <div class="customSectionBox modal-body text-center position-relative overflow-hidden">
                 <div class="position-relative p-xl-5 p-2">
                     <button type="button" class="position-absolute top-0 end-0 mt-3 me-3 z-2 btn-close p-0 text-white fs-xl-2 fs-2 bg-transparent border-0" data-bs-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
@@ -53,7 +53,7 @@
     <div class="modal-dialog pt-5" role="document">
         <div class="py-xl-5 py-3"></div>
         <div class="modal-content">
-            <div class="customSectionBox modal-body bg-white text-center position-relative overflow-hidden">
+            <div class="customSectionBox modal-body text-center position-relative overflow-hidden">
                 <div class="position-relative p-xl-5 p-2">
                     <button type="button" class="position-absolute top-0 end-0 mt-3 me-3 z-2 btn-close p-0 text-white fs-xl-2 fs-2 bg-transparent border-0" onclick="returnToParentModal('#readMore')" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
@@ -86,7 +86,7 @@
     <div class="modal-dialog pt-5" role="document">
         <div class="py-xl-5 py-3"></div>
         <div class="modal-content">
-            <div class="customSectionBox modal-body bg-white text-center position-relative overflow-hidden">
+            <div class="customSectionBox modal-body text-center position-relative overflow-hidden">
                 <div class="position-relative p-xl-5 p-2">
                     <button type="button" class="position-absolute top-0 end-0 mt-3 me-3 z-2 btn-close p-0 text-white fs-xl-2 fs-2 bg-transparent border-0" onclick="returnToParentModal('#readMore')" aria-label="Close">
                         <span aria-hidden="true">&times;</span>

@@ -182,7 +182,7 @@ get_header();
         <div class="position-relative">
             <div class="py-5"></div>
             <div class="py-5"></div>
-            <div class="py-5"></div>
+            <div class="py-xl-5 pt-5"></div>
             <img class="position-absolute top-0 start-0 w-100 h-100 object-fit-cover z-1" src="<?php echo THEME_IMG; ?>bg-gallery.webp" alt="Background Gallery">
             <div class="py-3"></div>
             <div class="container position-relative z-3">

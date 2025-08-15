@@ -1,6 +1,6 @@
 <section class="customSectionMap">
     <div class="position-relative">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3923.9672429721063!2d-75.5497515!3d10.424174100000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8ef62f9f97ae42f5%3A0x7483c32dac4a7318!2sCasa%201537!5e0!3m2!1ses-419!2sco!4v1721107358773!5m2!1ses-419!2sco" width="100%" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1Yu1fs-WJZqqmu359TLJ7HIY3OYFY2BE&ehbc=2E312F&noprof=1" width="100%" height="600"></iframe>
         <div class="position-xl-absolute top-0 start-0 w-100 h-100 d-flex align-items-end">
             <div class="container bg-white">
                 <div class="row py-xl-4 py-xl-3 p-3">
@@ -13,7 +13,7 @@
                         <div class="d-flex flex-column justify-content-center h-100">
                             <p class="fs-xl-3 fs-3 text-primary letter-spacing-xl-15 letter-spacing-15">RAFAEL NUÑEZ</p>
                             <p class="fs-xl-5 fs-6-small text-primary">INTERNATIONAL AIRPORT</p>
-                            <p class="fs-p-small fs-6-small text-primary fw-light mb-2" style="font-family: 'Poppins', sans-serif !important; color: #959595 !important;">Cartagena, Colombia</p>
+                            <p class="fs-p-small fs-6-small text-primary fw-light mb-2">Cartagena, Colombia</p>
                         </div>
                     </div>
                     <div class="d-flex align-items-center col-12 col-xl-7 ps-xl-4">

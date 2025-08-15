@@ -48,10 +48,10 @@ get_header();
 
                                         <div class="py-4"></div>
                                         <h2 class="font-titulo text-center fs-xl-sm-1 fs-3 mb-4">Leave Us a Message</h2>
-                                        <p class="fs-xl-5 fs-p-md letter-spacing-15 text-center mb-5">
+                                        <p class="fs-xl-5 fs-p-md letter-spacing-15 text-center mb-5 px-xl-0 px-5">
                                             We'd love to read your words before the big day.
                                         </p>
-                                        <p class="fs-xl-5 fs-p-md letter-spacing-15 text-center mb-5" style="font-style: italic;">
+                                        <p class="fs-xl-5 fs-p-md letter-spacing-15 text-center mb-5 px-xl-0 px-5" style="font-style: italic;">
                                            Whether you're celebrating with us in person or in spirit, your presence means the world to us. If you’d like to share a few words, a special memory, or a wish for our future, this is the perfect place to do it. We’ll treasure every message!
                                         </p>
 
