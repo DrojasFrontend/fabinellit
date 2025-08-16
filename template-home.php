@@ -269,10 +269,10 @@ get_header();
                 <img width="w-auto" height="80" src="<?php echo THEME_IMG; ?>decorative-center-2.webp" alt="Decorative Center 2">
             <?php endif; ?>
         </div>
-        <div class="container position-relative z-3">
+        <div class="container position-relative z-3 customSectionCountdownColor">
             <div class="row">
                 <div class="py-xl-5 py-3"></div>
-                <h2 class="font-titulo fs-xl-md-1 fs-3 text-white text-center">Countdown to the Wedding</h2>
+                <h2 class="font-titulo fs-xl-md-1 fs-3 text-center">Countdown to the Wedding</h2>
                 <div id="mi-countdown" data-countdown="2026-02-07 14:00:00"></div>
             </div>
             <div class="row">
