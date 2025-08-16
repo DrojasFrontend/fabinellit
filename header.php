@@ -52,13 +52,16 @@
           </div>
           <div class="col-12 d-none d-xl-block">
             <ul class="customHeader d-none d-xl-grid gap-5 py-xl-2 py-1">
-              <li class="d-flex justify-content-center align-items-center"><a class="fs-xl-5 text-primary letter-spacing-xl-4" href="/#wedding">WEDDING</a></li>
-              <li class="d-flex justify-content-center align-items-center"><a class="fs-xl-5 text-primary letter-spacing-xl-4" href="/#events">EVENTS</a></li>
+              <li class="d-flex justify-content-center align-items-center"><a class="fs-xl-6 text-primary letter-spacing-xl-4" href="/#wedding">WEDDING</a></li>
+              <li class="d-flex justify-content-center align-items-center"><a class="fs-xl-6 text-primary letter-spacing-xl-4" href="/#events">EVENTS</a></li>
+              <li class="d-flex justify-content-center align-items-center"><a class="fs-xl-6 text-primary letter-spacing-xl-4" href="/about-us">ABOUT US</a></li>
               <li class="d-flex justify-content-center align-items-center"><a class="font-titulo fs-xl-2 fs-3 text-primary" href="/" style="transform: translateY(3px);">Fabiola & Nellit</a></li>
-              <li class="d-flex justify-content-center align-items-center"><a class="fs-xl-5 text-primary letter-spacing-xl-4" href="/#cartagena">CARTAGENA</a></li>
+              <li class="d-flex justify-content-center align-items-center"><a class="fs-xl-6 text-primary letter-spacing-xl-4" href="/#cartagena">CARTAGENA</a></li>
               <li class="d-flex justify-content-center align-items-center">
-                <a class="fs-xl-5 text-primary letter-spacing-xl-4" href="/#rsvp">R.S.V.P.</a>
-                <?php get_template_part('template-parts/components/icons/componente-traslate'); ?>
+                <a class="fs-xl-6 text-primary letter-spacing-xl-4" href="/#rsvp">R.S.V.P.</a>
+              </li>
+              <li class="d-flex justify-content-center align-items-center">
+              <?php get_template_part('template-parts/components/icons/componente-traslate'); ?>
               </li>
             </ul>
           </div>
@@ -84,12 +87,13 @@
           <?php get_template_part('template-parts/components/icons/icon-close'); ?>
         </button>
         <ul class="customHeader d-flex flex-column justify-content-center align-items-center gap-5 py-xl-2 py-1">
-          <li class="d-flex justify-content-center align-items-center"><a class="fs-xl-5 text-primary letter-spacing-xl-4" href="/#wedding">WEDDING</a></li>
-          <li class="d-flex justify-content-center align-items-center"><a class="fs-xl-5 text-primary letter-spacing-xl-4" href="/#events">EVENTS</a></li>
+          <li class="d-flex justify-content-center align-items-center"><a class="fs-xl-6 text-primary letter-spacing-xl-4" href="/#wedding">WEDDING</a></li>
+          <li class="d-flex justify-content-center align-items-center"><a class="fs-xl-6 text-primary letter-spacing-xl-4" href="/#events">EVENTS</a></li>
+          <li class="d-flex justify-content-center align-items-center"><a class="fs-xl-6 text-primary letter-spacing-xl-4" href="/about-us">ABOUT US</a></li>
           <li class="d-flex justify-content-center align-items-center"><a class="font-titulo fs-xl-3-small fs-3 text-primary" href="/">Fabiola & Nellit</a></li>
-          <li class="d-flex justify-content-center align-items-center"><a class="fs-xl-5 text-primary letter-spacing-xl-4" href="/#cartagena">CARTAGENA</a></li>
+          <li class="d-flex justify-content-center align-items-center"><a class="fs-xl-6 text-primary letter-spacing-xl-4" href="/#cartagena">CARTAGENA</a></li>
           <li class="d-flex justify-content-center align-items-center">
-            <a class="fs-xl-5 text-primary letter-spacing-xl-4" href="/#rsvp">R.S.V.P.</a>
+            <a class="fs-xl-6 text-primary letter-spacing-xl-4" href="/#rsvp">R.S.V.P.</a>
           </li>
         </ul>
       </div>

@@ -34,14 +34,7 @@
 
                     <p class="fs-p-xxl letter-spacing-15 text-center mb-5">They can’t wait to dance, laugh, and live it all out—with you at their side.</p>
 
-                    <div class="d-flex flex-xl-row flex-column gap-2">
-                        <button class="btn btn-primary mx-auto border-0" type="button" onclick="openChildModal('#aboutTheBride', '#readMore')">
-                            About the Bride
-                        </button>
-                        <button class="btn btn-primary mx-auto border-0" type="button" onclick="openChildModal('#aboutTheGroom', '#readMore')">
-                            About the Groom
-                        </button>
-                    </div>
+                    
                 </div>
             </div>
         </div>
@@ -55,7 +48,8 @@
         <div class="modal-content">
             <div class="customSectionBox modal-body text-center position-relative overflow-hidden">
                 <div class="position-relative p-xl-5 p-2">
-                    <button type="button" class="position-absolute top-0 end-0 mt-3 me-3 z-2 btn-close p-0 text-white fs-xl-2 fs-2 bg-transparent border-0" onclick="returnToParentModal('#readMore')" aria-label="Close">
+                    <!-- <button type="button" class="position-absolute top-0 end-0 mt-3 me-3 z-2 btn-close p-0 text-white fs-xl-2 fs-2 bg-transparent border-0" onclick="returnToParentModal('#readMore')" aria-label="Close"> -->
+                    <button type="button" class="position-absolute top-0 end-0 mt-3 me-3 z-2 btn-close p-0 text-white fs-xl-2 fs-2 bg-transparent border-0" data-bs-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                     </button>
                     <div class="py-xl-0 py-3"></div>
@@ -88,7 +82,8 @@
         <div class="modal-content">
             <div class="customSectionBox modal-body text-center position-relative overflow-hidden">
                 <div class="position-relative p-xl-5 p-2">
-                    <button type="button" class="position-absolute top-0 end-0 mt-3 me-3 z-2 btn-close p-0 text-white fs-xl-2 fs-2 bg-transparent border-0" onclick="returnToParentModal('#readMore')" aria-label="Close">
+                    <!-- <button type="button" class="position-absolute top-0 end-0 mt-3 me-3 z-2 btn-close p-0 text-white fs-xl-2 fs-2 bg-transparent border-0" onclick="returnToParentModal('#readMore')" aria-label="Close"> -->
+                    <button type="button" class="position-absolute top-0 end-0 mt-3 me-3 z-2 btn-close p-0 text-white fs-xl-2 fs-2 bg-transparent border-0" data-bs-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                     </button>
                     <div class="py-xl-0 py-3"></div>
@@ -195,77 +190,77 @@
 
 <script>
 // Función para abrir un modal hijo desde un modal padre
-function openChildModal(childModalId, parentModalId) {
-    // Verificar si Bootstrap está disponible
-    if (typeof bootstrap !== 'undefined') {
-        // Usar Bootstrap 5
-        const parentModal = bootstrap.Modal.getInstance(document.querySelector(parentModalId));
-        if (parentModal) {
-            parentModal.hide();
-        }
+// function openChildModal(childModalId, parentModalId) {
+//     // Verificar si Bootstrap está disponible
+//     if (typeof bootstrap !== 'undefined') {
+//         // Usar Bootstrap 5
+//         const parentModal = bootstrap.Modal.getInstance(document.querySelector(parentModalId));
+//         if (parentModal) {
+//             parentModal.hide();
+//         }
         
-        setTimeout(() => {
-            const childModal = new bootstrap.Modal(document.querySelector(childModalId));
-            childModal.show();
-        }, 300);
-    } else if (typeof $ !== 'undefined' && $.fn.modal) {
-        // Usar jQuery Bootstrap (Bootstrap 4 o anterior)
-        $(parentModalId).modal('hide');
+//         setTimeout(() => {
+//             const childModal = new bootstrap.Modal(document.querySelector(childModalId));
+//             childModal.show();
+//         }, 300);
+//     } else if (typeof $ !== 'undefined' && $.fn.modal) {
+//         // Usar jQuery Bootstrap (Bootstrap 4 o anterior)
+//         $(parentModalId).modal('hide');
         
-        setTimeout(() => {
-            $(childModalId).modal('show');
-        }, 300);
-    } else {
-        // Fallback sin Bootstrap
-        document.querySelector(parentModalId).style.display = 'none';
-        document.querySelector(parentModalId).classList.remove('show');
-        document.body.classList.remove('modal-open');
+//         setTimeout(() => {
+//             $(childModalId).modal('show');
+//         }, 300);
+//     } else {
+//         // Fallback sin Bootstrap
+//         document.querySelector(parentModalId).style.display = 'none';
+//         document.querySelector(parentModalId).classList.remove('show');
+//         document.body.classList.remove('modal-open');
         
-        setTimeout(() => {
-            document.querySelector(childModalId).style.display = 'block';
-            document.querySelector(childModalId).classList.add('show');
-            document.body.classList.add('modal-open');
-        }, 300);
-    }
-}
+//         setTimeout(() => {
+//             document.querySelector(childModalId).style.display = 'block';
+//             document.querySelector(childModalId).classList.add('show');
+//             document.body.classList.add('modal-open');
+//         }, 300);
+//     }
+// }
 
-// Función para regresar al modal padre
-function returnToParentModal(parentModalId) {
-    if (typeof bootstrap !== 'undefined') {
-        // Usar Bootstrap 5
-        const currentModal = document.querySelector('.modal.show');
-        if (currentModal) {
-            const modalInstance = bootstrap.Modal.getInstance(currentModal);
-            if (modalInstance) {
-                modalInstance.hide();
-            }
-        }
+// // Función para regresar al modal padre
+// function returnToParentModal(parentModalId) {
+//     if (typeof bootstrap !== 'undefined') {
+//         // Usar Bootstrap 5
+//         const currentModal = document.querySelector('.modal.show');
+//         if (currentModal) {
+//             const modalInstance = bootstrap.Modal.getInstance(currentModal);
+//             if (modalInstance) {
+//                 modalInstance.hide();
+//             }
+//         }
         
-        setTimeout(() => {
-            const parentModal = new bootstrap.Modal(document.querySelector(parentModalId));
-            parentModal.show();
-        }, 300);
-    } else if (typeof $ !== 'undefined' && $.fn.modal) {
-        // Usar jQuery Bootstrap
-        $('.modal.show').modal('hide');
+//         setTimeout(() => {
+//             const parentModal = new bootstrap.Modal(document.querySelector(parentModalId));
+//             parentModal.show();
+//         }, 300);
+//     } else if (typeof $ !== 'undefined' && $.fn.modal) {
+//         // Usar jQuery Bootstrap
+//         $('.modal.show').modal('hide');
         
-        setTimeout(() => {
-            $(parentModalId).modal('show');
-        }, 300);
-    } else {
-        // Fallback sin Bootstrap
-        const currentModal = document.querySelector('.modal.show');
-        if (currentModal) {
-            currentModal.style.display = 'none';
-            currentModal.classList.remove('show');
-            document.body.classList.remove('modal-open');
-        }
+//         setTimeout(() => {
+//             $(parentModalId).modal('show');
+//         }, 300);
+//     } else {
+//         // Fallback sin Bootstrap
+//         const currentModal = document.querySelector('.modal.show');
+//         if (currentModal) {
+//             currentModal.style.display = 'none';
+//             currentModal.classList.remove('show');
+//             document.body.classList.remove('modal-open');
+//         }
         
-        setTimeout(() => {
-            document.querySelector(parentModalId).style.display = 'block';
-            document.querySelector(parentModalId).classList.add('show');
-            document.body.classList.add('modal-open');
-        }, 300);
-    }
-}
+//         setTimeout(() => {
+//             document.querySelector(parentModalId).style.display = 'block';
+//             document.querySelector(parentModalId).classList.add('show');
+//             document.body.classList.add('modal-open');
+//         }, 300);
+//     }
+// }
 </script>

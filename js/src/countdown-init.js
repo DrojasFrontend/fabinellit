@@ -11,19 +11,19 @@ export const initCountdown = (targetDate, containerId) => {
     // Crear HTML básico
     container.innerHTML = `
         <div class="countdown">
-            <div class="d-flex flex-column text-center text-primary fs-xl-lg-1 fs-1 text-red">
+            <div class="d-flex flex-column text-center fs-xl-lg-1 fs-1 text-white">
                 <span class="" id="${containerId}-days">00</span>
                 <label class="fs-xl-4 fs-6 text-uppercase">days</label>
             </div>
-            <div class="d-flex flex-column text-center text-primary fs-xl-lg-1 fs-1 text-red">
+            <div class="d-flex flex-column text-center fs-xl-lg-1 fs-1 text-white">
                 <span class="" id="${containerId}-hours">00</span>
                 <label class="fs-xl-4 fs-6 text-uppercase">hours</label>
             </div>
-            <div class="d-flex flex-column text-center text-primary fs-xl-lg-1 fs-1 text-red">
+            <div class="d-flex flex-column text-center fs-xl-lg-1 fs-1 text-white">
                 <span class="" id="${containerId}-minutes">00</span>
                 <label class="fs-xl-4 fs-6 text-uppercase">minutes</label>
             </div>
-            <div class="d-flex flex-column text-center text-primary fs-xl-lg-1 fs-1 text-red">
+            <div class="d-flex flex-column text-center fs-xl-lg-1 fs-1 text-white">
                 <span class="" id="${containerId}-seconds">00</span>
                 <label class="fs-xl-4 fs-6 text-uppercase">seconds</label>
             </div>

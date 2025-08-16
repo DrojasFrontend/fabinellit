@@ -231,6 +231,10 @@ strong {
     color: var(--bs-gray) !important;
 }
 
+.text-white {
+    color: var(--bs-white) !important;
+}
+
 .bg-white-100 {
     background-color: var(--bs-white-100) !important;
 }
@@ -272,7 +276,7 @@ header {
 .custom {
     &Header {
         display: grid;
-        grid-template-columns: 1fr 1fr auto 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr auto 1fr 1fr 1fr;
 
         &Mobile {
             transform: translateX(100%);

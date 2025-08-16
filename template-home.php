@@ -272,7 +272,7 @@ get_header();
         <div class="container position-relative z-3">
             <div class="row">
                 <div class="py-xl-5 py-3"></div>
-                <h2 class="font-titulo fs-xl-md-1 fs-3 text-red text-center">Countdown to the Wedding</h2>
+                <h2 class="font-titulo fs-xl-md-1 fs-3 text-white text-center">Countdown to the Wedding</h2>
                 <div id="mi-countdown" data-countdown="2026-02-07 14:00:00"></div>
             </div>
             <div class="row">
