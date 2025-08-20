@@ -110,7 +110,7 @@ get_header();
                                         <h2 class="font-titulo fs-2-md">Island Day</h2>
                                         <p class="fs-xl-4 fs-6-md mb-xl-2 mb-4">February 6, 2026</p>
                                         <p class="fs-xl-4 fs-6-md mb-3">10:00am - 4:00pm</p>
-                                        <p class="fs-xl-4 fs-6-md" style="line-height: 20px;">Agua Azul,</p>
+                                        <p class="fs-xl-4 fs-6-md" style="line-height: 20px;">Blue Water,</p>
                                         <p class="fs-xl-4 fs-6-md mb-3">Isla de Barú</p>
                                         <a href="https://maps.app.goo.gl/2ookbLmb9MDyTPwdA" target="_blank" class="btn btn-primary mx-auto mb-4">Location</a>
 
