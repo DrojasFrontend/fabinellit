@@ -113,7 +113,7 @@
     <div class="modal-dialog pt-5 h-100 d-flex align-items-center pt-5" role="document">
         <div class="modal-content customSectionBox">
             <div class="col-12 col-xl-10 mx-auto">
-                <button type="button" class="btn-close p-0 text-white fs-xl-2 fs-2 bg-transparent border-0 position-absolute top-0 end-0 mt-3 me-3 z-2" data-bs-dismiss="modal" aria-label="Close">
+                <button type="button" class="btn-close p-0 text-primary fs-xl-2 fs-2 bg-transparent border-0 position-absolute top-0 end-0 mt-3 me-3 z-2" data-bs-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">&times;</span>
                 </button>
                 <div class="modal-body text-center position-relative overflow-hidden">
@@ -143,7 +143,7 @@
     <div class="modal-dialog pt-5 h-100 d-flex align-items-center pt-5" role="document">
         <div class="modal-content customSectionBox">
             <div class="col-12 col-xl-10 mx-auto">
-                <button type="button" class="btn-close p-0 text-white fs-xl-2 fs-2 bg-transparent border-0 position-absolute top-0 end-0 mt-3 me-3 z-2" data-bs-dismiss="modal" aria-label="Close">
+                <button type="button" class="btn-close p-0 text-primary fs-xl-2 fs-2 bg-transparent border-0 position-absolute top-0 end-0 mt-3 me-3 z-2" data-bs-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">&times;</span>
                 </button>
                 <div class="modal-body text-center position-relative overflow-hidden">
@@ -170,7 +170,7 @@
     <div class="modal-dialog pt-5 h-100 d-flex align-items-center pt-5" role="document">
         <div class="modal-content customSectionBox">
             <div class="col-12 col-xl-10 mx-auto">
-                <button type="button" class="btn-close p-0 text-white fs-xl-2 fs-2 bg-transparent border-0 position-absolute top-0 end-0 mt-3 me-3 z-2" data-bs-dismiss="modal" aria-label="Close">
+                <button type="button" class="btn-close p-0 text-primary fs-xl-2 fs-2 bg-transparent border-0 position-absolute top-0 end-0 mt-3 me-3 z-2" data-bs-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">&times;</span>
                 </button>
                 <div class="modal-body text-center position-relative overflow-hidden">

@@ -59,11 +59,11 @@ get_header();
                                 <h3 class="fs-xl-3 fs-6 mb-2">CEREMONY</h3>
                                 <p class="fs-xl-4 fs-6-md mb-2">7:00 P.M.</p>
                                 <p class="fs-xl-4 fs-6-md" style="line-height: 20px;">Catedral</p>
-                                <p class="fs-xl-4 fs-6-md mb-3">Santa Catalina de Alejandria</p>
+                                <p class="fs-xl-4 fs-6-md mb-3">Santa Catalina de Alejandría</p>
                                 <a href="https://maps.app.goo.gl/xMqRZTiuuizL43zA8" target="_blank" class="btn btn-primary mx-auto mb-4">Location</a>
     
                                 <h3 class="fs-xl-3 fs-6 mb-2">RECEPTION TO FOLLOW</h3>
-                                <p class="fs-xl-4 fs-6-md" style="line-height: 20px;">Centro de convenciones</p>
+                                <p class="fs-xl-4 fs-6-md" style="line-height: 20px;">Centro de Convenciones</p>
                                 <p class="fs-xl-4 fs-6-md mb-3">Cartagena de Indias</p>
                                 <a href="https://maps.app.goo.gl/6LLBDbuMRtUnhB7h7" target="_blank" class="btn btn-primary mx-auto mb-5">Location</a>
     
@@ -291,7 +291,7 @@ get_header();
                         <div class="text-center px-xl-5 px-3">
                             <div class="py-xl-5 pt-5"></div>
                             <h3 class="fs-xl-3 fs-6 mb-3">ENJOY</h3>
-                            <h2 class="font-titulo fs-xl-lg-1 fs-2-md">Cartagena</h2>
+                            <h3 class="font-titulo text-primary fs-xl-lg-1 fs-2-md">Cartagena</h3>
                             <p class="fs-xl-5 letter-spacing-15 mb-4 px-xl-5">
                                 We’re thrilled to be celebrating our wedding in Cartagena, Colombia’s coastal gem. A UNESCO World Heritage Site, this vibrant city is filled with history, charm, and color. Within the walled city, you’ll find cobblestone streets, lush plazas, and stunning colonial architecture.
                             </p>
@@ -299,7 +299,7 @@ get_header();
                                 The best way to experience Cartagena is on foot—wandering through its lively streets, filled with music, delicious food, and unique bars. We recommend staying within the walled city, where everything is just a short walk away.
                             </p>
                             <div class="py-xl-4 pt-3"></div>
-                            <h2 class="font-titulo fs-xl-sm-1 fs-2-md">Suggested by Us</h2>
+                            <h3 class="font-titulo fs-xl-sm-1 fs-2-md">Suggested by Us</h3>
                             <ul class="pt-xl-5 pt-3 px-4">
                                 <li class="d-flex gap-3 align-items-center py-xl-3 px-xl-4 py-2 px-2 clickeable" style="cursor: pointer;">
                                     <span class="icono"><img class="d-block w-100" src="<?php echo THEME_IMG; ?>icons/icon-travel-info.svg" alt="Home 1"></span>

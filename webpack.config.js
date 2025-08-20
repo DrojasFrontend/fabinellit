@@ -93,7 +93,7 @@ module.exports = [
 				filename: "./css/build/main.min.[fullhash].css",
 			}),
 			new BrowserSyncPlugin({
-				proxy: "http://fabinellit.local/", // Ajusta esto a tu URL local de WordPress
+				proxy: "http://fabiola.local/", // Ajusta esto a tu URL local de WordPress
 				port: 3000,
 				files: ["./**/*.php", "./css/src/**/*.scss", "./js/src/**/*.js"],
 				injectChanges: true,
