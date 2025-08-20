@@ -110,7 +110,7 @@ get_header();
                                         <h2 class="font-titulo fs-2-md">Island Day</h2>
                                         <p class="fs-xl-4 fs-6-md mb-xl-2 mb-4">February 6, 2026</p>
                                         <p class="fs-xl-4 fs-6-md mb-3">10:00am - 4:00pm</p>
-                                        <p class="fs-xl-4 fs-6-md" style="line-height: 20px;">Blue Water,</p>
+                                        <p class="fs-xl-4 fs-6-md" style="line-height: 20px;">Agua Azul,</p>
                                         <p class="fs-xl-4 fs-6-md mb-3">Isla de Barú</p>
                                         <a href="https://maps.app.goo.gl/2ookbLmb9MDyTPwdA" target="_blank" class="btn btn-primary mx-auto mb-4">Location</a>
 
@@ -328,6 +328,10 @@ get_header();
                                 <li class="d-flex gap-3 align-items-center py-xl-3 px-xl-4 py-2 px-2 clickeable border-0" style="cursor: pointer;">
                                     <span class="icono"><img class="d-block w-100" src="<?php echo THEME_IMG; ?>icons/icon-boutiques.svg" alt="Home 1"></span>
                                     <a class="fs-xl-3 text-primary letter-spacing-xl-3 letter-spacing-15" href="/cartagena#boutiques">BOUTIQUES</a>
+                                </li>
+                                <li class="d-flex gap-3 align-items-center py-xl-3 px-xl-4 py-2 px-2 clickeable border-0" style="cursor: pointer;">
+                                    <span class="icono"><img class="d-block w-100" src="<?php echo THEME_IMG; ?>icons/icon-boutiques.svg" alt="Home 1"></span>
+                                    <a class="fs-xl-3 text-primary letter-spacing-xl-3 letter-spacing-15 uppercase" href="/cartagena#thinks">thinks to do in the city</a>
                                 </li>
                             </ul>
                             <div class="py-xl-4 pt-4 pb-2"></div>

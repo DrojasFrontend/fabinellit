@@ -46,29 +46,29 @@
     <div class="modal-dialog pt-5" role="document">
         <div class="py-xl-5 py-3"></div>
         <div class="modal-content">
-            <div class="customSectionBox modal-body text-center position-relative overflow-hidden">
+            <div class="customSectionBox modal-body text-center position-relative overflow-hidden" style="background-color: #f4f3f2;">
                 <div class="position-relative p-xl-5 p-2">
                     <!-- <button type="button" class="position-absolute top-0 end-0 mt-3 me-3 z-2 btn-close p-0 text-white fs-xl-2 fs-2 bg-transparent border-0" onclick="returnToParentModal('#readMore')" aria-label="Close"> -->
-                    <button type="button" class="position-absolute top-0 end-0 mt-3 me-3 z-2 btn-close p-0 text-white fs-xl-2 fs-2 bg-transparent border-0" data-bs-dismiss="modal" aria-label="Close">
+                    <button type="button" class="position-absolute top-0 end-0 mt-3 me-3 z-2 btn-close p-0 text-primary fs-xl-2 fs-2 bg-transparent border-0" data-bs-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                     </button>
                     <div class="py-xl-0 py-3"></div>
 
                     <h2 class="font-titulo text-center fs-xl-sm-1 fs-2-md">About the Bride</h2>
 
-                    <p class="fs-p-xxl letter-spacing-15 text-center mb-3">Born in Puerto Rico and raised in Miami, with roots in Mexico, Cuba, Spain, and Italy, Fabi is a rich tapestry of cultures, flavors, and feelings. She grew up between coastlines and countries—shaped by family traditions, late-night talks, and summers spent between Mexico City and the Caribbean. She’s deeply proud of her heritage—and it shows in her music, her food, and her heart.</p>
+                    <p class="fs-xl-5 fs-p-md letter-spacing-15 text-center mb-3">Born in Puerto Rico and raised in Miami, with roots in Mexico, Cuba, Spain, and Italy, Fabi is a rich tapestry of cultures, flavors, and feelings. She grew up between coastlines and countries—shaped by family traditions, late-night talks, and summers spent between Mexico City and the Caribbean. She’s deeply proud of her heritage—and it shows in her music, her food, and her heart.</p>
 
-                    <p class="fs-p-xxl letter-spacing-15 text-center mb-3">She studied international relations and political science (just don’t expect her to debate—she’d much rather connect than convince). Now, she’s in the thick of a career pivot into medicine—a path as demanding as it is meaningful, one that draws on her deep curiosity, empathy, and love of understanding how people work.</p>
+                    <p class="fs-xl-5 fs-p-md letter-spacing-15 text-center mb-3">She studied international relations and political science (just don’t expect her to debate—she’d much rather connect than convince). Now, she’s in the thick of a career pivot into medicine—a path as demanding as it is meaningful, one that draws on her deep curiosity, empathy, and love of understanding how people work.</p>
 
-                    <p class="fs-p-xxl letter-spacing-15 text-center mb-3">Fabi lights up when she’s diving into something—health, history, human behavior—and she can get just as lost in a karaoke ballad as in a long, cozy conversation about life. People often assume she’s extroverted, but beneath the spark is a soft, sensitive soul. She notices everything: how someone speaks to a waiter, whether a dog feels safe in a room, or how her loved ones are really feeling beneath the surface.</p>
+                    <p class="fs-xl-5 fs-p-md letter-spacing-15 text-center mb-3">Fabi lights up when she’s diving into something—health, history, human behavior—and she can get just as lost in a karaoke ballad as in a long, cozy conversation about life. People often assume she’s extroverted, but beneath the spark is a soft, sensitive soul. She notices everything: how someone speaks to a waiter, whether a dog feels safe in a room, or how her loved ones are really feeling beneath the surface.</p>
 
-                    <p class="fs-p-xxl letter-spacing-15 text-center mb-3">She’s loyal to the bone, emotionally observant, and moved by the quiet strength of people who’ve lived through hard things. She’s equal parts old soul and firecracker, soft heart and strong will—forever seeking to learn, love, and live with intention.</p>
+                    <p class="fs-xl-5 fs-p-md letter-spacing-15 text-center mb-3">She’s loyal to the bone, emotionally observant, and moved by the quiet strength of people who’ve lived through hard things. She’s equal parts old soul and firecracker, soft heart and strong will—forever seeking to learn, love, and live with intention.</p>
 
-                    <p class="fs-p-xxl letter-spacing-15 text-center mb-3">Fabi dreams of a life filled with warmth and meaning—long walks, deep conversations, spontaneous laughter, shared meals, and quiet moments that turn into lasting memories. She wants a marriage grounded in joy, genuine connection, playful energy, and a bond that deepens through the everyday rhythms of life.</p>
+                    <p class="fs-xl-5 fs-p-md letter-spacing-15 text-center mb-3">Fabi dreams of a life filled with warmth and meaning—long walks, deep conversations, spontaneous laughter, shared meals, and quiet moments that turn into lasting memories. She wants a marriage grounded in joy, genuine connection, playful energy, and a bond that deepens through the everyday rhythms of life.</p>
 
-                    <p class="fs-p-xxl letter-spacing-15 text-center mb-3">She loves love—the real, beautiful kind. The kind that grows with care, with commitment, and with intention. What she cherishes most is building a life that feels full—gym sessions, dancing in the kitchen, traveling to new places, learning side by side, and always being each other’s favorite person to come home to.</p>
+                    <p class="fs-xl-5 fs-p-md letter-spacing-15 text-center mb-3">She loves love—the real, beautiful kind. The kind that grows with care, with commitment, and with intention. What she cherishes most is building a life that feels full—gym sessions, dancing in the kitchen, traveling to new places, learning side by side, and always being each other’s favorite person to come home to.</p>
 
-                    <p class="fs-p-xxl letter-spacing-15 text-center mb-5">She believes in building a life that feels like home—and for her, that’s a little bit history, a little bit music, a lot of heart, and Nellit woven into every part of it.</p>
+                    <p class="fs-xl-5 fs-p-md letter-spacing-15 text-center mb-5">She believes in building a life that feels like home—and for her, that’s a little bit history, a little bit music, a lot of heart, and Nellit woven into every part of it.</p>
                 </div>
             </div>
         </div>
@@ -80,23 +80,23 @@
     <div class="modal-dialog pt-5" role="document">
         <div class="py-xl-5 py-3"></div>
         <div class="modal-content">
-            <div class="customSectionBox modal-body text-center position-relative overflow-hidden">
+            <div class="customSectionBox modal-body text-center position-relative overflow-hidden" style="background-color: #f4f3f2;">
                 <div class="position-relative p-xl-5 p-2">
                     <!-- <button type="button" class="position-absolute top-0 end-0 mt-3 me-3 z-2 btn-close p-0 text-white fs-xl-2 fs-2 bg-transparent border-0" onclick="returnToParentModal('#readMore')" aria-label="Close"> -->
-                    <button type="button" class="position-absolute top-0 end-0 mt-3 me-3 z-2 btn-close p-0 text-white fs-xl-2 fs-2 bg-transparent border-0" data-bs-dismiss="modal" aria-label="Close">
+                    <button type="button" class="position-absolute top-0 end-0 mt-3 me-3 z-2 btn-close p-0 text-primary fs-xl-2 fs-2 bg-transparent border-0" data-bs-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                     </button>
                     <div class="py-xl-0 py-3"></div>
                     <h2 class="font-titulo text-center fs-xl-sm-1 fs-2-md">About the Groom</h2>
-                    <p class="fs-p-xxl letter-spacing-15 text-center mb-3">Nellit was born in Valledupar, Colombia, but grew up between Barranquilla, Bogotá, and Miami—but it’s Barranquilla’s vibrant spirit and Miami’s energy that feel most like home. He carries the rhythm of Valledupar in his love for vallenato, the joy and color of Barranquilla’s Carnaval in his outlook, and the fast-paced, sun-soaked energy of Miami in his stride. His background blends Colombia’s Caribbean warmth with the deep-rooted pride of his Levantine heritage, creating a quiet strength shaped by culture, tradition, and heart.</p>
+                    <p class="fs-xl-5 fs-p-md letter-spacing-15 text-center mb-3">Nellit was born in Valledupar, Colombia, but grew up between Barranquilla, Bogotá, and Miami—but it’s Barranquilla’s vibrant spirit and Miami’s energy that feel most like home. He carries the rhythm of Valledupar in his love for vallenato, the joy and color of Barranquilla’s Carnaval in his outlook, and the fast-paced, sun-soaked energy of Miami in his stride. His background blends Colombia’s Caribbean warmth with the deep-rooted pride of his Levantine heritage, creating a quiet strength shaped by culture, tradition, and heart.</p>
 
-                    <p class="fs-p-xxl letter-spacing-15 text-center mb-3">He studied business analytics, once dreamed of being a professional soccer player, and now spends his days building meaningful projects, like his soccer league that helps local schools raise money for students in need. For Nellit, success isn’t just about achievement; it’s about purpose, impact, and showing up for others.</p>
+                    <p class="fs-xl-5 fs-p-md letter-spacing-15 text-center mb-3">He studied business analytics, once dreamed of being a professional soccer player, and now spends his days building meaningful projects, like his soccer league that helps local schools raise money for students in need. For Nellit, success isn’t just about achievement; it’s about purpose, impact, and showing up for others.</p>
 
-                    <p class="fs-p-xxl letter-spacing-15 text-center mb-3">He lights up around family, fútbol, and great food—especially anything with bold flavors and cultural roots. He always knows the score of the match, the perfect playlist for a drive, or just the right moment to make you laugh. But beneath his easygoing charm is someone deeply grounded—someone who listens more than he speaks, who means what he says, and who takes care of the people he loves in steady, meaningful ways.</p>
+                    <p class="fs-xl-5 fs-p-md letter-spacing-15 text-center mb-3">He lights up around family, fútbol, and great food—especially anything with bold flavors and cultural roots. He always knows the score of the match, the perfect playlist for a drive, or just the right moment to make you laugh. But beneath his easygoing charm is someone deeply grounded—someone who listens more than he speaks, who means what he says, and who takes care of the people he loves in steady, meaningful ways.</p>
 
-                    <p class="fs-p-xxl letter-spacing-15 text-center mb-3">Nellit doesn’t need grand gestures to show love—it’s in the steady ways he shows up: making you laugh when you need it most, noticing the little things (especially when it comes to Fabi), and being there when it matters. He believes in building a life that feels calm, joyful, and real: soccer games and road trips, sunset walks and deep talks, loyalty and laughter. With Fabi, he’s found all of that—and more.</p>
+                    <p class="fs-xl-5 fs-p-md letter-spacing-15 text-center mb-3">Nellit doesn’t need grand gestures to show love—it’s in the steady ways he shows up: making you laugh when you need it most, noticing the little things (especially when it comes to Fabi), and being there when it matters. He believes in building a life that feels calm, joyful, and real: soccer games and road trips, sunset walks and deep talks, loyalty and laughter. With Fabi, he’s found all of that—and more.</p>
 
-                    <p class="fs-p-xxl letter-spacing-15 text-center">Now, Nellit’s all in on building something real—a home, a future, a family—with Fabi by his side. The backyard BBQs, the shared goals, the babies, and the dog—all of it. Everything he does now, he does for the two of them. This wedding isn’t just a celebration of love; it’s the start of that vision taking shape. A promise not just for today, but for all the beautiful days to come.</p>
+                    <p class="fs-xl-5 fs-p-md letter-spacing-15 text-center">Now, Nellit’s all in on building something real—a home, a future, a family—with Fabi by his side. The backyard BBQs, the shared goals, the babies, and the dog—all of it. Everything he does now, he does for the two of them. This wedding isn’t just a celebration of love; it’s the start of that vision taking shape. A promise not just for today, but for all the beautiful days to come.</p>
                     
                     <!-- <button class="btn btn-primary border-2 mx-auto" type="button" data-bs-toggle="modal" data-bs-target="#blackTieExamples">
                         VIEW MORE EXAMPLES
