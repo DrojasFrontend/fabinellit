@@ -256,7 +256,7 @@ get_header();
     </section>
 
     <section class="customSectionPlaces position-relative">
-        <img class="position-absolute top-0 start-0 w-100 object-fit-cover z-1" src="<?php echo THEME_IMG; ?>bg-gallery.webp" alt="Background Gallery">
+        <img class="position-absolute top-0 start-0 w-100 object-fit-cover z-1" src="<?php echo THEME_IMG; ?>bg-gallery-2.webp" alt="Background Gallery">
         <?php if(wp_is_mobile()): ?>
             <img class="position-absolute top-0 start-0 w-100 h-100 object-fit-cover z-1" src="<?php echo THEME_IMG; ?>bg-places-mobile.webp" alt="Background Places mobile">
         <?php else: ?>
