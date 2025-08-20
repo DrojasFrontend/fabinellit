@@ -222,7 +222,7 @@ $places = [
             "link" => "https://oshhotels.com/",
             "image" => THEME_IMG . 'places-cartagena/cartagena-007.png',
             "info" => [
-                "<strong>Promotional Link:</strong><br><a href=\"https://reservations.travelclick.com/115574?RatePlanId=10231023\" target=\"_blank\">reservations.travelclick.com/115574?<br>RatePlanId=10231023</a>",
+                "<strong>Promotional Link:</strong><br><a href=\"https://reservations.travelclick.com/115574?RatePlanId=10231023\" target=\"_blank\">reservations.travelclick.com/115574? RatePlanId=10231023</a>",
                 "<strong>Jose Guette</strong><br>Commercial Executive<br>Móvil: +57 304 2549905<br>Jose@oshhotels.com",
                 "<em>*The wedding weekend will feature complimentary 20-minute massages and a free cold plunge to celebrate the occasion.</em>",
             ],
@@ -806,7 +806,7 @@ $places = [
                                                         <?php if (!empty($place['info'])) : ?>
                                                             <div class="pt-3">
                                                                 <?php foreach ($place['info'] as $infoItem) : ?>
-                                                                    <p class="fs-xl-6 text-gray-100 letter-spacing-1 mb-2"><?php echo $infoItem; ?></p>
+                                                                    <p class="fs-xl-6 text-gray-100 letter-spacing-1 mb-2" style="word-wrap: break-word;overflow-wrap: break-word;"><?php echo $infoItem; ?></p>
                                                                 <?php endforeach; ?>
                                                             </div>
                                                         <?php endif; ?>

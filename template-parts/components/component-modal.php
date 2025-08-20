@@ -56,7 +56,7 @@
 
                     <h2 class="font-titulo text-center fs-xl-sm-1 fs-2-md">About the Bride</h2>
 
-                    <p class="fs-xl-5 fs-p-md letter-spacing-15 text-center mb-3">Born in Puerto Rico and raised in Miami, with roots in Mexico, Cuba, Spain, and Italy, Fabi is a rich tapestry of cultures, flavors, and feelings. She grew up between coastlines and countries—shaped by family traditions, late-night talks, and summers spent between Mexico City and the Caribbean. She’s deeply proud of her heritage—and it shows in her music, her food, and her heart.</p>
+                    <p class="fs-xl-5 fs-p-md letter-spacing-15 text-center mb-3">Born in Puerto Rico and raised in Miami, with roots in Mexico, Cuba, Spain, and Italy, Fabi is a rich tapestry of cultures, flavors, and feelings. She grew up between coastlines and countries—shaped by family traditions, late-night talks, and summers spent between Mexico City and the Caribbean. She’s deeply proud of her heritage—and it shows in her music, <br> her food, and her heart.</p>
 
                     <p class="fs-xl-5 fs-p-md letter-spacing-15 text-center mb-3">She studied international relations and political science (just don’t expect her to debate—she’d much rather connect than convince). Now, she’s in the thick of a career pivot into medicine—a path as demanding as it is meaningful, one that draws on her deep curiosity, empathy, and love of understanding how people work.</p>
 
@@ -94,7 +94,7 @@
 
                     <p class="fs-xl-5 fs-p-md letter-spacing-15 text-center mb-3">He lights up around family, fútbol, and great food—especially anything with bold flavors and cultural roots. He always knows the score of the match, the perfect playlist for a drive, or just the right moment to make you laugh. But beneath his easygoing charm is someone deeply grounded—someone who listens more than he speaks, who means what he says, and who takes care of the people he loves in steady, meaningful ways.</p>
 
-                    <p class="fs-xl-5 fs-p-md letter-spacing-15 text-center mb-3">Nellit doesn’t need grand gestures to show love—it’s in the steady ways he shows up: making you laugh when you need it most, noticing the little things (especially when it comes to Fabi), and being there when it matters. He believes in building a life that feels calm, joyful, and real: soccer games and road trips, sunset walks and deep talks, loyalty and laughter. With Fabi, he’s found all of that—and more.</p>
+                    <p class="fs-xl-5 fs-p-md letter-spacing-15 text-center mb-3">Nellit doesn’t need grand gestures to show love—it’s in the steady ways he shows up: making you laugh when you need it most, noticing the little things (especially when it comes to Fabi), and being there when it matters. He believes in building a life that feels calm, joyful, and real: soccer games and road trips, sunset walks and deep talks, loyalty and laughter. <br> With Fabi, he’s found all of that—and more.</p>
 
                     <p class="fs-xl-5 fs-p-md letter-spacing-15 text-center">Now, Nellit’s all in on building something real—a home, a future, a family—with Fabi by his side. The backyard BBQs, the shared goals, the babies, and the dog—all of it. Everything he does now, he does for the two of them. This wedding isn’t just a celebration of love; it’s the start of that vision taking shape. A promise not just for today, but for all the beautiful days to come.</p>
                     

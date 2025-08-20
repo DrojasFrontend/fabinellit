@@ -342,7 +342,7 @@ get_header();
         </div>
     </section>
 
-    <section class="customSectionPlaces__2">
+    <section class="customSectionPlaces__2 overflow-hidden">
         <div class="position-relative">
             <img class="position-absolute top-0 start-0 w-100 object-fit-cover z-0 d-none d-xl-block" src="<?php echo THEME_IMG; ?>bg-places-2.webp" alt="Background Places 2">
             <div class="py-5"></div>

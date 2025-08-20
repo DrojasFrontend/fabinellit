@@ -40,7 +40,7 @@ get_header();
                                         <p class="fs-xl-5 fs-p-md letter-spacing-15 mb-4 text-center">
                                             Fabi and Nellit met like many of the best stories do—not with a dramatic entrance, but with a shared moment that felt like it was leading somewhere. She was planning a surprise birthday party for her good friend. He was just one of the guests—someone she didn’t know, yet from the moment she reached out to invite him, she felt curious. His energy pulled her in: calm, confident, watchful. That night, under string lights in a Miami backyard, she kept catching herself watching him from the corner of her eye.
                                         </p>
-                                        <p class="fs-xl-5 fs-p-md letter-spacing-15 text-center mb-5">
+                                        <p class="fs-xl-5 fs-p-md letter-spacing-15 text-center mb-3">
                                             They were in different schools, living different lives. And yet, there was a quiet tension between them—familiar yet new. Something magnetic: a slow dance of drawing close, drifting apart, and returning again. There wasn’t a single moment—they drifted toward each other slowly, like the tide pulling in. Subtle glances, shared silences, a pull that deepened before either of them had the words for it.
                                         </p>
 
@@ -54,7 +54,8 @@ get_header();
                                         What makes their love work isn’t that they’re the same—it’s that they balance each other. <br>
                                         She asks the deep questions; he brings the steady answers. <br>
                                         He’s the quiet strength; she’s the brilliant storm. <br>
-                                        He brings the energy and adventure; she brings the meaning and magic. <br>
+                                        He brings the energy and adventure; <br>
+                                        she brings the meaning and magic. <br>
                                         He pushes her toward fun; she pulls him toward feeling. <br>
                                         </p>
 
@@ -66,7 +67,8 @@ get_header();
 
                                         <p class="fs-xl-5 letter-spacing-15 text-center mb-3">It felt only right to return here—to the city where her feet first touched his land, where music and moonlight once wove their worlds together. To celebrate not just what they’ve built, but what they’re still becoming. Cartagena holds all of that. A thousand memories. A thousand beginnings. A love story still unfolding. A promise carved not only beneath the stars, but in years of showing up, of choosing, of believing in something quietly powerful and endlessly worth it.</p>
 
-                                        <p class="fs-xl-5 letter-spacing-15 text-center mb-5">They can’t wait to dance, laugh, and live it all out—with you at their side.</p>
+                                        <p class="fs-xl-5 letter-spacing-15 text-center mb-5">They can’t wait to dance, <br> laugh, and live it all out
+                                        <br> with you at their side.</p>
 
                                         <!-- <button type="button" class="btn btn-primary mx-auto border-0" data-bs-toggle="modal" data-bs-target="#readMore">Read More</button> -->
                                         <!-- <div class="d-flex flex-xl-row flex-column gap-2">
