@@ -735,7 +735,7 @@ $places = [
                                     <p class="fs-xl-6 text-gray-200 letter-spacing-1 mb-4">Flights to Cartagena on the Caribbean coast. LATAM, Delta, American Airlines, United, Aeromexico, Copa Airlines and Avianca operate direct flights to Rafael Núñez Airport. The airport is just a short 10-minute taxi ride to the old town. Authorized taxi services are available 24 hours a day. The fare to Getsemani is about $14,000 COP. To the hotel zone of the Historic Center (Ciudad Amurallada), it's about $18,000 COP max, and to the Bocagrande area, it costs $30,000 COP. Typically, $1 USD is equivalent to approximately $4,100 COP.</p>
                                     <h2 class="fs-xl-5 text-primary letter-spacing-24 uppercase">SECURITY IN CARTAGENA</h2>
                                     <p class="fs-xl-6 text-gray-200 letter-spacing-1 mb-4">Cartagena is a beautiful and safe destination for our celebration. The city is known for its welcoming atmosphere, and we want you to feel at ease as you join us for this special occasion. With a strong focus on tourism and hospitality, Cartagena offers a secure environment for all visitors. From the historic streets to the scenic beaches, we’re excited to share this incredible city with you, and we’re confident you'll feel right at home!</p>
-                                    <h2 class="fs-xl-5 text-primary letter-spacing-24 uppercase">GARTAGENANNY</h2>
+                                    <h2 class="fs-xl-5 text-primary letter-spacing-24 uppercase">CARTAGENANNY</h2>
                                     <p class="fs-xl-6 text-gray-200 letter-spacing-1">For guests who may require it, here’s a trusted local nanny service to help with childcare. Please feel free to reach out to arrange childcare during the celebration. Special rates are available using the code MARYCUETER.</p>
                                     <p class="fs-xl-6 text-gray-200 letter-spacing-1">Lili Rueda: +57 318 6294974</p>
                                 </div>
@@ -806,7 +806,7 @@ $places = [
                                                         <?php if (!empty($place['info'])) : ?>
                                                             <div class="pt-3">
                                                                 <?php foreach ($place['info'] as $infoItem) : ?>
-                                                                    <p class="fs-xl-6 text-gray-100 letter-spacing-1 mb-2" style="word-wrap: break-word;overflow-wrap: break-word;"><?php echo $infoItem; ?></p>
+                                                                    <p class="text-gray-100 letter-spacing-1 mb-2" style="font-size: 15px; word-wrap: break-word;overflow-wrap: break-word;"><?php echo $infoItem; ?></p>
                                                                 <?php endforeach; ?>
                                                             </div>
                                                         <?php endif; ?>

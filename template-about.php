@@ -23,7 +23,7 @@ get_header();
             <div class="py-3"></div>
             <div class="container position-relative z-3">
                 <div class="row">
-                    <div class="col-12 col-lg-9 mx-auto px-xl-0 px-4">
+                    <div class="col-12 col-lg-11 mx-auto px-xl-0 px-4">
                         <div class="customSectionBox customSectionBox__2 customSectionBox__3 customSectionBox__4 shadow-1 px-xl-0 px-3">
                             <!-- <img class="customSectionGallery__decorative" src="<?php echo THEME_IMG; ?>decorative-border.webp" alt="Decorative Border 2"> -->
                             <img class="customSectionGallery__center" src="<?php echo THEME_IMG; ?>decorative-center.webp" alt="Decorative Center">
@@ -36,7 +36,7 @@ get_header();
                                         <div class="py-xl-5 py-4"></div>
                                         <div class="py-xl-3"></div>
                                         <div class="pt-xl-0 pt-3"></div>
-                                        <h2 class="font-titulo text-center fs-xl-lg-1 fs-2-md mb-4">About Us</h2>
+                                        <h2 class="font-titulo text-center fs-xl-md-1 fs-2-md mb-4">About Us</h2>
                                         <p class="fs-xl-5 fs-p-md letter-spacing-15 mb-4 text-center">
                                             Fabi and Nellit met like many of the best stories do—not with a dramatic entrance, but with a shared moment that felt like it was leading somewhere. She was planning a surprise birthday party for her good friend. He was just one of the guests—someone she didn’t know, yet from the moment she reached out to invite him, she felt curious. His energy pulled her in: calm, confident, watchful. That night, under string lights in a Miami backyard, she kept catching herself watching him from the corner of her eye.
                                         </p>

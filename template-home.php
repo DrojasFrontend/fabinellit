@@ -260,7 +260,7 @@ get_header();
         <?php if(wp_is_mobile()): ?>
             <img class="position-absolute top-0 start-0 w-100 h-100 object-fit-cover z-1" src="<?php echo THEME_IMG; ?>bg-places-mobile.webp" alt="Background Places mobile">
         <?php else: ?>
-            <img class="position-absolute top-0 start-0 w-100 h-100 object-fit-cover z-1" src="<?php echo THEME_IMG; ?>bg-places.webp" alt="Background Places">
+            <img style="margin-top: 300px" class="position-absolute top-0 start-0 w-100 h-100 object-fit-cover z-1" src="<?php echo THEME_IMG; ?>bg-places.webp" alt="Background Places">
         <?php endif; ?>
         <div class="position-relative d-flex justify-content-center z-1">
             <?php if(wp_is_mobile()): ?>
