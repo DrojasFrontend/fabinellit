@@ -907,3 +907,13 @@ textarea {
         color: var(--bs-white);
     }
 }
+
+.mt-300 {
+    margin-top: 300px;
+}
+
+@media only screen and (min-width: 1400px) {
+    .mt-300 {
+        margin-top: 0;
+    }
+}
