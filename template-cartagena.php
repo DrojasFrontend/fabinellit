@@ -143,8 +143,8 @@ $places = [
         // ],
         [
             "name" => "Sofitel<br>Barú Calablanca",
-            "address" => "km. 7",
-            "city" => "Cartagena, Colombia",
+            "address" => "It’s close to Cartagena, making it an excellent if you decide to",
+            "city" => "extend your stay.",
             "phone" => "+57 (605) 6411690",
             "link" => "https://www.sofitelbarucalablanca.com/",
             "image" => THEME_IMG . 'places-cartagena/cartagena-001.png',

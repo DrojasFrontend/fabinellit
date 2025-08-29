@@ -331,7 +331,7 @@ get_header();
                                 </li>
                                 <li class="d-flex gap-3 align-items-center py-xl-3 px-xl-4 py-2 px-2 clickeable border-0" style="cursor: pointer;">
                                     <span class="icono"><img class="d-block w-100" src="<?php echo THEME_IMG; ?>icons/icon-thinks.svg" alt="Home 1"></span>
-                                    <a class="fs-xl-3 text-primary letter-spacing-xl-3 letter-spacing-15 uppercase" href="/cartagena#thinks">thinks to do in the city</a>
+                                    <a class="fs-xl-3 text-primary letter-spacing-xl-3 letter-spacing-15 uppercase" href="/cartagena#thinks">things to do in the city</a>
                                 </li>
                             </ul>
                             <div class="py-xl-4 pt-4 pb-2"></div>

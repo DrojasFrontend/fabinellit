@@ -41,12 +41,12 @@
   <!-- Header -->
   <header class="position-fixed top-0 left-0 w-100 mt-3 bg-white-50">
     <div class="">
-      <div class="container-fluid gx-lg0 py-xl-0 py-1">
+      <div class="container-fluid gx-0 py-xl-0 pt-1 pb-2">
         <div class="row gx-0 justify-content-between">
           <div class="col-8 d-flex align-items-center d-xl-none ">
             <div class="text-center">
               <a class="d-block" href="/">
-                <h2 class="font-titulo fs-3 text-primary">Fabiola & Nellit</h2>
+                <h2 class="font-titulo fs-4 text-primary">Fabiola & Nellit</h2>
               </a>
             </div>
           </div>

@@ -886,3 +886,24 @@ textarea {
         }
     }
 }
+
+.language {
+    width: 75px;;
+    font-size: 10px;
+    color: var(--bs-primary);
+    border-radius: 16px;
+    border: 1px solid var(--bs-primary);
+    letter-spacing: 1.4px;
+    line-height: 9px;
+    
+    @media only screen and (min-width: 1200px) {
+        width: 92px;
+        font-size: 16px;
+        line-height: 21px;
+    }
+
+    &-active {
+        background-color: var(--bs-primary);
+        color: var(--bs-white);
+    }
+}
