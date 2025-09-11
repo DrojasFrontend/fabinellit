@@ -39,7 +39,7 @@ get_header();
                             <?php else: ?>
                                 <img class="w-auto d-none d-xl-block mb-2" src="<?php echo THEME_IMG; ?>logo.svg" alt="Logo">
                             <?php endif; ?>
-                            <h1 class="fs-xl-3 fs-6-md">FEBRUARY 5 -7, 2026</h1>
+                            <h1 class="fs-xl-3 fs-6-md">March 26 - 28, 2026</h1>
                             <h2 class="font-titulo fs-xl-md-2 fs-6">Cartagena de Indias. Colombia</h2>
                         </div>
                     </div>
