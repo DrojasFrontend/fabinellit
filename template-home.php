@@ -58,12 +58,12 @@ get_header();
                                 <p class="fs-xl-4 fs-6-md mb-xl-2 mb-4">March 28, 2026</p>
                                 <h3 class="fs-xl-3 fs-6 mb-2">CEREMONY</h3>
                                 <p class="fs-xl-4 fs-6-md mb-2">7:00 P.M.</p>
-                                <p class="fs-xl-4 fs-6-md mb-3" style="line-height: 20px;">Teatro Adolfo Mejía</p>
+                                <p class="fs-xl-4 fs-6-md mb-3" style="line-height: 20px;">Catedral de Santa Catalina de Alejandría</p>
                                 <!-- <p class="fs-xl-4 fs-6-md mb-3">Santa Catalina de Alejandría</p> -->
                                 <a href="https://maps.app.goo.gl/xMqRZTiuuizL43zA8" target="_blank" class="btn btn-primary mx-auto mb-4">Location</a>
     
                                 <h3 class="fs-xl-3 fs-6 mb-2">RECEPTION TO FOLLOW</h3>
-                                <p class="fs-xl-4 fs-6-md" style="line-height: 20px;">Centro de Convenciones</p>
+                                <p class="fs-xl-4 fs-6-md" style="line-height: 20px;">Teatro Adolfo Mejía</p>
                                 <p class="fs-xl-4 fs-6-md mb-3">Cartagena de Indias</p>
                                 <a href="https://maps.app.goo.gl/6LLBDbuMRtUnhB7h7" target="_blank" class="btn btn-primary mx-auto mb-5">Location</a>
     
