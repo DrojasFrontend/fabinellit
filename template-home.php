@@ -55,11 +55,11 @@ get_header();
                         <div class="customSectionBox text-center p-xl-5 py-5 px-3" id="wedding">
                             <div class="p-xl-3 pb-xl-5">
                                 <h2 class="font-titulo fs-xl-md-1 fs-2-md mb-2">Wedding</h2>
-                                <p class="fs-xl-4 fs-6-md mb-xl-2 mb-4">February 7, 2026</p>
+                                <p class="fs-xl-4 fs-6-md mb-xl-2 mb-4">March 28, 2026</p>
                                 <h3 class="fs-xl-3 fs-6 mb-2">CEREMONY</h3>
                                 <p class="fs-xl-4 fs-6-md mb-2">7:00 P.M.</p>
-                                <p class="fs-xl-4 fs-6-md" style="line-height: 20px;">Catedral</p>
-                                <p class="fs-xl-4 fs-6-md mb-3">Santa Catalina de Alejandría</p>
+                                <p class="fs-xl-4 fs-6-md mb-3" style="line-height: 20px;">Teatro Adolfo Mejía</p>
+                                <!-- <p class="fs-xl-4 fs-6-md mb-3">Santa Catalina de Alejandría</p> -->
                                 <a href="https://maps.app.goo.gl/xMqRZTiuuizL43zA8" target="_blank" class="btn btn-primary mx-auto mb-4">Location</a>
     
                                 <h3 class="fs-xl-3 fs-6 mb-2">RECEPTION TO FOLLOW</h3>
@@ -94,7 +94,7 @@ get_header();
                                     <div class="col-12 col-lg-6 gx-0">
                                         <img class="w-auto mb-3" src="<?php echo THEME_IMG; ?>welcome-cocktail.png" alt="Welcome Cocktail">
                                         <h2 class="font-titulo fs-2-md">Welcome Cocktail</h2>
-                                        <p class="fs-xl-4 fs-6-md mb-xl-2 mb-4">February 5, 2026</p>
+                                        <p class="fs-xl-4 fs-6-md mb-xl-2 mb-4">March 26, 2026</p>
                                         <p class="fs-xl-4 fs-6-md mb-3">6:00pm - 12:00am</p>
                                         <p class="fs-xl-4 fs-6-md" style="line-height: 20px;">Baluarte</p>
                                         <p class="fs-xl-4 fs-6-md mb-3">San Francisco Javier</p>
@@ -108,7 +108,7 @@ get_header();
                                     <div class="col-12 col-lg-6">
                                         <img class="w-auto mb-3" src="<?php echo THEME_IMG; ?>island-day.png" alt="Welcome Cocktail">
                                         <h2 class="font-titulo fs-2-md">Island Day</h2>
-                                        <p class="fs-xl-4 fs-6-md mb-xl-2 mb-4">February 6, 2026</p>
+                                        <p class="fs-xl-4 fs-6-md mb-xl-2 mb-4">March 27, 2026</p>
                                         <p class="fs-xl-4 fs-6-md mb-3">10:00am - 4:00pm</p>
                                         <p class="fs-xl-4 fs-6-md" style="line-height: 20px;">Agua Azul,</p>
                                         <p class="fs-xl-4 fs-6-md mb-3">Isla de Barú</p>
