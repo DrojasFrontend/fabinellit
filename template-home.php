@@ -163,7 +163,14 @@ get_header();
                                     </div>
                                     <p class="fs-xl-5 text-center text-red letter-spacing-15">Please respond by <br> October 10, 2025.</p>
                                     <div class="py-xl-5 py-3"></div>
-                                    <?php echo do_shortcode('[contact-form-7 id="491dea7" title="Contact form 1"]'); ?>
+                                    <?php
+                                        global $TRP_LANGUAGE;
+                                        if ($TRP_LANGUAGE === 'en_US') {
+                                        echo do_shortcode('[contact-form-7 id="491dea7" title="R.S.V.P | EN"]');
+                                        } else {
+                                        echo do_shortcode('[contact-form-7 id="bc34e53" title="R.S.V.P | ES"]');
+                                        }
+                                    ?>
                                     <p class="fs-xl-5 text-center text-red letter-spacing-15">For questions or more information, email us at rsvp@fabinellit.com</p>
                                     <p class="fs-xl-5 text-center text-red letter-spacing-15">or contact our concierge via WhatsApp:</p>
                                     <p class="fs-xl-5 text-center text-red letter-spacing-15">+57 321 849 2726</p>
