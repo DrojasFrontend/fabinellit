@@ -249,7 +249,7 @@ strong {
 
 /* Bootstrap Modal Variables Override */
 .modal {
-    --bs-modal-width: 750px;
+    --bs-modal-width: 1000px;
 }
 
 .font-secondary {
@@ -532,6 +532,14 @@ header {
                         background-repeat: repeat;
                         border-radius: 40px;
                         z-index: -1;
+                    }
+                }
+
+                &#thinks {
+                    .box {
+                        &:after {
+                            height: 570px;
+                        }
                     }
                 }
             }

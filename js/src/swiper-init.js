@@ -166,10 +166,53 @@ export const initPlacesSwiper = () => {
 	});
 };
 
+export const initThingsToDoSwiper = () => {
+	const swiperElement = document.querySelector(".thingsToDoSwiper");
+	
+	if (swiperElement) {
+		// Buscar los botones de navegación específicos
+		const nextButton = document.getElementById("next-things-to-do");
+		const prevButton = document.getElementById("prev-things-to-do");
+		
+		const swiper = new Swiper(swiperElement, {
+			modules: [Navigation, Autoplay],
+			slidesPerView: 1,
+			spaceBetween: 24,
+			centeredSlides: false,
+			autoplay: {
+				delay: 5000,
+				disableOnInteraction: false,
+			},
+			loop: true,
+			navigation: (nextButton && prevButton) ? {
+				nextEl: nextButton,
+				prevEl: prevButton,
+				clickable: true,
+				disabledClass: "swiper-nav-disabled",
+			} : false,
+			breakpoints: {
+				320: {
+					slidesPerView: 1,
+					spaceBetween: 10,
+				},
+				768: {
+					slidesPerView: 1,
+					spaceBetween: 20,
+				},
+				1024: {
+					slidesPerView: 2,
+					spaceBetween: 24,
+				},
+			},
+		});
+	}
+};
+
 // Inicialización de Swipers
 document.addEventListener('DOMContentLoaded', function () {
 	initGallerySwiper();
 	initGallerySwiper2();
 	initPlaceSwiper();
 	initPlacesSwiper();
+	initThingsToDoSwiper();
 });

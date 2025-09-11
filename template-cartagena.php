@@ -693,7 +693,156 @@ $places = [
         ],
     ]
   ]
+];
+
+$thingsToDo = [
+    [
+        "image" => THEME_IMG . 'things-to-do-1.png',
+        "titulo" => "1. OLD CITY IMMERSION",
+        "titulo_2" => "# DAY THEME & FLOW",
+        "description" => "Clock-Tower → Cathedral → Plaza Bolívar & Clock-Tower → Cathedral → Plaza Bolívar & Gold Museum → Palace of the Inquisition → San Pedro Claver → Santo Domingo Church & Botero “Gertrudis” → Las Bóvedas artisan vaults → sunset wall-walk.",
+        "titulo_3" => "KEY DETAILS & UPGRADES",
+        "items" => [
+            "item_1" => "• Guided walking tour recommended.",
+            "item_2" => "• Best coffee pauses: <br> Época / Libertador / Casa Carolina.",
+            "item_3" => "• Snap a photo with palenqueras <br> (tip = COP 5k-10k).",
+            "item_4" => "• Dinner choices: <br> Cocina de Pepina · Celele · Don Juan",
+        ]
+    ],
+    [
+        "image" => THEME_IMG . 'things-to-do-2.png',
+        "titulo" => "2. ROSARIO ISLANDS LUXE HOP",
+        "titulo_2" => "# DAY THEME & FLOW",
+        "description" => "08:00 fast boat (snorkel gear aboard) → coral-reef stop → choose club: Gente de Mar / IslaBela / EcoHotel (Isla Grande) · Hotel Majagua (Majagua) · Isla del Sol · Bora Bora · Pao Pao · Amare · Cholón party cove",
+        "titulo_3" => "KEY DETAILS & UPGRADES",
+        "items" => [
+            "item_1" => "• Add Oceanario (dolphins, turtles) or Isla Bocachica fort.",
+            "item_2" => "• Return ~17:00→private salsa / champeta class (1 h)."
+        ]
+    ],
+    [
+        "image" => THEME_IMG . 'things-to-do-3.png',
+        "titulo" => "3. CASTLES, STREET EATS & CRAFT RUM",
+        "titulo_2" => "# DAY THEME & FLOW",
+        "description" => "Sunrise visit Castillo San Felipe → Bazurto Market deep-dive (arepa de huevo, tropical fruit stands) → Street-food safari in Getsemaní → Rum-&-chocolate pairing at El Barón",
+        "titulo_3" => "KEY DETAILS & UPGRADES",
+        "items" => [
+            "item_1" => "• Evening cocktails: Alquímico rooftop."
+        ]
+    ],
+    [
+        "image" => THEME_IMG . 'things-to-do-4.png',
+        "titulo" => "4. RIVERS & COASTAL RHYTHM",
+        "titulo_2" => "# DAY THEME & FLOW",
+        "description" => "10:00 pick-up → Chambaculera boat (live champeta, drums) through Ciénaga de la Virgen → beach fish-fry (mojarra, patacón) → return mid-afternoon",
+        "titulo_3" => "KEY DETAILS & UPGRADES",
+        "items" => [
+            "item_1" => "• Spa / pool siesta afterwards."
+        ]
+    ],
+    [
+        "image" => THEME_IMG . 'things-to-do-5.png',
+        "titulo" => "5. TIERRA BOMBA CLUB-HOP",
+        "titulo_2" => "# DAY THEME & FLOW",
+        "description" => "20-min boat → pick any club on the island: Makani · Éteka · Blue Apple · Fénix · Namasté",
+        "titulo_3" => "KEY DETAILS & UPGRADES",
+        "items" => [
+            "item_1" => "• Mix of paddle-boards, DJs, yoga decks & spa cabanas.",
+            "item_2" => "• Return by sunset → live music in Getsemaní."
+        ]
+    ],
+    [
+        "image" => THEME_IMG . 'things-to-do-6.png',
+        "titulo" => "6. AFRO-CARIBBEAN ROOTS & WELLNESS",
+        "titulo_2" => "# DAY THEME & FLOW",
+        "description" => "08:00 van → San Basilio de Palenque (drum workshop, culture walk, coconut-milk stew lunch) → back by 16:00",
+        "titulo_3" => "KEY DETAILS & UPGRADES",
+        "items" => [
+            "item_1" => "• Rooftop yoga at Casa Carolina or designer browsing (St Dom, Silvia Tcherassi, Agua de León)."
+        ]
+    ],
+    [
+        "image" => THEME_IMG . 'things-to-do-7.png',
+        "titulo" => "7. ICONIC HOTELS + DESIGNER & EMERALD DAY",
+        "titulo_2" => "# DAY THEME & FLOW",
+        "description" => "Morning coffee in Sofitel Santa Clara courtyard → peek at Harry Sasson's Harry's Cartagena (reserve lunch) in the Charleston Santa Teresa Hotel → Pop to Charleston Santa Teresa rooftop bar → Personal-shop circuit: St Dom → Silvia Tcherassi → Maygel Coronel → La Serrezuela → private emerald lesson",
+        "titulo_3" => "KEY DETAILS & UPGRADES",
+        "items" => [
+            "item_1" => "• Dinner: 10-course \"New Colombian\" at Celele (book early)."
+        ]
+    ],
+    [
+        "image" => THEME_IMG . 'things-to-do-8.png',
+        "titulo" => "8. NATIONAL AVIARY & PLAYA BLANCA / TRANQUILA",
+        "titulo_2" => "# DAY THEME & FLOW",
+        "description" => "07:30 boat / van to Aviario Nacional (170 bird species) → continue to Playa Blanca or quieter Playa Tranquila for turquoise swim & lunch. Try \"jugo de corozo\".",
+        "titulo_3" => "KEY DETAILS & UPGRADES",
+        "items" => [
+            "item_1" => "• Optional: sunset plankton tour add-on (Transport waits)."
+        ]
+    ],
+    [
+        "image" => THEME_IMG . 'things-to-do-9.png',
+        "titulo" => "9. MUD & MANGROVE MARVELS",
+        "titulo_2" => "# DAY THEME & FLOW",
+        "description" => "Morning Volcán Totumo mud-bath → rinse in lagoon → optional mangrove canoe glide near Galerazamba's pink salt flats",
+        "titulo_3" => "KEY DETAILS & UPGRADES",
+        "items" => [
+            "item_1" => "• Return to city ~14:00 → rooftop siesta."
+        ]
+    ],
+    [
+        "image" => THEME_IMG . 'things-to-do-10.png',
+        "titulo" => "10. COSTEÑO COOKING CLASS",
+        "titulo_2" => "# DAY THEME & FLOW",
+        "description" => "Market run with chef → hands-on class: coconut rice, fried fish, posta cartagenera, patacón → feast & cocktail pairing",
+        "titulo_3" => "KEY DETAILS & UPGRADES",
+        "items" => [
+            "item_1" => "• Afternoon free for photos in Getsemaní's graffiti alleys."
+        ]
+    ],
+    [
+        "image" => THEME_IMG . 'things-to-do-11.png',
+        "titulo" => "11. DAY-CHIVA CITY TOUR (MUST-DO)",
+        "titulo_2" => "# DAY THEME & FLOW",
+        "description" => "09:00 Day-Chiva open-air bus (live city guide, chilled costeño beers) → landmark photo stops → drop-off around 12:30",
+        "titulo_3" => "KEY DETAILS & UPGRADES",
+        "items" => [
+            "item_1" => "• Afternoon options: second island hop, boutique crawl, or spa."
+        ]
+    ],
+    [
+        "image" => THEME_IMG . 'things-to-do-12.png',
+        "titulo" => "12. NIGHT-CHIVA FIESTA",
+        "titulo_2" => "# DAY THEME & FLOW",
+        "description" => "20:00 Night-Chiva pick-up → onboard music, open bar → ends at club La Movida",
+        "titulo_3" => "KEY DETAILS & UPGRADES",
+        "items" => [
+            "item_1" => "• Pre-party dinner at Candé (folklore show)."
+        ]
+    ],
+    [
+        "image" => THEME_IMG . 'things-to-do-13.png',
+        "titulo" => "13. SCUBA & OCEAN PLAY",
+        "titulo_2" => "# DAY THEME & FLOW",
+        "description" => "Morning two-tank reef dive (or Discover Scuba) with Diving Planet from Club Náutico → snorkel friends join sand-bar swim → seafood picnic on Isla Arena",
+        "titulo_3" => "KEY DETAILS & UPGRADES",
+        "items" => [
+            "item_1" => "• Golden-hour catamaran back (DJ on deck)."
+        ]
+    ],
+    [
+        "image" => THEME_IMG . 'things-to-do-14.png',
+        "titulo" => "14. BOCAGRANDE BEACH FINALE",
+        "titulo_2" => "# DAY THEME & FLOW",
+        "description" => "Choose carpa & chairs with vendors (COP 30-50 k) → casual massage (agree time & price) → legendary shrimp cocktail or full seafood platter, plus mojarra / pargo frito & coconut rice → stroll Avenida San Martín boutiques → dinner at M Cocina Árabe",
+        "titulo_3" => "KEY DETAILS & UPGRADES",
+        "items" => [
+            "item_1" => "• Pack & airport transfers."
+        ]
+    ],
 ]
+
 ?>
 
 <main class="customMainCartagena">
@@ -828,6 +977,119 @@ $places = [
                     <div class="py-xl-5 pt-5"></div>
                 </div>
             <?php } ?>
+        </div>
+    </section>
+
+    <section class="customSectionCartagenaPlaces" id="thinks">
+        <div class="position-relative z-1">
+            <div class="container">
+                <div class="row box">
+                    <div class="py-3"></div>
+                    <div class="col-12 col-lg-11 mx-auto">
+                        <div class="d-flex align-items-center py-3 gap-3 px-4">
+                            <div class="icon d-flex align-items-center">
+                                <img class="w-100" src="<?php echo THEME_IMG . 'icons/icon-thinks-2.svg'; ?>" alt="">
+                            </div>
+                            <h2 class="fs-xl-3 fs-6 text-orange uppercase">THINGS TO DO IN THE CITY</h2>
+                        </div>
+                        <div class="line line--full bg-orange mb-4"></div>
+
+                        <div class="px-4">
+                            <h2 class="fs-xl-5 text-orange letter-spacing-24 uppercase">CARTAGENA CURATED PLAYBOOK</h2>
+                            <p class="fs-xl-6 text-orange letter-spacing-1 fw-normal mb-3">14 days of indulgent, culture-rich experiences you can mix-and-match around the wedding events</p>
+
+                            <p class="fs-xl-6 text-orange letter-spacing-1 fw-normal">How to Use This Guide</p>
+                            <p class="fs-xl-6 text-orange letter-spacing-1 fw-normal">1. Pick any day and slide it before/after the wedding celebrations.</p>
+                            <p class="fs-xl-6 text-orange letter-spacing-1 fw-normal">2. Each day has a signature experience + optional upgrades—choose one or layer several if you’re feeling adventurous.</p>
+                            <p class="fs-xl-6 text-orange letter-spacing-1 fw-normal mb-3">3. All times are gentle suggestions; Cartagena rewards a slow, sun-kissed pace.</p>
+
+                            <h2 class="fs-xl-5 text-orange letter-spacing-24 uppercase">14-DAY ITINERARY</h2>
+                            <p class="fs-xl-6 text-orange letter-spacing-1 fw-normal mb-4">(choose from any day, any order)</p>
+                        </div>
+                        
+                        <div class="swiper thingsToDoSwiper" id="swiper-things-to-do">
+                            <div class="swiper-wrapper">
+                                <?php foreach ($thingsToDo as $item) : ?>
+                                    <div class="swiper-slide">
+                                        <div class="bg-white-100 p-0">
+                                            <!-- Imagen principal -->
+                                             <div class="p-4 pb-0">
+                                                 <img class="w-100 customSectionCartagenaPlaces__img" src="<?php echo $item['image']; ?>">
+                                                 <h2 class="fs-xl-5 text-orange letter-spacing-24 uppercase"><?php echo $item['titulo']; ?></h2>
+                                                 <span class="line line--small m-0 pt-2"></span>
+                                             </div>
+                                            <div class="p-4">
+                                                <div class="mb-4">
+                                                    <h3 class="fs-xl-5 text-primary letter-spacing-24 uppercase"><?php echo $item['titulo_2']; ?></h3>
+                                                    <p class="fs-xl-6 text-gray-100 letter-spacing-1 fw-normal"><?php echo $item['description']; ?></p>
+                                                </div>
+                                                <div>
+                                                    <h3 class="fs-xl-5 text-primary letter-spacing-24 uppercase"><?php echo $item['titulo_3']; ?></h3>
+                                                    <div class="space-y-2">
+                                                        <?php foreach ($item['items'] as $detailItem) : ?>
+                                                            <p class="fs-xl-6 text-primary letter-spacing-1 mb-2 fw-semibold" style="-webkit-font-smoothing: antialiased;"><?php echo $detailItem; ?></p>
+                                                        <?php endforeach; ?>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                <?php endforeach; ?>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="w-100 h-100 position-absolute top-0">
+                <div class="container h-100 position-relative">
+                    <div class="swiper-button-prev start-1" id="prev-things-to-do"></div>
+                    <div class="swiper-button-next end-1" id="next-things-to-do"></div>
+                </div>
+            </div>
+            <div class="py-xl-5 pt-5"></div>
+        </div>
+    </section>
+
+    <section class="position-relative z-1">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-lg-11 mx-auto">
+                    <div class="customSectionBox p-lg-5 p-3">
+                        <div class="p-lg-5">
+
+                            <h2 class="fs-xl-5 text-orange letter-spacing-24 uppercase mb-3">CARTAGENA’S BEST-KEPT TOURIST TIP: Don’t Get Overcharged</h2>
+                            <p class="fs-xl-6 text-primary mb-3 letter-spacing-1 fw-normal">Whether it’s a beach massage, a taxi ride, a boat tour, or a shrimp cocktail on the sand — there’s an easy way to make sure you’re paying a fair price.</p>
+                            <p class="fs-xl-6 text-primary mb-3 letter-spacing-1 fw-normal">Just save this number on WhatsApp: +57 304 251 1127</p>
+                            <p class="fs-xl-6 text-primary mb-3 letter-spacing-1 fw-normal">This is Titán Chat, Cartagena’s official tourist support line — run by the city government. It’s totally legit, safe, and trustworthy.</p>
+
+                            <h2 class="fs-xl-5 text-orange letter-spacing-24 uppercase mb-3">You can message them at any time on WhatsApp to:</h2>
+                            <li class="fs-xl-6 text-primary mb-3 letter-spacing-1 fw-normal mb-3">Ask what a fair price is for any service (like taxis, beach food, boat rides, massages, etc.)</li>
+                            <li class="fs-xl-6 text-primary mb-3 letter-spacing-1 fw-normal mb-3">Report being overcharged — even if it doesn’t feel “off,” if something seems expensive or way higher than expected, you can reach out.</li>
+
+                            <p class="fs-xl-6 text-primary mb-3 letter-spacing-1 fw-normal">Just say something like “report case” and they’ll step in to help. If needed, the police will come and help you get your money back.</p>
+                            <p class="fs-xl-6 text-primary mb-3 letter-spacing-1 fw-normal">It’s not confrontational, it’s not dangerous — it’s not like in the U.S. Cartagena’s tourist team handles it quickly and kindly, and it gets resolved fast. This is one of the city’s best tools to keep visitors protected and relaxed.</p>
+
+                            <span class="line line--full bg-orange mb-4"></span>
+
+                            <h2 class="fs-xl-5 text-orange letter-spacing-24 uppercase mb-3">OFFICIAL CITY PRICE LIST</h2>
+                            <p class="fs-xl-6 text-primary letter-spacing-1 fw-normal mb-3">Want to double-check average prices before saying yes to anything? Here’s the official guide to what you should expect to pay for:</p>
+                            <li class="fs-xl-6 text-primary letter-spacing-1 fw-normal mb-0">Taxi rides</li>
+                            <li class="fs-xl-6 text-primary letter-spacing-1 fw-normal mb-0">Beach services (massages, chairs, seafood)</li>
+                            <li class="fs-xl-6 text-primary letter-spacing-1 fw-normal mb-0">Island boat trips</li>
+                            <li class="fs-xl-6 text-primary letter-spacing-1 fw-normal mb-0">Local food and drinks</li>
+                            <li class="fs-xl-6 text-primary letter-spacing-1 fw-normal mb-3">City tours, and more.</li>
+
+                            <a href="https://www.visitcartagena.com.co/prices?lang=en" target="_blank" class="d-block mb-4">https://www.visitcartagena.com.co/prices?lang=en</a>
+                            <span class="line line--full bg-orange mb-4"></span>
+
+                            <h2 class="fs-xl-5 text-orange letter-spacing-24 uppercase mb-3">CURATED THINGS TO DO IN THE CITY</h2>
+                            <p class="fs-xl-6 text-primary letter-spacing-1 fw-normal mb-3">Explore everything from historic sites and food tours to island escapes and shopping guides — all recommended by the city’s tourism team. </p>
+                            <p class="fs-xl-6 text-primary letter-spacing-1 fw-normal">Perfect for filling free days around the wedding!</p>
+                            <p class="fs-xl-6 text-primary letter-spacing-1 fw-normal mb-3">https://www.visitcartagena.com.co/explore?lang=en</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
 </main>
