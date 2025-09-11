@@ -1063,8 +1063,10 @@ $thingsToDo = [
                             <p class="fs-xl-6 text-primary mb-3 letter-spacing-1 fw-normal">This is Titán Chat, Cartagena’s official tourist support line — run by the city government. It’s totally legit, safe, and trustworthy.</p>
 
                             <h2 class="fs-xl-5 text-orange letter-spacing-24 uppercase mb-3">You can message them at any time on WhatsApp to:</h2>
-                            <li class="fs-xl-6 text-primary mb-3 letter-spacing-1 fw-normal mb-3">Ask what a fair price is for any service (like taxis, beach food, boat rides, massages, etc.)</li>
-                            <li class="fs-xl-6 text-primary mb-3 letter-spacing-1 fw-normal mb-3">Report being overcharged — even if it doesn’t feel “off,” if something seems expensive or way higher than expected, you can reach out.</li>
+                            <ul class="ps-4">
+                                <li style="list-style-type: disc;" class="fs-xl-6 text-primary mb-3 letter-spacing-1 fw-normal mb-3">Ask what a fair price is for any service (like taxis, beach food, boat rides, massages, etc.)</li>
+                                <li style="list-style-type: disc;" class="fs-xl-6 text-primary mb-3 letter-spacing-1 fw-normal mb-3">Report being overcharged — even if it doesn’t feel “off,” if something seems expensive or way higher than expected, you can reach out.</li>
+                            </ul>
 
                             <p class="fs-xl-6 text-primary mb-3 letter-spacing-1 fw-normal">Just say something like “report case” and they’ll step in to help. If needed, the police will come and help you get your money back.</p>
                             <p class="fs-xl-6 text-primary mb-3 letter-spacing-1 fw-normal">It’s not confrontational, it’s not dangerous — it’s not like in the U.S. Cartagena’s tourist team handles it quickly and kindly, and it gets resolved fast. This is one of the city’s best tools to keep visitors protected and relaxed.</p>
@@ -1073,11 +1075,13 @@ $thingsToDo = [
 
                             <h2 class="fs-xl-5 text-orange letter-spacing-24 uppercase mb-3">OFFICIAL CITY PRICE LIST</h2>
                             <p class="fs-xl-6 text-primary letter-spacing-1 fw-normal mb-3">Want to double-check average prices before saying yes to anything? Here’s the official guide to what you should expect to pay for:</p>
-                            <li class="fs-xl-6 text-primary letter-spacing-1 fw-normal mb-0">Taxi rides</li>
-                            <li class="fs-xl-6 text-primary letter-spacing-1 fw-normal mb-0">Beach services (massages, chairs, seafood)</li>
-                            <li class="fs-xl-6 text-primary letter-spacing-1 fw-normal mb-0">Island boat trips</li>
-                            <li class="fs-xl-6 text-primary letter-spacing-1 fw-normal mb-0">Local food and drinks</li>
-                            <li class="fs-xl-6 text-primary letter-spacing-1 fw-normal mb-3">City tours, and more.</li>
+                            <ul class="ps-4">
+                                <li style="list-style-type: disc;" class="fs-xl-6 text-primary letter-spacing-1 fw-normal mb-0">Taxi rides</li>
+                                <li class="fs-xl-6 text-primary letter-spacing-1 fw-normal mb-0">Beach services (massages, chairs, seafood)</li>
+                                <li style="list-style-type: disc;" class="fs-xl-6 text-primary letter-spacing-1 fw-normal mb-0">Island boat trips</li>
+                                <li style="list-style-type: disc;" class="fs-xl-6 text-primary letter-spacing-1 fw-normal mb-0">Local food and drinks</li>
+                                <li style="list-style-type: disc;" class="fs-xl-6 text-primary letter-spacing-1 fw-normal mb-3">City tours, and more.</li>
+                            </ul>
 
                             <a href="https://www.visitcartagena.com.co/prices?lang=en" target="_blank" class="d-block mb-4">https://www.visitcartagena.com.co/prices?lang=en</a>
                             <span class="line line--full bg-orange mb-4"></span>
