@@ -269,7 +269,7 @@ strong {
 }
 
 header {
-    z-index: 9999;
+    z-index: 9998;
     transition: all 0.4s ease;
 
     &.is-scroll {
@@ -928,4 +928,8 @@ textarea {
     .mt-300 {
         margin-top: 0;
     }
+}
+
+#modalPassword {
+    background-color: rgba(163, 127, 44, 0.70) !important;
 }
