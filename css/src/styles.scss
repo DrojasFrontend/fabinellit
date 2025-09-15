@@ -223,6 +223,10 @@ strong {
     background-color: var(--bs-white-50) !important;
 }
 
+.bg-red {
+    background-color: var(--bs-red) !important;
+}
+
 .text-red {
     color: var(--bs-red) !important;
 }
@@ -568,7 +572,7 @@ header {
     display: block;
     height: 1px;
     margin: 0 auto;
-    border-bottom: 1px solid var(--bs-orange);
+    border-bottom: 1px solid var(--bs-primary);
 
     &--small {
         width: 60px;

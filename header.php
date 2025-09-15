@@ -1,3 +1,32 @@
+<?php
+// Iniciar sesión al principio, antes de cualquier HTML
+if (!session_id()) {
+    session_start();
+}
+
+// Verificar si el usuario ya está autenticado
+global $usuario_autenticado, $error_password;
+$usuario_autenticado = isset($_SESSION['usuario_autenticado']) && $_SESSION['usuario_autenticado'] === true;
+$error_password = false;
+
+// Procesar formulario de contraseña
+if (isset($_POST['password_access'])) {
+    $password_correcta = 'Cartagena2026'; // Cambia esta contraseña
+    
+    if ($_POST['password_access'] === $password_correcta) {
+        $_SESSION['usuario_autenticado'] = true;
+        $usuario_autenticado = true;
+        // Limpiar cualquier error previo
+        unset($_SESSION['error_password']);
+    } else {
+        $error_password = 'Contraseña incorrecta';
+        $_SESSION['error_password'] = $error_password;
+    }
+} else {
+    // Verificar si hay error previo en sesión
+    $error_password = isset($_SESSION['error_password']) ? $_SESSION['error_password'] : false;
+}
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -37,6 +66,51 @@
 
 </head>
 <body <?php body_class(); ?>>
+
+<!-- Modal de Contraseña -->
+<div class="modal fade" id="modalPassword" tabindex="-1" aria-labelledby="modalPasswordLabel" aria-hidden="true" data-bs-backdrop="true" data-bs-keyboard="false" style="z-index: 9999;">
+  <div class="py-3"></div>
+    <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="customSectionBox modal-content px-xl-5 p-3">
+            <div class="modal-header border-0">
+                <h2 class="font-titulo fs-xl-2 fs-3 text-primary w-100 text-center" id="modalPasswordLabel">Welcome / Bienvenido</h2>
+            </div>
+            <div class="modal-body py-4">
+                <form method="POST" id="formPassword">
+                    <div class="mb-3 text-center">
+                        <label for="password_access" class="d-block fs-xl-5 text-center text-secondary" style="line-height: 1.2">
+                          Please enter the password below.
+                          <div class="col-12 col-xl-6 mx-auto">
+                          <span class="line line--medium my-3"></span>
+                          </div>
+                        </label>
+                        <label for="password_access" class="d-block fs-xl-5 text-center text-secondary" style="line-height: 1.2">Por favor, ingrese la contraseña a continuación</label>
+                        <div class="row mt-4">
+                          <div class="col-12 col-xl-6 mx-auto">
+                            <input type="password" 
+                                   class="form-control bg-white rounded-2 border-0 mb-3 py-3 px-3" 
+                                   id="password_access" 
+                                   name="password_access" 
+                                   required 
+                                   autocomplete="off"
+                                   placeholder="Cartagena2026">
+                            <?php if (isset($error_password)): ?>
+                                <div class="text-danger mt-2"><?php echo $error_password; ?></div>
+                            <?php endif; ?>
+                          </div>
+                        </div>
+                    </div>
+                    <div class="d-flex justify-content-center">
+                        <button type="submit" class="btn btn-primary btn-medium border-0 bg-red rounded-0" id="btnAcceder">
+                            <span class="btn-text">Enter</span>
+                            <span class="spinner-border spinner-border-sm d-none" role="status" aria-hidden="true"></span>
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
 
   <!-- Header -->
   <header class="position-fixed top-0 left-0 w-100 mt-3 bg-white-50">
@@ -103,3 +177,77 @@
   <!-- Whatsapp -->
   <?php mostrar_boton_whatsapp(); ?>
   <!-- Fin Whatsapp -->
+
+
+  <!-- Script para mostrar modal de contraseña automáticamente -->
+  <?php if (!$usuario_autenticado): ?>
+  <script>
+    console.log('Usuario NO autenticado - debe mostrar modal');
+    // Función para mostrar el modal
+    function mostrarModalPassword() {
+      console.log('Intentando mostrar modal de contraseña...');
+      const modalElement = document.getElementById('modalPassword');
+      
+      if (modalElement) {
+        console.log('Modal element encontrado');
+        // Verificar si Bootstrap está disponible
+        if (typeof bootstrap !== 'undefined') {
+          console.log('Bootstrap disponible, usando bootstrap.Modal');
+          const modalPassword = new bootstrap.Modal(modalElement);
+          modalPassword.show();
+        } else {
+          console.log('Bootstrap no disponible, intentando jQuery...');
+          // Fallback usando jQuery si Bootstrap no está disponible
+          if (typeof $ !== 'undefined') {
+            console.log('jQuery disponible, usando jQuery modal');
+            $('#modalPassword').modal('show');
+          } else {
+            console.log('Ni Bootstrap ni jQuery disponibles, usando CSS directo');
+            // Último recurso: mostrar usando clases CSS
+            modalElement.classList.add('show');
+            modalElement.style.display = 'block';
+            modalElement.style.zIndex = '9999';
+            document.body.classList.add('modal-open');
+            // Agregar backdrop manualmente con z-index correcto
+            const backdrop = document.createElement('div');
+            backdrop.className = 'modal-backdrop fade show';
+            backdrop.style.zIndex = '9998';
+            backdrop.style.backgroundColor = 'rgba(0, 0, 0, 0.3)';
+            document.body.appendChild(backdrop);
+          }
+        }
+      }
+    }
+
+    // Intentar mostrar el modal cuando el DOM esté listo
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', mostrarModalPassword);
+    } else {
+      // Si el DOM ya está listo, mostrar inmediatamente
+      mostrarModalPassword();
+    }
+
+    // También intentar después de que la ventana se haya cargado completamente
+    window.addEventListener('load', function() {
+      setTimeout(mostrarModalPassword, 100);
+    });
+  </script>
+  <?php else: ?>
+  <script>
+    // Usuario autenticado - no mostrar modal
+  </script>
+  <?php endif; ?>
+
+  <!-- TranslatePress Language Detection for RSVP -->
+  <script>
+    // Detectar idioma actual de TranslatePress
+    <?php 
+    global $TRP_LANGUAGE;
+    $current_language = $TRP_LANGUAGE ? $TRP_LANGUAGE : 'en_US'; // fallback a inglés
+    ?>
+    window.rsvpLanguageData = {
+      currentLanguage: '<?php echo $current_language; ?>',
+      isSpanish: <?php echo ($current_language === 'es_CO') ? 'true' : 'false'; ?>,
+      isEnglish: <?php echo ($current_language === 'en_US') ? 'true' : 'false'; ?>
+    };
+  </script>
