@@ -800,11 +800,19 @@ $thingsToDo = [
                                     <p class="fs-xl-6 text-gray-200 letter-spacing-1 mb-4">Please complete the immigration registration form 48 hours before your trip, as the airline requires proof of completion to check-in. Complete the same step to return to the US. <a href="https://apps.migracioncolombia.gov.co/pre-registro" style="text-decoration: underline;" target="blank">Click Here</a></p>
                                     <h2 class="fs-xl-5 text-primary letter-spacing-24 uppercase">RAFAEL NÚÑEZ INTERNATIONAL AIRPORT</h2>
                                     <p class="fs-xl-6 text-gray-200 letter-spacing-1 mb-4">Cartagena’s Rafael Núñez International Airport sits on the Caribbean coast and is only about 10 minutes from the historic Old Town. Major airlines such as LATAM, Delta, American Airlines, United, Aeroméxico, Copa Airlines, and Avianca operate direct flights into Cartagena.</p>
+                                    <p class="fs-xl-6 text-gray-200 letter-spacing-1 mb-4">While authorized taxis are available 24/7 outside the airport, Uber is the most recommended option for convenience, safety, and transparent pricing.</p>
+                                    <p class="fs-xl-6 text-gray-200 letter-spacing-1 mb-4">Approximate taxi fares for reference:</p>
+                                    <p class="fs-xl-6 text-gray-200 letter-spacing-1 mb-4">Getsemaní: $14,000 COP</p>
+                                    <p class="fs-xl-6 text-gray-200 letter-spacing-1 mb-4">Historic Center (Ciudad Amurallada): up to $18,000 COP</p>
+                                    <p class="fs-xl-6 text-gray-200 letter-spacing-1 mb-4">Bocagrande: around $30,000 COP</p>
+                                    <p class="fs-xl-6 text-gray-200 letter-spacing-1 mb-4">For context, $1 USD is approximately $4,100 COP.</p>
                                     <h2 class="fs-xl-5 text-primary letter-spacing-24 uppercase">SECURITY IN CARTAGENA</h2>
                                     <p class="fs-xl-6 text-gray-200 letter-spacing-1 mb-4">Cartagena is a beautiful and safe destination for our celebration. The city is known for its welcoming atmosphere, and we want you to feel at ease as you join us for this special occasion. With a strong focus on tourism and hospitality, Cartagena offers a secure environment for all visitors. From the historic streets to the scenic beaches, we’re excited to share this incredible city with you, and we’re confident you'll feel right at home!</p>
-                                    <h2 class="fs-xl-5 text-primary letter-spacing-24 uppercase">CARTAGENANNY</h2>
-                                    <p class="fs-xl-6 text-gray-200 letter-spacing-1">For guests who may require it, here’s a trusted local nanny service to help with childcare. Please feel free to reach out to arrange childcare during the celebration. Special rates are available using the code MARYCUETER.</p>
-                                    <p class="fs-xl-6 text-gray-200 letter-spacing-1">Lili Rueda: +57 318 6294974</p>
+                                    <h2 class="fs-xl-5 text-primary letter-spacing-24 uppercase">CHILD CARE (CARTAGENANNY)</h2>
+                                    <p class="fs-xl-6 text-gray-200 letter-spacing-1">For guests who may need childcare, we recommend a trusted local service: Cartagenanny. Special discounted rates are available when you mention the code: MARYCUETER.</p>
+                                    <p class="fs-xl-6 text-gray-200 letter-spacing-1">Contact:</p>
+                                    <p class="fs-xl-6 text-gray-200 letter-spacing-1">Lili Rueda</p>
+                                    <p class="fs-xl-6 text-gray-200 letter-spacing-1">Lili Rueda: <a href="tel:+573186294974" style="text-decoration: underline;" target="blank">+57 318 629 4974</a></p>
                                 </div>
                             </div>
                         </div>
