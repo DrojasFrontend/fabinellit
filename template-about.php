@@ -98,6 +98,15 @@ get_header();
                                         </p>
 
                                         <?php echo do_shortcode('[contact-form-7 id="171c1e1" title="Form Message"]'); ?>
+
+                                        <?php
+                                        global $TRP_LANGUAGE;
+                                            if ($TRP_LANGUAGE === 'en_US') {
+                                                echo do_shortcode('[contact-form-7 id="c70de0d" title="Message | EN"]');
+                                            } else {
+                                                echo do_shortcode('[contact-form-7 id="c2fcf4e" title="Mensaje | ES"]');
+                                            }
+                                        ?>
                                         
                                     </div>
                                 </div>
