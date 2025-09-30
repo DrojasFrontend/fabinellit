@@ -97,8 +97,6 @@ get_header();
                                            Whether you're celebrating with us in person or in spirit, your presence means the world to us. If you’d like to share a few words, a special memory, or a wish for our future, this is the perfect place to do it. We’ll treasure every message!
                                         </p>
 
-                                        <?php echo do_shortcode('[contact-form-7 id="171c1e1" title="Form Message"]'); ?>
-
                                         <?php
                                         global $TRP_LANGUAGE;
                                             if ($TRP_LANGUAGE === 'en_US') {
