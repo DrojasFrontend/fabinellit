@@ -811,7 +811,6 @@ $thingsToDo = [
                                     <h2 class="fs-xl-5 text-primary letter-spacing-24 uppercase">CHILD CARE (CARTAGENANNY)</h2>
                                     <p class="fs-xl-6 text-gray-200 letter-spacing-1">For guests who may need childcare, we recommend a trusted local service: Cartagenanny. Special discounted rates are available when you mention the code: MARYCUETER.</p>
                                     <p class="fs-xl-6 text-gray-200 letter-spacing-1">Contact:</p>
-                                    <p class="fs-xl-6 text-gray-200 letter-spacing-1">Lili Rueda</p>
                                     <p class="fs-xl-6 text-gray-200 letter-spacing-1">Lili Rueda: <a href="tel:+573186294974" style="text-decoration: underline;" target="blank">+57 318 629 4974</a></p>
                                 </div>
                             </div>
