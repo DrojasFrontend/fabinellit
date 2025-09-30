@@ -6,6 +6,137 @@
 get_header(); 
 
 $places = [
+    "hotels" => [
+        "id" => "hotels",
+        "title" => "Hotels",
+        "title_es" => "Hotels",
+        "img" => THEME_IMG . 'icons/icon-hotel-2.svg',
+        "info" => "Cartagena offers a wide variety of charming accommodations, from luxury hotels to beautifully restored colonial homes. We warmly invite you to choose the stay that best suits your style and comfort.",
+        "places" => [
+            [
+                "name" => "Hotel Charleston Santa Teresa",
+                "address" => "Cra. 3 # 31 - 23",
+                "city" => "Cartagena, Colombia",
+                "phone" => "+57 (605) 6649494",
+                "link" => "https://www.hotelcharlestonsantateresa.com",
+                "image" => THEME_IMG . 'places-cartagena/hoteles-6.webp',
+            ],
+            [
+                "name" => "Hyatt Regency Hotel",
+                "address" => "Cra. 1 # 12 - 118",
+                "city" => "Cartagena, Colombia",
+                "phone" => "+57 (605) 6941234",
+                "link" => "https://go.hyatt.com/link/v2/eae__GKM5JBXpUGUPAuOwJCzfpC-lL3kAXMEy",
+                "image" => THEME_IMG . 'places-cartagena/hoteles-14.webp',
+            ],
+            [
+                "name" => "HOTEL INTERCONTINENTAL",
+                "address" => "Cra. 1 # 5 - 01",
+                "city" => "Cartagena, Colombia",
+                "phone" => "+57 (605) 6424250",
+                "link" => "https://www.intercartagena.com/",
+                "image" => THEME_IMG . 'places-cartagena/hoteles-0.webp',
+            ],
+            [
+                "name" => "Sofitel Legend Santa Clara",
+                "address" => "Calle Del Torno # 39 - 29",
+                "city" => "Cartagena, Colombia",
+                "phone" => "+57 (605) 6504700",
+                "link" => "https://www.sofitellegendsantaclara.com/",
+                "image" => THEME_IMG . 'places-cartagena/hoteles-1.webp',
+            ],
+            [
+                "name" => "Casa Lola",
+                "address" => "Calle del Guerrero # 29 - 108",
+                "city" => "Cartagena, Colombia",
+                "phone" => "+57 (605) 6641538",
+                "link" => "https://casalola.com",
+                "image" => THEME_IMG . 'places-cartagena/hoteles-2.webp',
+            ],
+            [
+                "name" => "Casa del Arzobispado",
+                "address" => "Cra. 5 # 34 - 52",
+                "city" => "Centro Histórico, Cartagena",
+                "phone" => "+57 317 5098738",
+                "link" => "https://www.hotelcasadelarzobispado.com",
+                "image" => THEME_IMG . 'places-cartagena/hoteles-3.webp',
+            ],
+            [
+                "name" => "Movich Hotel",
+                "address" => "Calle de Vélez Danies # 4 – 39",
+                "city" => "Cartagena, Colombia",
+                "phone" => "+57 (601) 4824466",
+                "link" => "https://www.movichhotels.com/es/hotel-movichcartagena-en-cartagena/",
+                "image" => THEME_IMG . 'places-cartagena/hoteles-4.webp',
+            ],
+            [
+                "name" => "Bastion Luxury Hotel",
+                "address" => "Calle del Sargento # 6 - 87",
+                "city" => "Cartagena, Colombia",
+                "phone" => "+57 (605) 6424100",
+                "link" => "https://www.bastionluxuryhotel.com",
+                "image" => THEME_IMG . 'places-cartagena/hoteles-5.webp',
+            ],
+            [
+                "name" => "Hotel San Agustín",
+                "address" => "Calle de la Universidad # 36 - 44",
+                "city" => "Cartagena, Colombia",
+                "phone" => "+57 (605) 6810000",
+                "link" => "https://www.hotelcasasanagustin.com/es/home.html",
+                "image" => THEME_IMG . 'places-cartagena/hoteles-7.webp',
+            ],
+          
+            [
+                "name" => "Casa La Merced",
+                "address" => "Calle de Don Sancho # 36 - 165",
+                "city" => "Cartagena, Colombia",
+                "phone" => "+57 (605) 6686622",
+                "link" => "https://mustique.co/bienvenidos/casas/la-merced/",
+                "image" => THEME_IMG . 'places-cartagena/hoteles-9.webp',
+            ],
+            [
+                "name" => "Bovedas de Santa Clara",
+                "address" => "Cra. 8 # 39 - 114",
+                "city" => "Cartagena, Colombia",
+                "phone" => "+57 (605) 6504465",
+                "link" => "https://www.bovedasdesantaclara.com",
+                "image" => THEME_IMG . 'places-cartagena/hoteles-10.webp',
+            ],
+            [
+                "name" => "Nacar By Hilton",
+                "address" => "Calle Del Curato # 38 - 99",
+                "city" => "Cartagena, Colombia",
+                "phone" => "+57 (605) 6517050",
+                "link" => "https://www.hilton.com/es/hotels/ctgmaqq-nacar-hotel-cartagena/",
+                "image" => THEME_IMG . 'places-cartagena/hoteles-11.webp',
+            ],
+            [
+                "name" => "Hotel Casa Don Luis",
+                "address" => "Calle del Cuartel # 36 – 16",
+                "city" => "Cartagena, Colombia",
+                "phone" => "+57 314 6669101",
+                "link" => "https://www.farandahotels.com/hotel/hotel-casa-don-luis-cartagena-by-faranda-boutique",
+                "image" => THEME_IMG . 'places-cartagena/hoteles-12.webp',
+            ],
+            [
+                "name" => "Voila By Huespedia",
+                "address" => "Calle de las Carretas # 34 - 85",
+                "city" => "Cartagena, Colombia",
+                "phone" => "+57 300 9121453",
+                "link" => "https://www.bevoila.com/home-es",
+                "image" => THEME_IMG . 'places-cartagena/hoteles-13.webp',
+            ],
+            [
+                "name" => "Hotel Estelar",
+                "address" => "Cra. 1 # 11 - 116",
+                "city" => "Cartagena, Colombia",
+                "phone" => "+57 (605) 6517303",
+                "link" => "https://www.hotelesestelar.com/es/destinos/colombia/cartagena-de-indias",
+                "image" => THEME_IMG . 'places-cartagena/hoteles-15.webp',
+            ],
+            
+        ],
+    ],
     "coffee_breakfast_brunch" => [
         "id" => "coffee_breakfast_brunch",
         "title" => "COFFEE BREAKFAST & BRUNCH",
@@ -981,7 +1112,7 @@ $thingsToDo = [
         <div class="container">
             <div class="row">
                 <div class="col-12 col-lg-11 mx-auto">
-                    <div class="customSectionBox p-lg-5 p-3">
+                    <div class="customSectionBox p-lg-5 p-3 bg-white">
                         <div class="p-lg-5">
 
                             <h2 class="fs-xl-5 text-orange letter-spacing-24 uppercase mb-3">CARTAGENA’S BEST-KEPT TOURIST TIP: Don’t Get Overcharged</h2>
