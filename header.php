@@ -93,7 +93,7 @@ if (isset($_POST['password_access'])) {
                                    name="password_access" 
                                    required 
                                    autocomplete="off"
-                                   placeholder="Cartagena2026">
+                                   placeholder="Password">
                             <?php if (isset($error_password)): ?>
                                 <div class="text-danger mt-2"><?php echo $error_password; ?></div>
                             <?php endif; ?>
@@ -116,7 +116,7 @@ if (isset($_POST['password_access'])) {
   <header class="position-fixed top-0 left-0 w-100 mt-3 bg-white-50">
     <div class="">
       <div class="container-fluid gx-0 py-xl-0 pt-1 pb-2">
-        <div class="row gx-0 justify-content-between">
+        <div class="row gx-0 justify-content-between px-3">
           <div class="col-8 d-flex align-items-center d-xl-none ">
             <div class="text-center">
               <a class="d-block" href="/">

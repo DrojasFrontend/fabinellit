@@ -58,19 +58,19 @@ get_header();
                                 <p class="fs-xl-4 fs-6-md mb-xl-2 mb-4">March 28, 2026</p>
                                 <h3 class="fs-xl-3 fs-6 mb-2">CEREMONY</h3>
                                 <p class="fs-xl-4 fs-6-md mb-2">7:00 P.M.</p>
-                                <p class="fs-xl-4 fs-6-md mb-3" style="line-height: 20px;">Catedral de Santa <br> Catalina de Alejandría</p>
+                                <p class="fs-xl-4 fs-6-md mb-3">Catedral de Santa <br> Catalina de Alejandría</p>
                                 <!-- <p class="fs-xl-4 fs-6-md mb-3">Santa Catalina de Alejandría</p> -->
-                                <a href="https://maps.app.goo.gl/xMqRZTiuuizL43zA8" target="_blank" class="btn btn-primary mx-auto mb-4">Location</a>
+                                <a href="https://maps.apple.com/?address=Calle%2035%204-24,%20Cartagena,%20Bol%C3%ADvar,%20Colombia&auid=12587900361349457487&ll=10.423666,-75.550712&lsp=9902&q=Catedral%20de%20Santa%20Catalina%20de%20Alejandr%C3%ADa&t=m" target="_blank" class="btn btn-primary mx-auto mb-5">Location</a>
     
                                 <h3 class="fs-xl-3 fs-6 mb-2">RECEPTION TO FOLLOW</h3>
-                                <p class="fs-xl-4 fs-6-md" style="line-height: 20px;">Teatro Adolfo Mejía</p>
+                                <p class="fs-xl-4 fs-6-md">Teatro Adolfo Mejía</p>
                                 <p class="fs-xl-4 fs-6-md mb-3">Cartagena de Indias</p>
-                                <a href="https://maps.app.goo.gl/6LLBDbuMRtUnhB7h7" target="_blank" class="btn btn-primary mx-auto mb-5">Location</a>
+                                <a href="https://maps.apple.com/?address=Calle%20de%20Don%20Sancho%2038-100%E2%80%9338-2,%20Cartagena,%20Bol%C3%ADvar,%20Colombia&auid=11208735322569627816&ll=10.426675,-75.551400&lsp=9902&q=Teatro%20Adolfo%20Mej%C3%ADa%20(%20Teatro%20Heredia%20)&t=m" target="_blank" class="btn btn-primary mx-auto mb-5">Location</a>
     
                                 <h3 class="font-titulo fs-xl-2 fs-3">Dress Code</h3>
                                 <img class="w-auto" src="<?php echo THEME_IMG; ?>dress-code.png" alt="Dress Code">
                                 <h3 class="fs-xl-3 fs-6-md mb-2">BLACK TIE</h3>
-                                <button type="button" data-bs-toggle="modal" data-bs-target="#blackTie" class="btn btn-primary mx-auto border-0 mb-3">More Information</button>
+                                <button type="button" data-bs-toggle="modal" data-bs-target="#blackTie" class="btn btn-primary mx-auto border-0 mb-5">More Information</button>
     
                                 <h2 class="font-titulo fs-xl-2 fs-3 mb-3">Registry</h2>
                                 <a href="#" class="btn btn-primary mx-auto">More Information</a>
@@ -110,7 +110,7 @@ get_header();
                                         <h2 class="font-titulo fs-2-md">Island Day</h2>
                                         <p class="fs-xl-4 fs-6-md mb-xl-2 mb-4">March 27, 2026</p>
                                         <p class="fs-xl-4 fs-6-md mb-3">10:00am - 4:00pm</p>
-                                        <p class="fs-xl-4 fs-6-md" style="line-height: 20px;">Agua Azul,</p>
+                                        <p class="fs-xl-4 fs-6-md" style="line-height: 20px;">Hotel Aguazul,</p>
                                         <p class="fs-xl-4 fs-6-md mb-3">Isla de Barú</p>
                                         <a href="https://maps.app.goo.gl/2ookbLmb9MDyTPwdA" target="_blank" class="btn btn-primary mx-auto mb-4">Location</a>
 
@@ -161,7 +161,7 @@ get_header();
                                     <div class="d-flex justify-content-center">
                                         <p class="font-titulo fs-xl-md-2 fs-6 text-center text-red mb-4 commilla">We can t wait to celebrate with you.</p>
                                     </div>
-                                    <p class="fs-xl-5 text-center text-red letter-spacing-15">Please respond by <br> October 10, 2025.</p>
+                                    <p class="fs-xl-5 text-center text-red letter-spacing-15">Please respond by <br> January 20th, 2026</p>
                                     <div class="py-xl-5 py-3"></div>
                                     <?php
                                         global $TRP_LANGUAGE;

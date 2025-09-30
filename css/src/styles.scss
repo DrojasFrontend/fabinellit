@@ -531,6 +531,7 @@ header {
                         width: 100%;
                         height: 480px;
                         background-image: url(../../images/box-new.webp);
+                        background-color: #fff;
                         background-size: auto;
                         background-position: center;
                         background-repeat: repeat;
@@ -597,6 +598,7 @@ header {
     &-button-next,
     &-button-prev {
         color: #746448;
+        top: 30% !important;
 
         &:after {
             font-size: 24px;
