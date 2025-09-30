@@ -18,7 +18,7 @@ $places = [
                 "address" => "Cra. 5 # 34 - 52",
                 "city" => "Centro Histórico, Cartagena",
                 "phone" => "+57 315 8008072",
-                "link" => "https://www.instagram.com/weare.epoca/",
+                "link" => "https://www.instagram.com/weare.epoca/?hl=en",
                 "image" => THEME_IMG . 'places-cartagena/coffee-001.png',
             ],
             [
@@ -27,7 +27,7 @@ $places = [
                 "address" => "Calle 7 # 2 - 50",
                 "city" => "Cartagena, Colombia",
                 "phone" => "+57 316 8752466",
-                "link" => "https://elyreposteria.com/elycafe/",
+                "link" => "https://www.instagram.com/ely.cafe/?hl=en",
                 "image" => THEME_IMG . 'places-cartagena/coffee-002.png',
             ],
             [
@@ -36,7 +36,7 @@ $places = [
                 "address" => "Cra. 3 # 35 - 18",
                 "city" => "Centro Histórico, Cartagena",
                 "phone" => "+57 318 7964457",
-                "link" => "https://cafesanalberto.com.co/",
+                "link" => "https://www.instagram.com/cafe_san_alberto/?hl=en",
                 "image" => THEME_IMG . 'places-cartagena/coffee-003.png',
             ],
             [
@@ -45,7 +45,7 @@ $places = [
                 "address" => "Cl. de la Iglesia # 35 - 76",
                 "city" => "Centro Histórico, Cartagena",
                 "phone" => "+57 317 2573024",
-                "link" => "https://www.instagram.com/quienespascal/",
+                "link" => "https://www.mila.com.co",
                 "image" => THEME_IMG . 'places-cartagena/coffee-004.png',
             ],
             [
@@ -54,7 +54,7 @@ $places = [
                 "address" => "Calle 36 # 3 - 86",
                 "city" => "Centro Histórico, Cartagena",
                 "phone" => "+57 (605) 6786143",
-                "link" => "https://juanvaldez.com",
+                "link" => "https://www.instagram.com/abaco_libros_y_cafe/?hl=en",
                 "image" => THEME_IMG . 'places-cartagena/coffee-005.png',
             ],
             [
@@ -63,7 +63,7 @@ $places = [
                 "address" => "Pl. de San Pedro Claver",
                 "city" => "Centro Histórico, Cartagena",
                 "phone" => "+57 305 7434343",
-                "link" => "https://www.instagram.com/lapaletteria/",
+                "link" => "https://www.instagram.com/crepesywaffles/",
                 "image" => THEME_IMG . 'places-cartagena/coffee-006.png',
             ],
         ]
@@ -89,7 +89,7 @@ $places = [
                 "address" => "Av Carlos Escallon 34-01",
                 "city" => "Centro Histórico, Cartagena",
                 "phone" => "+57 (605) 9174654",
-                "link" => "https://celelerestaurante.com",
+                "link" => "https://restaurantedonjuan.co",
                 "image" => THEME_IMG . 'places-cartagena/restaurant-002.png',
             ],
             [
@@ -107,7 +107,7 @@ $places = [
                 "address" => "Cra. 3 # 31 - 19",
                 "city" => "Centro Histórico, Cartagena",
                 "phone" => "+57 (605) 6501015",
-                "link" => "https://restaurantecande.com",
+                "link" => "https://www.hotelcharlestonsantateresa.com/es/restaurantes-bar/harry-s-cartagena",
                 "image" => THEME_IMG . 'places-cartagena/restaurant-004.png',
             ],
             [
@@ -116,7 +116,7 @@ $places = [
                 "address" => "Cl. 6 # 3 - 24",
                 "city" => "Centro Histórico, Cartagena",
                 "phone" => "+57 300 2395658",
-                "link" => "https://www.instagram.com/restaurantedres/",
+                "link" => "https://www.instagram.com/mcocina_/?hl=en",
                 "image" => THEME_IMG . 'places-cartagena/restaurant-005.png',
             ],
             [
@@ -125,7 +125,7 @@ $places = [
                 "address" => "Plaza de San Diego, 8 - 12",
                 "city" => "Centro Histórico, Cartagena",
                 "phone" => "+57 312 7148778",
-                "link" => "https://www.instagram.com/rabodepez/",
+                "link" => "https://juandelmar.com/es/inicio//",
                 "image" => THEME_IMG . 'places-cartagena/restaurant-006.png',
             ],
             [
@@ -134,7 +134,7 @@ $places = [
                 "address" => "Cra. 2 # 33 - 66",
                 "city" => "Centro Histórico, Cartagena",
                 "phone" => "+57 (605) 6648243",
-                "link" => "https://www.instagram.com/lavitrolacartagena/",
+                "link" => "https://www.instagram.com/lavitrolacartagena/?hl=en",
                 "image" => THEME_IMG . 'places-cartagena/restaurant-007.png',
             ],
             [
@@ -143,7 +143,7 @@ $places = [
                 "address" => "Calle de Ayos # 4 - 46",
                 "city" => "Centro Histórico, Cartagena",
                 "phone" => "+57 315 2780517",
-                "link" => "https://www.instagram.com/aguadeleonrestaurante/",
+                "link" => "https://www.instagram.com/aguadeleonrestaurante/?hl=en",
                 "image" => THEME_IMG . 'places-cartagena/restaurant-008.png',
             ],
             [
@@ -152,7 +152,7 @@ $places = [
                 "address" => "Cra. 8 # 38 - 476",
                 "city" => "Centro Histórico, Cartagena",
                 "phone" => "+57 315 2780517",
-                "link" => "https://www.instagram.com/aguadeleonrestaurante/",
+                "link" => "https://www.instagram.com/launicactg/?hl=en",
                 "image" => THEME_IMG . 'places-cartagena/restaurant-009.png',
             ],
             [
@@ -161,16 +161,16 @@ $places = [
                 "address" => "Cra. 3 # 8 - 836",
                 "city" => "Centro Histórico, Cartagena",
                 "phone" => "+57 (605) 6783200",
-                "link" => "#",
+                "link" => "https://www.restaurantearabeinternacional.com",
                 "image" => THEME_IMG . 'places-cartagena/restaurant-010.png',
             ],
             [
                 "name" => "MARE RESTAURANTE",
-                "detalle" => "LContemporary seafood & terrace dining.",
+                "detalle" => "Contemporary seafood & terrace dining.",
                 "address" => " Cra. 6 # 32 ",
                 "city" => "Centro Histórico, Cartagena",
                 "phone" => "+57 304 4129411",
-                "link" => "#",
+                "link" => "https://restaurantemare.com",
                 "image" => THEME_IMG . 'places-cartagena/restaurant-011.png',
             ],
             [
@@ -179,7 +179,7 @@ $places = [
                 "address" => "Cl. 37 #2886 6 - 33",
                 "city" => "Centro Histórico, Cartagena",
                 "phone" => "+57 310 4153330",
-                "link" => "#",
+                "link" => "https://www.sanvalentinrestaurantebar.com/",
                 "image" => THEME_IMG . 'places-cartagena/restaurant-012.png',
             ],
             [
@@ -188,8 +188,17 @@ $places = [
                 "address" => "Calle del Porvenir, Esquina",
                 "city" => "Centro Histórico, Cartagena",
                 "phone" => "+57 322 3061025",
-                "link" => "#",
+                "link" => "https://www.buenavidamarisqueria.com",
                 "image" => THEME_IMG . 'places-cartagena/restaurant-013.png',
+            ],
+            [
+                "name" => "SAN NICOLÁS <br> RESTAURANTE BAR",
+                "detalle" => "Local favorite for live music dining..",
+                "address" => "Cl. 25 #8b162",
+                "city" => "Getsemaní, Cartagena",
+                "phone" => "+57 310 6221662",
+                "link" => "https://sannicolasrestaurantebar.com",
+                "image" => THEME_IMG . 'places-cartagena/restaurant-014.png',
             ],
             [
                 "name" => "Casa Pestagua <br> (RESTAURANT)",
@@ -197,8 +206,8 @@ $places = [
                 "address" => "Cra. 3 # 33 - 63",
                 "city" => "Cartagena, Colombia",
                 "phone" => "+57 (605) 6649510",
-                "link" => "#",
-                "image" => THEME_IMG . 'places-cartagena/restaurant-014.png',
+                "link" => "https://casapestagua.com/gastronomia/",
+                "image" => THEME_IMG . 'places-cartagena/restaurant-015.png',
             ],
         ]
     ],
@@ -214,7 +223,7 @@ $places = [
                 "address" => "Cra. 4 # 31 - 7",
                 "city" => "Centro Histórico, Cartagena",
                 "phone" => "+57 315 6463018",
-                "link" => "https://www.instagram.com/elbaroncafe/",
+                "link" => "https://www.elbaron.co",
                 "image" => THEME_IMG . 'places-cartagena/bar-002.png',
             ],
             [
@@ -223,7 +232,7 @@ $places = [
                 "address" => "Calle Colegio # 34 - 24",
                 "city" => "Centro Histórico, Cartagena",
                 "phone" => "+57 316 5331932",
-                "link" => "https://alquimico.com",
+                "link" => "https://www.instagram.com/alquimicocartagena/?hl=en",
                 "image" => THEME_IMG . 'places-cartagena/bar-003.png',
             ],
             [
@@ -232,7 +241,7 @@ $places = [
                 "address" => "Cra. 6 # 34 - 25",
                 "city" => "Centro Histórico, Cartagena",
                 "phone" => "+57 316 3194481",
-                "link" => "https://la-jugada.cluvi.co",
+                "link" => "https://www.tripadvisor.co/Restaurant_Review-g297476-d10274853-Reviews-La_Jugada_Club_House-Cartagena_Cartagena_District_Bolivar_Department.html",
                 "image" => THEME_IMG . 'places-cartagena/bar-004.png',
             ],
             [
@@ -241,7 +250,7 @@ $places = [
                 "address" => "Cl. 31 # 3 - 37",
                 "city" => "Centro Histórico, Cartagena",
                 "phone" => "+57 316 5875350",
-                "link" => "h#",
+                "link" => "https://www.instagram.com/lamovidacartagena/?hl=en",
                 "image" => THEME_IMG . 'places-cartagena/bar-005.png',
             ],
             [
@@ -250,7 +259,7 @@ $places = [
                 "address" => "Cra. 8 # 39 - 36",
                 "city" => "Hotel Santa Clara",
                 "phone" => "+57 (605) 6504700",
-                "link" => "#",
+                "link" => "https://www.sofitellegendsantaclara.com/restaurants-bars/el-coro-lounge-bar/",
                 "image" => THEME_IMG . 'places-cartagena/bar-006.png',
             ],
             [
@@ -259,7 +268,7 @@ $places = [
                 "address" => "Portal de los Dulces, Cra. 4",
                 "city" => "Centro Histórico, Cartagena",
                 "phone" => "+57 314 5261892",
-                "link" => "#",
+                "link" => "https://www.instagram.com/donde_fidel/?hl=en",
                 "image" => THEME_IMG . 'places-cartagena/bar-007.png',
             ],
             [
@@ -268,7 +277,7 @@ $places = [
                 "address" => "Cra. 9 # 30 - 42",
                 "city" => "Getsemaní, Cartagena",
                 "phone" => "+57 317 6481183",
-                "link" => "#",
+                "link" => "https://www.instagram.com/bazurtosocialclub/?hl=en",
                 "image" => THEME_IMG . 'places-cartagena/bar-008.png',
             ],
             [
@@ -277,7 +286,7 @@ $places = [
                 "address" => "Cra. 10 #ESQUINA",
                 "city" => "Getsemaní, Cartagena",
                 "phone" => "+57 312 4082896",
-                "link" => "#",
+                "link" => "https://www.instagram.com/cafehavana_cartagena/?hl=en",
                 "image" => THEME_IMG . 'places-cartagena/bar-009.png',
             ],
             [
@@ -286,7 +295,7 @@ $places = [
                 "address" => "Cra. 8b #25-30",
                 "city" => "Getsemaní, Cartagena",
                 "phone" => "+57 300 4300432",
-                "link" => "#",
+                "link" => "https://www.instagram.com/quiebracantocartagena/?hl=en",
                 "image" => THEME_IMG . 'places-cartagena/bar-010.png',
             ],
         ]
@@ -303,7 +312,7 @@ $places = [
                 "address" => "Cra. 3 # 33 - 70",
                 "city" => "Centro Histórico, Cartagena",
                 "phone" => "+57 (605) 6354380",
-                "link" => "https://www.instagram.com/stdomofficial/",
+                "link" => "https://www.instagram.com/stdomofficial/?hl=en",
                 "image" => THEME_IMG . 'places-cartagena/boutique-001.png',
             ],
             [
@@ -321,7 +330,7 @@ $places = [
                 "address" => "Cl. 35 # 3 - 16",
                 "city" => "Centro Histórico, Cartagena",
                 "phone" => "+57 315 2181536",
-                "link" => "#",
+                "link" => "https://www.instagram.com/aguadeleon/?hl=en",
                 "image" => THEME_IMG . 'places-cartagena/boutique-003.png',
             ],
             [
@@ -330,7 +339,7 @@ $places = [
                 "address" => "Cl. 34 # 18 Local 1",
                 "city" => "Centro Histórico, Cartagena",
                 "phone" => "+57 301 4711734",
-                "link" => "#",
+                "link" => "https://www.instagram.com/maygelcoronelofficial/?hl=en",
                 "image" => THEME_IMG . 'places-cartagena/boutique-004.png',
             ],
             [
@@ -339,7 +348,7 @@ $places = [
                 "address" => "Calle San Juan de Dios # 3 - 25",
                 "city" => "Centro Histórico, Cartagena",
                 "phone" => "+57 300 6124694",
-                "link" => "#",
+                "link" => "https://estefaniaofficial.co",
                 "image" => THEME_IMG . 'places-cartagena/boutique-005.png',
             ],
             [
@@ -348,7 +357,7 @@ $places = [
                 "address" => "Cra. 11 # 39 - 21",
                 "city" => "Cartagena, Colombia",
                 "phone" => "+57 300 3278066",
-                "link" => "https://www.instagram.com/malva.col/",
+                "link" => "https://www.instagram.com/malva/?hl=en/",
                 "image" => THEME_IMG . 'places-cartagena/boutique-006.png',
             ],
             [
@@ -357,7 +366,7 @@ $places = [
                 "address" => " Cl. de la Iglesia # 35 - 16",
                 "city" => "Centro Histórico, Cartagena",
                 "phone" => "+57 300 3278066",
-                "link" => "#",
+                "link" => "https://www.aguabendita.com.co",
                 "image" => THEME_IMG . 'places-cartagena/boutique-007.png',
             ],
             [
@@ -366,7 +375,7 @@ $places = [
                 "address" => "Calle Estanco del Tabaco 35/30",
                 "city" => "Centro Histórico, Cartagena",
                 "phone" => "+57 315 3745527",
-                "link" => "#",
+                "link" => "https://baobab.com.co",
                 "image" => THEME_IMG . 'places-cartagena/boutique-008.png',
             ],
             [
@@ -375,7 +384,7 @@ $places = [
                 "address" => "Cl. de San Juan de Dios # 3 - 25",
                 "city" => "Centro Histórico, Cartagena",
                 "phone" => "+57 311 2135638",
-                "link" => "#",
+                "link" => "https://touche.com.co/?srsltid=AfmBOop68WfzNHhjB2CBqamthFQHngJVcL55dU2hltLDZ6WGo7U3b7N5",
                 "image" => THEME_IMG . 'places-cartagena/boutique-009.png',
             ],
             [
@@ -384,7 +393,7 @@ $places = [
                 "address" => "Cl. San Pedro Claver # 31 - 06",
                 "city" => "Centro Histórico, Cartagena",
                 "phone" => "+57 320 5781506",
-                "link" => "h#",
+                "link" => "https://soloio.com/es-co?dm_cam=22264491356&dm_grp=178329963514&dm_ad=733837648764&dm_kw=soloio&dm_net=adwords&gad_source=1&gad_campaignid=22264491356&gbraid=0AAAAA9RirTE9UFFYm1fUgq1NpB4y_Zys6&gclid=CjwKCAjw_-3GBhAYEiwAjh9fUAP6kuwhp3JVjdPqb8rKFAh1TxKO71RIi3Qwwt63xMElTP4W-YQRShoCAVcQAvD_BwE",
                 "image" => THEME_IMG . 'places-cartagena/boutique-010.png',
             ],
             [
@@ -393,7 +402,7 @@ $places = [
                 "address" => "Cra. 11 # 39 - 21",
                 "city" => "Centro Histórico, Cartagena",
                 "phone" => "+57 (605) 6421795",
-                "link" => "#",
+                "link" => "https://www.instagram.com/laserrezuela/?hl=en",
                 "image" => THEME_IMG . 'places-cartagena/boutique-011.png',
             ],
             [
@@ -402,7 +411,7 @@ $places = [
                 "address" => "Pedro De Heredia # 31",
                 "city" => "Centro Histórico, Cartagena",
                 "phone" => "+57 (605) 56477949",
-                "link" => "#",
+                "link" => "https://www.instagram.com/ondademar/?hl=en",
                 "image" => THEME_IMG . 'places-cartagena/boutique-012.png',
             ],
         ]
@@ -419,7 +428,7 @@ $places = [
                 "address" => '',
                 "city" => "",
                 "phone" => "",
-                "link" => "",
+                "link" => "https://fortificacionescartagena.com.co/es/planee-su-visita/castillo-de-san-felipe-de-barajas/",
                 "image" => THEME_IMG . 'places-cartagena/beauty-001.png',
             ],
             [
@@ -428,7 +437,7 @@ $places = [
                 "address" => '',
                 "city" => "",
                 "phone" => "",
-                "link" => "",
+                "link" => "https://www.muhca.gov.co",
                 "image" => THEME_IMG . 'places-cartagena/beauty-002.png',
             ],
             [
@@ -437,7 +446,7 @@ $places = [
                 "address" => '',
                 "city" => "",
                 "phone" => "",
-                "link" => "",
+                "link" => "https://www.banrepcultural.org/cartagena/museo-del-oro-zenu",
                 "image" => THEME_IMG . 'places-cartagena/beauty-003.png',
             ],
             [
@@ -446,7 +455,7 @@ $places = [
                 "address" => '',
                 "city" => "",
                 "phone" => "",
-                "link" => "",
+                "link" => "https://museonavaldelcaribe.org",
                 "image" => THEME_IMG . 'places-cartagena/beauty-004.png',
             ],
             [
@@ -455,7 +464,7 @@ $places = [
                 "address" => '',
                 "city" => "",
                 "phone" => "",
-                "link" => "",
+                "link" => "https://ipcc.gov.co/escenarios-culturales-vivos/teatro-adolfo-mejia/",
                 "image" => THEME_IMG . 'places-cartagena/beauty-005.png',
             ],
             [
@@ -464,7 +473,7 @@ $places = [
                 "address" => '',
                 "city" => "",
                 "phone" => "",
-                "link" => "",
+                "link" => "https://colombia.travel/es/cartagena/muelle-de-los-pegasos",
                 "image" => THEME_IMG . 'places-cartagena/beauty-006.png',
             ],
             [
@@ -473,7 +482,7 @@ $places = [
                 "address" => '',
                 "city" => "",
                 "phone" => "",
-                "link" => "",
+                "link" => "https://colombia.travel/es/cartagena/monumento-la-india-catalina",
                 "image" => THEME_IMG . 'places-cartagena/beauty-007.png',
             ],
         ]
@@ -490,7 +499,7 @@ $places = [
                 "address" => '',
                 "city" => "",
                 "phone" => "",
-                "link" => "#",
+                "link" => "https://maps.app.goo.gl/N7RVBxeXEN3p5LPE8",
                 "image" => THEME_IMG . 'places-cartagena/churches-001.png',
             ],
             [
@@ -499,7 +508,7 @@ $places = [
                 "address" => '',
                 "city" => "",
                 "phone" => "",
-                "link" => "#",
+                "link" => "https://maps.app.goo.gl/M3LEiRGYqYa9UzKt8",
                 "image" => THEME_IMG . 'places-cartagena/churches-002.png',
             ],
             [
@@ -508,7 +517,7 @@ $places = [
                 "address" => '',
                 "city" => "",
                 "phone" => "",
-                "link" => "#",
+                "link" => "https://maps.app.goo.gl/hM1Auf5EPyQo43xG6",
                 "image" => THEME_IMG . 'places-cartagena/churches-003.png',
             ],
             [
@@ -517,7 +526,7 @@ $places = [
                 "address" => '',
                 "city" => "",
                 "phone" => "",
-                "link" => "#",
+                "link" => "https://maps.app.goo.gl/kXCdruRdqEKHFF8m9",
                 "image" => THEME_IMG . 'places-cartagena/churches-004.png',
             ],
         ]
@@ -534,7 +543,7 @@ $places = [
                 "address" => '',
                 "city" => "",
                 "phone" => "",
-                "link" => "#",
+                "link" => "https://maps.app.goo.gl/pmPSG5SvAxahQ7uE7",
                 "image" => THEME_IMG . 'places-cartagena/neighborhoods-001.png',
             ],
             [
@@ -543,7 +552,7 @@ $places = [
                 "address" => '',
                 "city" => "",
                 "phone" => "",
-                "link" => "#",
+                "link" => "https://maps.app.goo.gl/Q2gw2oL7z76hvEaF9",
                 "image" => THEME_IMG . 'places-cartagena/neighborhoods-002.png',
             ],
             [
@@ -552,7 +561,7 @@ $places = [
                 "address" => '',
                 "city" => "",
                 "phone" => "",
-                "link" => "#",
+                "link" => "https://maps.app.goo.gl/65m9ZA2DRj6PFKSx6",
                 "image" => THEME_IMG . 'places-cartagena/neighborhoods-003.png',
             ],
             [
@@ -561,7 +570,7 @@ $places = [
                 "address" => '',
                 "city" => "",
                 "phone" => "",
-                "link" => "#",
+                "link" => "https://maps.app.goo.gl/eGvecofeyS2QEE7j7",
                 "image" => THEME_IMG . 'places-cartagena/neighborhoods-004.png',
             ],
         ]
@@ -578,7 +587,7 @@ $places = [
                 "address" => "",
                 "city" => "",
                 "phone" => "",
-                "link" => "#",
+                "link" => "https://maps.app.goo.gl/6r5PiQYF3r4su9Cd8",
                 "image" => THEME_IMG . 'places-cartagena/beach-001.png',
             ],
             [
@@ -587,7 +596,7 @@ $places = [
                 "address" => "",
                 "city" => "",
                 "phone" => "",
-                "link" => "#",
+                "link" => "https://maps.app.goo.gl/LxPCcPM96QX9RQb18",
                 "image" => THEME_IMG . 'places-cartagena/beach-002.png',
             ],
             [
@@ -596,7 +605,7 @@ $places = [
                 "address" => "",
                 "city" => "",
                 "phone" => "",
-                "link" => "#",
+                "link" => "https://maps.app.goo.gl/bFqbkVBL96sXjHYR8",
                 "image" => THEME_IMG . 'places-cartagena/beach-003.png',
             ],
         ]
