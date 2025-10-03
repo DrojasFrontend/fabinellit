@@ -598,11 +598,19 @@ header {
     &-button-next,
     &-button-prev {
         color: #746448;
-        top: 30% !important;
+        top: 50% !important;
 
         &:after {
             font-size: 24px;
         }
+    }
+
+    &-button-next {
+        right: -20px;
+    }
+
+    &-button-prev {
+        left: -20px;
     }
 
     &-pagination {

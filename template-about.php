@@ -117,41 +117,20 @@ get_header();
             <div class="container">
                 <div class="row">
                     <div class="col-12 col-lg-7 mx-auto">
-                        <div class="customSectionGallery__swiper customSectionGallery__swiper-2 py-3">
+                        <div class="customSectionGallery__swiper customSectionGallery__swiper-2 py-3 position-relative">
                             <div class="swiper gallerySwiper2 px-2">
                                 <div class="swiper-wrapper">
-                                    <div class="swiper-slide py-3">
-                                        <div class="p-3 bg-white-100 shadow-1">
-                                            <img class="w-100 d-block" src="<?php echo THEME_IMG; ?>gallery/gallery-1.webp" alt="Gallery 1">
+                                    <?php for ($i = 1; $i <= 12; $i++) { ?>
+                                        <div class="swiper-slide py-3">
+                                            <div class="p-3 bg-white-100 shadow-1">
+                                                <img class="w-100 d-block" src="<?php echo THEME_IMG; ?>gallery/Grupo-<?php echo $i+1; ?>.png" alt="Gallery 1">
+                                            </div>
                                         </div>
-                                    </div>
-                                    <div class="swiper-slide py-3">
-                                        <div class="p-3 bg-white-100 shadow-1">
-                                            <img class="w-100 d-block" src="<?php echo THEME_IMG; ?>gallery/gallery-2.webp" alt="Gallery 2">
-                                        </div>
-                                    </div>
-                                    <div class="swiper-slide py-3">
-                                        <div class="p-3 bg-white-100 shadow-1">
-                                            <img class="w-100 d-block" src="<?php echo THEME_IMG; ?>gallery/gallery-3.webp" alt="Gallery 3">
-                                        </div>
-                                    </div>
-                                    <div class="swiper-slide py-3">
-                                        <div class="p-3 bg-white-100 shadow-1">
-                                            <img class="w-100 d-block" src="<?php echo THEME_IMG; ?>gallery/gallery-1.webp" alt="Gallery 1">
-                                        </div>
-                                    </div>
-                                    <div class="swiper-slide py-3">
-                                        <div class="p-3 bg-white-100 shadow-1">
-                                            <img class="w-100 d-block" src="<?php echo THEME_IMG; ?>gallery/gallery-2.webp" alt="Gallery 2">
-                                        </div>
-                                    </div>
-                                    <div class="swiper-slide py-3">
-                                        <div class="p-3 bg-white-100 shadow-1">
-                                            <img class="w-100 d-block" src="<?php echo THEME_IMG; ?>gallery/gallery-3.webp" alt="Gallery 3">
-                                        </div>
-                                    </div>
+                                    <?php } ?>
                                 </div>
                             </div>
+                            <div class="swiper-button-next"></div>
+                            <div class="swiper-button-prev"></div>
                         </div>
                     </div>
                 </div>
