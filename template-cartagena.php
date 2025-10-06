@@ -139,8 +139,8 @@ $places = [
     ],
     "coffee_breakfast_brunch" => [
         "id" => "coffee_breakfast_brunch",
-        "title" => "COFFEE BREAKFAST & BRUNCH",
-        "title_es" => "COFFEE BREAKFAST & BRUNCH",
+        "title" => "COFFEE, BREAKFAST & BRUNCH",
+        "title_es" => "COFFEE, BREAKFAST & BRUNCH",
         "img" => THEME_IMG . 'icons/icon-brunch-2.svg',
         "places" => [
             [
@@ -355,7 +355,7 @@ $places = [
                 "city" => "Centro Histórico, Cartagena",
                 "phone" => "+57 315 6463018",
                 "link" => "https://www.elbaron.co",
-                "image" => THEME_IMG . 'places-cartagena/bar-002.png',
+                "image" => THEME_IMG . 'places-cartagena/bar-001.png',
             ],
             [
                 "name" => "Alquímico",
@@ -364,7 +364,7 @@ $places = [
                 "city" => "Centro Histórico, Cartagena",
                 "phone" => "+57 316 5331932",
                 "link" => "https://www.instagram.com/alquimicocartagena/?hl=en",
-                "image" => THEME_IMG . 'places-cartagena/bar-003.png',
+                "image" => THEME_IMG . 'places-cartagena/bar-002.png',
             ],
             [
                 "name" => "La Jugada",
@@ -373,7 +373,7 @@ $places = [
                 "city" => "Centro Histórico, Cartagena",
                 "phone" => "+57 316 3194481",
                 "link" => "https://www.tripadvisor.co/Restaurant_Review-g297476-d10274853-Reviews-La_Jugada_Club_House-Cartagena_Cartagena_District_Bolivar_Department.html",
-                "image" => THEME_IMG . 'places-cartagena/bar-004.png',
+                "image" => THEME_IMG . 'places-cartagena/bar-003.png',
             ],
             [
                 "name" => "LA MOVIDA",
@@ -382,7 +382,7 @@ $places = [
                 "city" => "Centro Histórico, Cartagena",
                 "phone" => "+57 316 5875350",
                 "link" => "https://www.instagram.com/lamovidacartagena/?hl=en",
-                "image" => THEME_IMG . 'places-cartagena/bar-005.png',
+                "image" => THEME_IMG . 'places-cartagena/bar-004.png',
             ],
             [
                 "name" => "El Coro",
@@ -391,7 +391,7 @@ $places = [
                 "city" => "Hotel Santa Clara",
                 "phone" => "+57 (605) 6504700",
                 "link" => "https://www.sofitellegendsantaclara.com/restaurants-bars/el-coro-lounge-bar/",
-                "image" => THEME_IMG . 'places-cartagena/bar-006.png',
+                "image" => THEME_IMG . 'places-cartagena/bar-005.png',
             ],
             [
                 "name" => "DONDE FIDEL",
@@ -400,7 +400,7 @@ $places = [
                 "city" => "Centro Histórico, Cartagena",
                 "phone" => "+57 314 5261892",
                 "link" => "https://www.instagram.com/donde_fidel/?hl=en",
-                "image" => THEME_IMG . 'places-cartagena/bar-007.png',
+                "image" => THEME_IMG . 'places-cartagena/bar-006.png',
             ],
             [
                 "name" => "BAZURTO",
@@ -409,7 +409,7 @@ $places = [
                 "city" => "Getsemaní, Cartagena",
                 "phone" => "+57 317 6481183",
                 "link" => "https://www.instagram.com/bazurtosocialclub/?hl=en",
-                "image" => THEME_IMG . 'places-cartagena/bar-008.png',
+                "image" => THEME_IMG . 'places-cartagena/bar-007.png',
             ],
             [
                 "name" => "Café Havana",
@@ -418,7 +418,7 @@ $places = [
                 "city" => "Getsemaní, Cartagena",
                 "phone" => "+57 312 4082896",
                 "link" => "https://www.instagram.com/cafehavana_cartagena/?hl=en",
-                "image" => THEME_IMG . 'places-cartagena/bar-009.png',
+                "image" => THEME_IMG . 'places-cartagena/bar-008.png',
             ],
             [
                 "name" => "QUIEBRACANTO",
@@ -427,7 +427,7 @@ $places = [
                 "city" => "Getsemaní, Cartagena",
                 "phone" => "+57 300 4300432",
                 "link" => "https://www.instagram.com/quiebracantocartagena/?hl=en",
-                "image" => THEME_IMG . 'places-cartagena/bar-010.png',
+                "image" => THEME_IMG . 'places-cartagena/bar-009.png',
             ],
         ]
     ],
@@ -439,7 +439,7 @@ $places = [
         "places" => [
             [
                 "name" => "St. Dom",
-                "detalle" => "Old-Fashioned 'Puro' & Aperol Spritz.",
+                "detalle" => "High-end Colombian designers.",
                 "address" => "Cra. 3 # 33 - 70",
                 "city" => "Centro Histórico, Cartagena",
                 "phone" => "+57 (605) 6354380",
@@ -590,7 +590,7 @@ $places = [
                 "image" => THEME_IMG . 'places-cartagena/beauty-004.png',
             ],
             [
-                "name" => "TEATRO ADOLFO MEJÍA",
+                "name" => "TEATRO HEREDIA ADOLFO MEJÍA",
                 "detalle" => "Neoclassical theatre, local shows.",
                 "address" => '',
                 "city" => "",
@@ -599,7 +599,7 @@ $places = [
                 "image" => THEME_IMG . 'places-cartagena/beauty-005.png',
             ],
             [
-                "name" => "TMUELLE DE LOS PEGASOS",
+                "name" => "MUELLE DE LOS PEGASOS",
                 "detalle" => "Waterfront sculptures & vendors.",
                 "address" => '',
                 "city" => "",
@@ -722,7 +722,7 @@ $places = [
                 "image" => THEME_IMG . 'places-cartagena/beach-001.png',
             ],
             [
-                "name" => "GETSEMANÍ",
+                "name" => "Tierra Bomba",
                 "detalle" => "Blue Apple, Makani, Éteka for a closer beach fix.",
                 "address" => "",
                 "city" => "",
@@ -749,7 +749,7 @@ $thingsToDo = [
         "image" => THEME_IMG . 'things-to-do-1.png',
         "titulo" => "1. OLD CITY IMMERSION",
         "titulo_2" => "# Today’s Itinerary",
-        "description" => "Clock-Tower → Cathedral → Plaza Bolívar & Clock-Tower → Cathedral → Plaza Bolívar & Gold Museum → Palace of the Inquisition → San Pedro Claver → Santo Domingo Church & Botero “Gertrudis” → Las Bóvedas artisan vaults → sunset wall-walk.",
+        "description" => "Clock-Tower → Cathedral → Plaza Bolívar & Gold Museum → Palace of the Inquisition → San Pedro Claver → Santo Domingo Church & Botero “Gertrudis” → Las Bóvedas artisan vaults → sunset wall-walk.",
         "titulo_3" => "KEY DETAILS & UPGRADES",
         "items" => [
             "item_1" => "• Guided walking tour recommended.",
@@ -907,11 +907,8 @@ $thingsToDo = [
                 <div class="row">
                     <div class="col-12 col-xl-10 mx-auto">
                         <div class="position-relative customSectionBox customSectionBox__2 text-center py-5 shadow-1">
-                            <?php if(wp_is_mobile()): ?>
-                                <img width="260" class="customSectionCartagenaPlaces__flower" src="<?php echo THEME_IMG; ?>flower-3.png" alt="Flower 1 Cartagena mobile">
-                            <?php else: ?>
-                                <img class="customSectionCartagenaPlaces__flower" src="<?php echo THEME_IMG; ?>flower-3.png" alt="Flower 1 Cartagena">
-                            <?php endif; ?>
+                                <img width="260" class="d-block d-xl-none customSectionCartagenaPlaces__flower" src="<?php echo THEME_IMG; ?>flower-3.png" alt="Flower 1 Cartagena mobile">
+                                <img class="d-none d-xl-block customSectionCartagenaPlaces__flower" src="<?php echo THEME_IMG; ?>flower-3.png" alt="Flower 1 Cartagena">
                             <div class="col-12 col-xl-9 mx-auto text-start px-xl-0 px-3">
                                 <div class="py-xl-5"></div>
                                 <p class="fs-xl-3 fs-6 text-center">ENJOY</p>

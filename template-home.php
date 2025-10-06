@@ -63,7 +63,7 @@ get_header();
                                 <a href="https://maps.apple.com/?address=Calle%2035%204-24,%20Cartagena,%20Bol%C3%ADvar,%20Colombia&auid=12587900361349457487&ll=10.423666,-75.550712&lsp=9902&q=Catedral%20de%20Santa%20Catalina%20de%20Alejandr%C3%ADa&t=m" target="_blank" class="btn btn-primary mx-auto mb-5">Location</a>
     
                                 <h3 class="fs-xl-3 fs-6 mb-2">RECEPTION TO FOLLOW</h3>
-                                <p class="fs-xl-4 fs-6-md">Teatro Adolfo Mejía</p>
+                                <p class="fs-xl-4 fs-6-md">Teatro Heredia Adolfo Mejía</p>
                                 <p class="fs-xl-4 fs-6-md mb-3">Cartagena de Indias</p>
                                 <a href="https://maps.apple.com/?address=Calle%20de%20Don%20Sancho%2038-100%E2%80%9338-2,%20Cartagena,%20Bol%C3%ADvar,%20Colombia&auid=11208735322569627816&ll=10.426675,-75.551400&lsp=9902&q=Teatro%20Adolfo%20Mej%C3%ADa%20(%20Teatro%20Heredia%20)&t=m" target="_blank" class="btn btn-primary mx-auto mb-5">Location</a>
     
@@ -73,7 +73,7 @@ get_header();
                                 <button type="button" data-bs-toggle="modal" data-bs-target="#blackTie" class="btn btn-primary mx-auto border-0 mb-5">More Information</button>
     
                                 <h2 class="font-titulo fs-xl-2 fs-3 mb-3">Registry</h2>
-                                <a href="#" class="btn btn-primary mx-auto">More Information</a>
+                                <a href="https://registry.theknot.com/fabi-larrea-nellit-aroca-march-2026-fl/74403161" target="_blank" class="btn btn-primary mx-auto">More Information</a>
                             </div>
                         </div>
                     </div>
@@ -280,7 +280,7 @@ get_header();
             <div class="row">
                 <div class="py-xl-5 py-3"></div>
                 <h2 class="font-titulo fs-xl-md-1 fs-3 text-center">Countdown to the Wedding</h2>
-                <div id="mi-countdown" data-countdown="2026-02-07 14:00:00"></div>
+                <div id="mi-countdown" data-countdown="2026-04-01 14:00:00"></div>
             </div>
             <div class="row">
                 <div class="py-xl-5"></div>
@@ -340,13 +340,13 @@ get_header();
                                     <!-- <span class="icono"><img class="d-block w-100" src="<?php echo THEME_IMG; ?>icons/icon-boutiques.svg" alt="Home 1"></span> -->
                                     <a class="fs-xl-3 text-primary letter-spacing-xl-3 letter-spacing-15" href="/cartagena#churches">CHURCHES</a>
                                 </li>
-                                <li class="d-flex gap-3 align-items-center py-xl-3 px-xl-4 py-2 px-2 clickeable border-0" style="cursor: pointer;">
+                                <li class="d-flex gap-3 align-items-center py-xl-3 px-xl-4 py-2 px-2 clickeable" style="cursor: pointer;">
                                     <!-- <span class="icono"><img class="d-block w-100" src="<?php echo THEME_IMG; ?>icons/icon-thinks.svg" alt="Home 1"></span> -->
-                                    <a class="fs-xl-3 text-primary letter-spacing-xl-3 letter-spacing-15 uppercase" href="/cartagena#neighborhoods_cultural_spots">Neighborhoods & Cultural Spots</a>
+                                    <a class="fs-xl-4 text-primary letter-spacing-xl-3 letter-spacing-15 uppercase" href="/cartagena#neighborhoods_cultural_spots">Neighborhoods & Cultural Spots</a>
                                 </li>
                                 <li class="d-flex gap-3 align-items-center py-xl-3 px-xl-4 py-2 px-2 clickeable border-0" style="cursor: pointer;">
                                     <!-- <span class="icono"><img class="d-block w-100" src="<?php echo THEME_IMG; ?>icons/icon-thinks.svg" alt="Home 1"></span> -->
-                                    <a class="fs-xl-3 text-primary letter-spacing-xl-3 letter-spacing-15 uppercase" href="/cartagena#beach_clubs_island_day_trips">BEACH CLUBS & ISLAND DAY TRIPS</a>
+                                    <a class="fs-xl-4 text-primary letter-spacing-xl-3 letter-spacing-15 uppercase" href="/cartagena#beach_clubs_island_day_trips">BEACH CLUBS & ISLAND DAY TRIPS</a>
                                 </li>
                             </ul>
                             <div class="py-xl-4 pt-4 pb-2"></div>
