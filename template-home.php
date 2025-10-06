@@ -280,7 +280,7 @@ get_header();
             <div class="row">
                 <div class="py-xl-5 py-3"></div>
                 <h2 class="font-titulo fs-xl-md-1 fs-3 text-center">Countdown to the Wedding</h2>
-                <div id="mi-countdown" data-countdown="2026-04-01 14:00:00"></div>
+                <div id="mi-countdown" data-countdown="2026-03-28 19:00:00"></div>
             </div>
             <div class="row">
                 <div class="py-xl-5"></div>
