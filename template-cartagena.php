@@ -269,7 +269,7 @@ $places = [
                 "image" => THEME_IMG . 'places-cartagena/restaurant-007.png',
             ],
             [
-                "name" => "Agua de León",
+                "name" => "Agua de León (Restaurant)",
                 "detalle" => "Colombian fusion & fashion-forward crowd.",
                 "address" => "Calle de Ayos # 4 - 46",
                 "city" => "Centro Histórico, Cartagena",
