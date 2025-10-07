@@ -208,40 +208,27 @@ get_header();
                                         <div class="py-xl-3"></div>
                                         <div class="pt-xl-0 pt-3"></div>
                                         <h2 class="font-titulo text-center fs-xl-sm-1 fs-3">Fabiola & Nellit</h2>
-                                        <div class="customSectionGallery__swiper py-3">
+                                        <div class="customSectionGallery__swiper py-3 px-lg-0 px-4">
                                             <div class="swiper gallerySwiper px-2">
                                                 <div class="swiper-wrapper">
                                                     <div class="swiper-slide py-3">
-                                                        <div class="p-3 bg-white-100 shadow-1">
+                                                        <div class="p-3 bg-white-100">
                                                             <img class="w-100 d-block" src="<?php echo THEME_IMG; ?>gallery/Grupo-1.png" alt="Gallery 1">
                                                         </div>
                                                     </div>
                                                     <div class="swiper-slide py-3">
-                                                        <div class="p-3 bg-white-100 shadow-1">
+                                                        <div class="p-3 bg-white-100">
                                                             <img class="w-100 d-block" src="<?php echo THEME_IMG; ?>gallery/Grupo-4.png" alt="Gallery 2">
                                                         </div>
                                                     </div>
                                                     <div class="swiper-slide py-3">
-                                                        <div class="p-3 bg-white-100 shadow-1">
-                                                            <img class="w-100 d-block" src="<?php echo THEME_IMG; ?>gallery/Grupo-5.png" alt="Gallery 3">
-                                                        </div>
-                                                    </div>
-                                                    <div class="swiper-slide py-3">
-                                                        <div class="p-3 bg-white-100 shadow-1">
-                                                            <img class="w-100 d-block" src="<?php echo THEME_IMG; ?>gallery/Grupo-1.png" alt="Gallery 1">
-                                                        </div>
-                                                    </div>
-                                                    <div class="swiper-slide py-3">
-                                                        <div class="p-3 bg-white-100 shadow-1">
-                                                            <img class="w-100 d-block" src="<?php echo THEME_IMG; ?>gallery/Grupo-4.png" alt="Gallery 2">
-                                                        </div>
-                                                    </div>
-                                                    <div class="swiper-slide py-3">
-                                                        <div class="p-3 bg-white-100 shadow-1">
+                                                        <div class="p-3 bg-white-100">
                                                             <img class="w-100 d-block" src="<?php echo THEME_IMG; ?>gallery/Grupo-5.png" alt="Gallery 3">
                                                         </div>
                                                     </div>
                                                 </div>
+                                                <div class="d-xl-none swiper-button-next"></div>
+                                                <div class="d-xl-none swiper-button-prev"></div>
                                             </div>
                                         </div>
                                         <h2 class="font-titulo text-center fs-xl-sm-1 fs-2-md">About Us</h2>
@@ -318,7 +305,7 @@ get_header();
                                 </li>
                                 <li class="d-flex gap-3 align-items-center py-xl-3 px-xl-4 py-2 px-2 clickeable" style="cursor: pointer;">
                                     <!-- <span class="icono"><img class="d-block w-100" src="<?php echo THEME_IMG; ?>icons/icon-hotel.svg" alt="Home 1"></span> -->
-                                    <a class="fs-xl-4 text-primary letter-spacing-xl-3 letter-spacing-15 text-uppercase" href="/cartagena#coffee_breakfast_brunch">COFFEE BREAKFAST & BRUNCHS</a>
+                                    <a class="fs-xl-4 text-primary letter-spacing-xl-3 letter-spacing-15 text-uppercase" href="/cartagena#coffee_breakfast_brunch">COFFEE, BREAKFAST & BRUNCHS</a>
                                 </li>
                                 <li class="d-flex gap-3 align-items-center py-xl-3 px-xl-4 py-2 px-2 clickeable" style="cursor: pointer;">
                                     <!-- <span class="icono"><img class="d-block w-100" src="<?php echo THEME_IMG; ?>icons/icon-restaurants.svg" alt="Home 1"></span> -->

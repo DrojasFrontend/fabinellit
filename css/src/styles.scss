@@ -598,6 +598,22 @@ header {
 }
 
 .swiper {
+    &.gallerySwiper {
+        .swiper-button-next,
+        .swiper-button-prev {
+            top: 50% !important;
+        }
+
+        .swiper-button-next {
+            right: 0;
+        }
+
+        .swiper-button-prev {
+            left: 0;
+        }
+
+        
+    }
 
     &-button-next,
     &-button-prev {
