@@ -618,7 +618,11 @@ header {
     &-button-next,
     &-button-prev {
         color: #746448;
-        top: 30% !important;
+        top: 46% !important;
+
+        @media only screen and (min-width: 1200px) {
+            top: 30% !important;
+        }
 
         &:after {
             font-size: 24px;
@@ -644,6 +648,61 @@ header {
     &-pagination {
         &-bullet {
             // background-color: var(--bs-primary);
+        }
+    }
+}
+
+#hotels {
+    .swiper-button-next,
+    .swiper-button-prev {
+        top: 62% !important;
+
+        @media only screen and (min-width: 1200px) {
+            top: 30% !important;
+        }
+    }
+}
+
+#lunch {
+    .swiper-button-next,
+    .swiper-button-prev {
+        top: 44% !important;
+
+        @media only screen and (min-width: 1200px) {
+            top: 30% !important;
+        }
+    }
+}
+
+#sights_museums {
+    .swiper-button-next,
+    .swiper-button-prev {
+        top: 55% !important;
+
+        @media only screen and (min-width: 1200px) {
+            top: 30% !important;
+        }
+    }
+}
+
+#neighborhoods_cultural_spots {
+    .swiper-button-next,
+    .swiper-button-prev {
+        top: 52% !important;
+
+        @media only screen and (min-width: 1200px) {
+            top: 30% !important;
+        }
+    }
+}
+
+#thinks {
+    .swiper-button-next,
+    .swiper-button-prev {
+        top: 60% !important;
+
+        @media only screen and (min-width: 1200px) {
+            top: 30% !important;
         }
     }
 }

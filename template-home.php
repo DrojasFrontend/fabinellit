@@ -294,46 +294,46 @@ get_header();
                             </p>
                             <div class="py-xl-4 pt-3"></div>
                             <h3 class="font-titulo fs-xl-sm-1 fs-2-md">Suggested by Us</h3>
-                            <ul class="pt-xl-5 pt-3 px-4">
+                            <ul class="pt-xl-5 pt-3">
                                 <li class="d-flex gap-3 align-items-center py-xl-3 px-xl-4 py-2 px-2 clickeable" style="cursor: pointer;">
                                     <!-- <span class="icono"><img class="d-block w-100" src="<?php echo THEME_IMG; ?>icons/icon-travel-info.svg" alt="Home 1"></span> -->
-                                    <a class="fs-xl-4 text-primary letter-spacing-xl-3 letter-spacing-15 text-uppercase" href="/cartagena#travel-info">TRAVEL INFO</a>
+                                    <a class="fs-xl-4 text-primary letter-spacing-xl-3 letter-spacing-15 text-uppercase text-start" href="/cartagena#travel-info">TRAVEL INFO</a>
                                 </li>
                                 <li class="d-flex gap-3 align-items-center py-xl-3 px-xl-4 py-2 px-2 clickeable" style="cursor: pointer;">
                                     <!-- <span class="icono"><img class="d-block w-100" src="<?php echo THEME_IMG; ?>icons/icon-hotel.svg" alt="Home 1"></span> -->
-                                    <a class="fs-xl-4 text-primary letter-spacing-xl-3 letter-spacing-15 text-uppercase" href="/cartagena#hotels">HOTELS</a>
+                                    <a class="fs-xl-4 text-primary letter-spacing-xl-3 letter-spacing-15 text-uppercase text-start" href="/cartagena#hotels">HOTELS</a>
                                 </li>
                                 <li class="d-flex gap-3 align-items-center py-xl-3 px-xl-4 py-2 px-2 clickeable" style="cursor: pointer;">
                                     <!-- <span class="icono"><img class="d-block w-100" src="<?php echo THEME_IMG; ?>icons/icon-hotel.svg" alt="Home 1"></span> -->
-                                    <a class="fs-xl-4 text-primary letter-spacing-xl-3 letter-spacing-15 text-uppercase" href="/cartagena#coffee_breakfast_brunch">COFFEE, BREAKFAST & BRUNCHS</a>
+                                    <a class="fs-xl-4 text-primary letter-spacing-xl-3 letter-spacing-15 text-uppercase text-start" href="/cartagena#coffee_breakfast_brunch">COFFEE, BREAKFAST & BRUNCHS</a>
                                 </li>
                                 <li class="d-flex gap-3 align-items-center py-xl-3 px-xl-4 py-2 px-2 clickeable" style="cursor: pointer;">
                                     <!-- <span class="icono"><img class="d-block w-100" src="<?php echo THEME_IMG; ?>icons/icon-restaurants.svg" alt="Home 1"></span> -->
-                                    <a class="fs-xl-4 text-primary letter-spacing-xl-3 letter-spacing-15 text-uppercase" href="/cartagena#lunch">LUNCH & DINNER FAVORITES</a>
+                                    <a class="fs-xl-4 text-primary letter-spacing-xl-3 letter-spacing-15 text-uppercase text-start" href="/cartagena#lunch">LUNCH & DINNER FAVORITES</a>
                                 </li>
                                 <li class="d-flex gap-3 align-items-center py-xl-3 px-xl-4 py-2 px-2 clickeable" style="cursor: pointer;">
                                     <!-- <span class="icono"><img class="d-block w-100" src="<?php echo THEME_IMG; ?>icons/icon-brunch.svg" alt="Home 1"></span> -->
-                                    <a class="fs-xl-4 text-primary letter-spacing-xl-3 letter-spacing-15 text-uppercase" href="/cartagena#bars_clubs_nightlife">BARS, CLUBS & NIGHTLIFE</a>
+                                    <a class="fs-xl-4 text-primary letter-spacing-xl-3 letter-spacing-15 text-uppercase text-start" href="/cartagena#bars_clubs_nightlife">BARS, CLUBS & NIGHTLIFE</a>
                                 </li>
                                 <li class="d-flex gap-3 align-items-center py-xl-3 px-xl-4 py-2 px-2 clickeable" style="cursor: pointer;">
                                     <!-- <span class="icono"><img class="d-block w-100" src="<?php echo THEME_IMG; ?>icons/icon-bars.svg" alt="Home 1"></span> -->
-                                    <a class="fs-xl-4 text-primary letter-spacing-xl-3 letter-spacing-15 text-uppercase" href="/cartagena#shopping">SHOPPING</a>
+                                    <a class="fs-xl-4 text-primary letter-spacing-xl-3 letter-spacing-15 text-uppercase text-start" href="/cartagena#shopping">SHOPPING</a>
                                 </li>
                                 <li class="d-flex gap-3 align-items-center py-xl-3 px-xl-4 py-2 px-2 clickeable" style="cursor: pointer;">
                                     <!-- <span class="icono"><img class="d-block w-100" src="<?php echo THEME_IMG; ?>icons/icon-beauty-salons.svg" alt="Home 1"></span> -->
-                                    <a class="fs-xl-4 text-primary letter-spacing-xl-3 letter-spacing-15 text-uppercase" href="/cartagena#sights_museums">MUST-SEE SIGHTS & MUSEUMS</a>
+                                    <a class="fs-xl-4 text-primary letter-spacing-xl-3 letter-spacing-15 text-uppercase text-start" href="/cartagena#sights_museums">MUST-SEE SIGHTS & MUSEUMS</a>
                                 </li>
                                 <li class="d-flex gap-3 align-items-center py-xl-3 px-xl-4 py-2 px-2 clickeable" style="cursor: pointer;">
                                     <!-- <span class="icono"><img class="d-block w-100" src="<?php echo THEME_IMG; ?>icons/icon-boutiques.svg" alt="Home 1"></span> -->
-                                    <a class="fs-xl-4 text-primary letter-spacing-xl-3 letter-spacing-15 text-uppercase" href="/cartagena#churches">CHURCHES</a>
+                                    <a class="fs-xl-4 text-primary letter-spacing-xl-3 letter-spacing-15 text-uppercase text-start" href="/cartagena#churches">CHURCHES</a>
                                 </li>
                                 <li class="d-flex gap-3 align-items-center py-xl-3 px-xl-4 py-2 px-2 clickeable" style="cursor: pointer;">
                                     <!-- <span class="icono"><img class="d-block w-100" src="<?php echo THEME_IMG; ?>icons/icon-thinks.svg" alt="Home 1"></span> -->
-                                    <a class="fs-xl-4 text-primary letter-spacing-xl-3 letter-spacing-15 uppercase" href="/cartagena#neighborhoods_cultural_spots">Neighborhoods & Cultural Spots</a>
+                                    <a class="fs-xl-4 text-primary letter-spacing-xl-3 letter-spacing-15 uppercase text-start" href="/cartagena#neighborhoods_cultural_spots">Neighborhoods & Cultural Spots</a>
                                 </li>
                                 <li class="d-flex gap-3 align-items-center py-xl-3 px-xl-4 py-2 px-2 clickeable border-0" style="cursor: pointer;">
                                     <!-- <span class="icono"><img class="d-block w-100" src="<?php echo THEME_IMG; ?>icons/icon-thinks.svg" alt="Home 1"></span> -->
-                                    <a class="fs-xl-4 text-primary letter-spacing-xl-3 letter-spacing-15 uppercase" href="/cartagena#beach_clubs_island_day_trips">BEACH CLUBS & ISLAND DAY TRIPS</a>
+                                    <a class="fs-xl-4 text-primary letter-spacing-xl-3 letter-spacing-15 uppercase text-start" href="/cartagena#beach_clubs_island_day_trips">BEACH CLUBS & ISLAND DAY TRIPS</a>
                                 </li>
                             </ul>
                             <div class="py-xl-4 pt-4 pb-2"></div>
