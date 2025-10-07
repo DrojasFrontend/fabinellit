@@ -11,7 +11,7 @@ $error_password = false;
 
 // Procesar formulario de contraseña
 if (isset($_POST['password_access'])) {
-    $password_correcta = 'Cartagena2026'; // Cambia esta contraseña
+    $password_correcta = 'cartagena2026'; // Cambia esta contraseña
     
     if ($_POST['password_access'] === $password_correcta) {
         $_SESSION['usuario_autenticado'] = true;

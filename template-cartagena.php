@@ -1138,13 +1138,13 @@ $thingsToDo = [
                                 <li style="list-style-type: disc;" class="fs-xl-6 text-primary letter-spacing-1 fw-normal mb-3">City tours, and more.</li>
                             </ul>
 
-                            <p href="https://www.visitcartagena.com.co/prices?lang=en" target="_blank" class="d-block mb-4 fs-xl-6 fs-p-xxl"><a href="https://www.visitcartagena.com.co/prices?lang=en" target="_blank">https://www.visitcartagena.com.co/prices?lang=en</a></p>
+                            <a class="d-block fs-xl-6 text-primary letter-spacing-1 fw-normal mb-3 fs-xl-6 fs-p-xxl" href="https://www.visitcartagena.com.co/prices?lang=en" target="_blank">https://www.visitcartagena.com.co/prices?lang=en</a>
                             <span class="line line--full bg-orange mb-4"></span>
 
                             <h2 class="fs-xl-5 text-orange letter-spacing-24 uppercase mb-3">CURATED THINGS TO DO IN THE CITY</h2>
                             <p class="fs-xl-6 text-primary letter-spacing-1 fw-normal mb-3">Explore everything from historic sites and food tours to island escapes and shopping guides — all recommended by the city’s tourism team. </p>
                             <p class="fs-xl-6 text-primary letter-spacing-1 fw-normal">Perfect for filling free days around the wedding!</p>
-                            <p class="fs-xl-6 text-primary letter-spacing-1 fw-normal mb-3 fs-xl-6 fs-p-xxl"><a href="https://www.visitcartagena.com.co/explore?lang=en" target="_blank">https://www.visitcartagena.com.co/explore?lang=en</a></p>
+                            <a class="fs-xl-6 text-primary letter-spacing-1 fw-normal mb-3 fs-xl-6 fs-p-xxl" href="https://www.visitcartagena.com.co/explore?lang=en" target="_blank">https://www.visitcartagena.com.co/explore?lang=en</a>
                         </div>
                     </div>
                 </div>
