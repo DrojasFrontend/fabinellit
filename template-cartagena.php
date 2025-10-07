@@ -287,7 +287,7 @@ $places = [
                 "image" => THEME_IMG . 'places-cartagena/restaurant-009.png',
             ],
             [
-                "name" => "EL ÁRABE",
+                "name" => "El Árabe Internacion",
                 "detalle" => "Lebanese-Colombian classics, best pistachio ice cream.",
                 "address" => "Cra. 3 # 8 - 836",
                 "city" => "Centro Histórico, Cartagena",
@@ -403,7 +403,7 @@ $places = [
                 "image" => THEME_IMG . 'places-cartagena/bar-006.png',
             ],
             [
-                "name" => "BAZURTO",
+                "name" => "Bazurto Social Club",
                 "detalle" => "Champeta + Afrobeat + party culture.",
                 "address" => "Cra. 9 # 30 - 42",
                 "city" => "Getsemaní, Cartagena",
@@ -713,7 +713,7 @@ $places = [
         "img" => THEME_IMG . 'icons/icon-beauty-salons-2.svg',
         "places" => [
             [
-                "name" => "Rosario Islands Isla Grande <br> Isla del Sol <br> Bora Bora <br> Pao Pao <br> Amare <br> IslaBela <br> Cholón",
+                "name" => "Rosario Islands <br> Isla Grande <br> Isla del Sol <br> Bora Bora <br> Pao Pao <br> Amare <br> IslaBela <br> Cholón",
                 "detalle" => "Book boat tours. Note: Cholón is a dense, crowded party island.",
                 "address" => "",
                 "city" => "",
